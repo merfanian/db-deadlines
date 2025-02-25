@@ -40,7 +40,7 @@
   start: 2025-10-07
   end: 2025-10-09
   hindex: 389
-  sub: NLP,CV,ML
+  sub: ['NLP','CV','AI']
   note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
 
 - title: SIGDIAL 
@@ -115,7 +115,7 @@
   start: 2025-07-21
   end: 2025-07-26
   hindex: 389
-  sub: EDU
+  sub: ['NLP','AI','EDU']
   note: Mandatory paper registration deadline on Feb 12, 2025. More info <a href='https://aied2025.itd.cnr.it/'>here</a>.
 
 - title: EDM
@@ -130,7 +130,7 @@
   start: 2025-07-20
   end: 2025-07-23
   hindex: 389
-  sub: EDU
+  sub: ['NLP','AI','EDU']
   note: Mandatory paper registration deadline on Feb 13, 2025. More info <a href='https://educationaldatamining.org/edm2025/'>here</a>.
 
 - title: L@S
@@ -145,7 +145,7 @@
   start: 2025-07-21
   end: 2025-07-23
   hindex: 389
-  sub: EDU
+  sub: ['NLP','AI','EDU']
   note: Mandatory paper registration deadline on Feb 13, 2024. More info <a href='https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/'>here</a>.
 
 - title: BEA
@@ -160,9 +160,8 @@
   start: 2025-07-31
   end: 2025-08-01
   hindex: 389
-  sub: EDU
+  sub: ['NLP','AI','EDU']
   note: Mandatory paper registration deadline on Feb 13, 2024. More info <a href='https://sig-edu.org/bea/2025'>here</a>.
-
 
 - title: LAK
   year: 2025
@@ -178,11 +177,6 @@
   hindex: 389
   sub: EDU
   note: Mandatory paper registration deadline on Sept 23, 2024. More info <a href='https://www.solaresearch.org/events/lak/lak25/'>here</a>.
-
-
-
-
-
 
 - title: NAACL
   year: 2025
