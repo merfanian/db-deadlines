@@ -5,8 +5,8 @@ author: Jie Cao
 domain: "mlciv.com"
 baseurl: ""
 
-twitter_hashtag: machinelearning
-github_username: paperswithcode
+twitter_hashtag: mlciv_jiessie
+github_username: mlciv
 github_repo: ai-deadlines
 
 markdown: kramdown
