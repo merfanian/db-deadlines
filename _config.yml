@@ -3,7 +3,7 @@ description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
 author: Jie Cao
 
 domain: "mlciv.com"
-baseurl: "ai-deadlines"
+baseurl: "/ai-deadlines/"
 
 twitter_hashtag: mlciv_jiessie
 github_username: mlciv
