@@ -110,10 +110,10 @@
   deadline: '2025-02-19 23:59:59'
   abstract_deadline: '2025-02-12 23:59:59'
   timezone: UTC-12
-  place:  Suzhou, China
-  date: Sept 22-24, 2025
-  start: 2025-07-21
-  end: 2025-07-26
+  place: Sicily, Italy 
+  date: July 22-24, 2025
+  start: 2025-07-22
+  end: 2025-07-24
   hindex: 389
   sub: ['NLP','AI','EDU']
   note: Mandatory paper registration deadline on Feb 12, 2025. More info <a href='https://aied2025.itd.cnr.it/'>here</a>.
