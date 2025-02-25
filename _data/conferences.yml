@@ -12,6 +12,20 @@
   hindex: 100
   sub: ML
   note: Abstract deadline on October 3, 2024. More info <a href='https://aistats.org/aistats2025/call-for-papers.html'>here</a>
+ 
+- title: EMNLP
+  year: 2025
+  id: emnlp25
+  link: https://2025.emnlp.org/
+  deadline: '2025-05-19 23:59:00'
+  timezone: UTC-12
+  place: Suzhou, China
+  date: November 5-9, 2024
+  start: 2024-11-5
+  end: 2024-11-9
+  sub: NLP
+  note: More info <a href='https://2024.emnlp.org/calls/main_conference_papers/'>here</a>.
+  
 
 - title: ICLR
   year: 2026
