@@ -40,7 +40,7 @@
   start: 2025-10-07
   end: 2025-10-09
   hindex: 389
-  sub: ['NLP','CV','AI']
+  sub: ['NLP','ML']
   note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
 
 - title: SIGDIAL 
@@ -133,9 +133,9 @@
   sub: ['NLP','AI','EDU']
   note: Mandatory paper registration deadline on Feb 13, 2025. More info <a href='https://educationaldatamining.org/edm2025/'>here</a>.
 
-- title: L@S
+- title: Learing at Scale
   year: 2025
-  id: l@s2025 
+  id: ls2025 
   link:  https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/
   deadline: '2025-02-20 23:59:59'
   abstract_deadline: '2025-02-13 23:59:59'
