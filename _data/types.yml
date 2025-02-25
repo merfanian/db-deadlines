@@ -29,3 +29,6 @@
 - name: Human-Computer Interaction
   sub: HCI
   color: "#a83232"
+- name: AI4Education
+  sub: EDU
+  color: "#a8324"
