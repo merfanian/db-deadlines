@@ -28,6 +28,162 @@
   sub: CV
   note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
 
+- title: COLM 
+  year: 2025
+  id: colm25
+  link: https://colmweb.org/ 
+  deadline: '2025-03-27 06:59:59'
+  abstract_deadline: '2025-03-20 06:59:59'
+  timezone: GMT
+  place: Montreal, Canada 
+  date: Oct 7-09, 2025
+  start: 2025-10-07
+  end: 2025-10-09
+  hindex: 389
+  sub: NLP,CV,ML
+  note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+
+- title: SIGDIAL 
+  year: 2025
+  id: sigdial25
+  link: https://2025.sigdial.org/ 
+  deadline: '2025-04-28 06:59:59'
+  abstract_deadline: '2025-04-21 06:59:59'
+  timezone: GMT
+  place: Avignon University, France 
+  date: Aug 25-27, 2025
+  start: 2025-08-25
+  end: 2025-08-27
+  hindex: 389
+  sub: NLP
+  note: Mandatory paper registration deadline on April 21, 2025. More info <a href='https://2025.sigdial.org/'>here</a>.
+
+- title: IWSDS
+  year: 2025
+  id: iwsds2025 
+  link: https://sites.google.com/view/iwsds2025/important-dates
+  deadline: '2025-01-11 06:59:59'
+  abstract_deadline: '2025-01-17 06:59:59'
+  timezone: GMT
+  place: Bilbao, Spain
+  date: May 27-30, 2025
+  start: 2025-05-27
+  end: 2025-05-30
+  hindex: 389
+  sub: NLP
+  note: Mandatory paper registration deadline on Jan 11, 2025. More info <a href='https://sites.google.com/view/iwsds2025/important-dates'>here</a>.
+
+- title: IWCS
+  year: 2025
+  id: iwcs2025 
+  link: https://iwcs2025.github.io/call_for_papers 
+  deadline: '2025-06-06 06:59:59'
+  abstract_deadline: '2025-06-06 06:59:59'
+  timezone: GMT
+  place: Düsseldorf, Germany 
+  date: Sept 22-24, 2025
+  start: 2025-09-22
+  end: 2025-09-24
+  hindex: 389
+  sub: NLP
+  note: Mandatory paper registration deadline on June 06, 2025. More info <a href='https://iwcs2025.github.io/call_for_papers'>here</a>.
+
+- title: STARSEM 
+  year: 2025
+  id: starsem2025 
+  link: https://starsem2025.github.io/
+  deadline: '2025-06-04 06:59:59'
+  abstract_deadline: '2025-06-04 06:59:59'
+  timezone: GMT
+  place:  Suzhou, China
+  date: Sept 22-24, 2025
+  start: 2025-09-22
+  end: 2025-09-24
+  hindex: 389
+  sub: NLP
+  note: Mandatory paper registration deadline on June 04, 2025. More info <a href='https://iwcs2025.github.io/call_for_papers'>here</a>.
+
+- title: AIED 
+  year: 2025
+  id: aied2025 
+  link: https://aied2025.itd.cnr.it/
+  deadline: '2025-02-19 06:59:59'
+  abstract_deadline: '2025-02-12 06:59:59'
+  timezone: GMT
+  place:  Suzhou, China
+  date: Sept 22-24, 2025
+  start: 2025-07-21
+  end: 2025-07-26
+  hindex: 389
+  sub: NLP,EDU
+  note: Mandatory paper registration deadline on Feb 12, 2025. More info <a href='https://aied2025.itd.cnr.it/'>here</a>.
+
+- title: EDM
+  year: 2025
+  id: edm2025 
+  link: https://educationaldatamining.org/edm2025/
+  deadline: '2025-02-20 06:59:59'
+  abstract_deadline: '2025-02-13 06:59:59'
+  timezone: GMT
+  place:  Sicily, Italy
+  date: July 20-23, 2025
+  start: 2025-07-20
+  end: 2025-07-23
+  hindex: 389
+  sub: NLP,EDU
+  note: Mandatory paper registration deadline on Feb 13, 2025. More info <a href='https://educationaldatamining.org/edm2025/'>here</a>.
+
+- title: L@S
+  year: 2025
+  id: l@s2025 
+  link:  https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/
+  deadline: '2025-02-20 06:59:59'
+  abstract_deadline: '2025-02-13 06:59:59'
+  timezone: GMT
+  place: Dublin, Ireland 
+  date: July 21-23, 2025
+  start: 2025-07-21
+  end: 2025-07-23
+  hindex: 389
+  sub: NLP,EDU
+  note: Mandatory paper registration deadline on Feb 13, 2024. More info <a href='https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/'>here</a>.
+
+- title: BEA
+  year: 2025
+  id: bea2025 
+  link: https://sig-edu.org/bea/2025
+  deadline: '2025-04-17 06:59:59'
+  abstract_deadline: '2025-04-17 06:59:59'
+  timezone: GMT
+  place: Vienna, Austria 
+  date: July 31-31, 2025
+  start: 2025-07-31
+  end: 2025-08-01
+  hindex: 389
+  sub: NLP,EDU
+  note: Mandatory paper registration deadline on Feb 13, 2024. More info <a href='https://sig-edu.org/bea/2025'>here</a>.
+
+
+- title: LAK
+  year: 2025
+  id: lak2025 
+  link:  https://www.solaresearch.org/events/lak/lak25/
+  deadline: '2024-09-23 06:59:59'
+  abstract_deadline: '2024-09-23 06:59:59'
+  timezone: GMT
+  place: Dublin, Ireland 
+  date: March 03-03, 2025
+  start: 2025-03-03
+  end: 2025-03-07
+  hindex: 389
+  sub: NLP
+  note: Mandatory paper registration deadline on Sept 23, 2024. More info <a href='https://www.solaresearch.org/events/lak/lak25/'>here</a>.
+
+
+
+
+
+
 - title: NAACL
   year: 2025
   id: naacl25
