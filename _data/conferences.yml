@@ -18,11 +18,11 @@
   link: https://aaai.org/conference/aaai/aaai-26/
   deadline: '2025-07-08 23:59:00'
   timezone: UTC-12
-  place: Singapore
+  place: EPO, Singapore
   date: Jan 20-27, 2026
   start: 2026-01-20
   end: 2026-01-27
-  sub: NLP
+  sub: ['NLP','ML','AI']
  
 - title: AACL 
   year: 2025
@@ -34,7 +34,7 @@
   date: Dec 20-25, 2024
   start: 2025-12-20
   end: 2025-12-25
-  sub: NLP, AI
+  sub: NLP
  
 - title: EMNLP
   year: 2025
@@ -43,11 +43,10 @@
   deadline: '2025-05-19 23:59:00'
   timezone: UTC-12
   place: Suzhou, China
-  date: November 5-9, 2024
+  date: November 5-9, 2025
   start: 2025-11-5
   end: 2025-11-9
   sub: NLP
-  note: More info <a href='https://2024.emnlp.org/calls/main_conference_papers/'>here</a>.
   
 
 - title: ICLR
