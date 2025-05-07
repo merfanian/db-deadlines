@@ -22,15 +22,15 @@
   date: Jan 20-27, 2026
   start: 2026-01-20
   end: 2026-01-27
-  sub: ['NLP','ML']
+  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
  
 - title: AACL 
   year: 2025
   id: aacl25 
-  link: https://www.afnlp.org/conferences/ijcnlp2025/ 
+  link: https://www.afnlp.org/conferences/ijcnlp2025/
   deadline: '2025-07-28 23:59:00'
   timezone: UTC-12
-  place: Mumbai, India 
+  place: Mumbai, India
   date: Dec 20-25, 2025
   start: 2025-12-20
   end: 2025-12-25
