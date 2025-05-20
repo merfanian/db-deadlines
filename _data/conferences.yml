@@ -128,21 +128,6 @@
   sub: CV
   note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
 
-- title: COLM 
-  year: 2025
-  id: colm25
-  link: https://colmweb.org/ 
-  deadline: '2025-03-27 23:59:59'
-  abstract_deadline: '2025-03-20 23:59:59'
-  timezone: UTC-12
-  place: Montreal, Canada 
-  date: Oct 7-09, 2025
-  start: 2025-10-07
-  end: 2025-10-09
-  hindex: 389
-  sub: ['NLP','ML']
-  note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
-
 - title: SIGDIAL 
   year: 2025
   id: sigdial25
@@ -918,6 +903,37 @@
   sub: DM
   note: Mandatory abstract deadline on January 18, 2024. More info <a href='https://sigir-2024.github.io/call_for_papers.html'>here</a>.
   
+- title: COLM 
+  year: 2026
+  id: colm26
+  link: https://colmweb.org/ 
+  deadline: '2026-02-27 23:59:59'
+  abstract_deadline: '2026-02-20 23:59:59'
+  timezone: UTC-12
+  place: TBU 
+  date: Oct 7-09, 2026
+  start: 2026-10-07
+  end: 2026-10-09
+  hindex: 389
+  sub: ['NLP','ML']
+  note: Mandatory paper registration deadline on November 07, 2026. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+
+- title: COLM 
+  year: 2025
+  id: colm25
+  link: https://colmweb.org/ 
+  deadline: '2025-03-27 23:59:59'
+  abstract_deadline: '2025-03-20 23:59:59'
+  timezone: UTC-12
+  place: Montreal, Canada 
+  date: Oct 7-09, 2025
+  start: 2025-10-07
+  end: 2025-10-09
+  hindex: 389
+  sub: ['NLP','ML']
+  note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+
+
 - title: COLM
   year: 2024
   id: colm24
