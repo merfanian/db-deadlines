@@ -16,7 +16,7 @@
   year: 2026
   id: aaai26 
   link: https://aaai.org/conference/aaai/aaai-26/
-  deadline: '2025-07-25 23:59:00'
+  deadline: '2025-07-08 23:59:00'
   timezone: UTC-12
   place: EPO, Singapore
   date: Jan 20-27, 2026
@@ -63,23 +63,6 @@
   hindex: 304
   sub: ['ML', 'AP', 'RO', 'CV', 'NLP', 'SP']
   note: Mandatory abstract deadline on September 27, 2025. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.
-
-- title: NeurIPS
-  year: 2026
-  id: neurips26
-  full_name: Conference on Neural Information Processing Systems
-  hindex: 309
-  link: https://nips.cc/Conferences/2025
-  deadline: '2026-05-12 19:59:59'
-  abstract_deadline: '2026-05-12 19:59:59'
-  timezone: UTC
-  place: San Diego, USA
-  date: Dec 01-07, 2025
-  start: 2026-12-01
-  end: 2026-12-07
-  sub: ML
-  note: Mandatory abstract deadline on May 12, 2026, TBA
-
 
 - title: NeurIPS
   year: 2025
@@ -367,23 +350,6 @@
   sub: ['KR', 'ML', 'RO', 'AP']
   note: Mandatory abstract deadline on Oct 09, 2024. More info <a href='https://aamas2025.org/'>here</a>.
   
-- title: CHI
-  year: 2026
-  id: chi26
-  full_name: The ACM Conference on Human Factors in Computing Systems
-  link: https://chi2026.acm.org/
-  deadline: '2025-09-11 23:59:59'
-  abstract_deadline: '2025-09-04 23:59:59'
-  timezone: UTC-12
-  place: Barcelona, Spain
-  date: April 26 - May 01, 2026
-  start: 2026-04-26
-  end: 2026-05-01
-  hindex: 122
-  sub: HCI
-  note: Mandatory abstract deadline on Sep 04, 2025. More info <a href='https://chi2026.acm.org/for-authors/papers/'>here</a>.
-
-
 - title: CHI
   year: 2025
   id: chi25
@@ -1144,23 +1110,7 @@
   hindex: 286
   sub: ML
   note: Mandatory abstract deadline on September 23, 2023. More info <a href='https://iclr.cc/Conferences/2024/CallForPapers'>here</a>.
-   
-- title: CVPR
-  year: 2026
-  id: cvpr26
-  link: https://cvpr.thecvf.com/Conferences/2026
-  deadline: '2025-11-17 23:59:59'
-  abstract_deadline: '2025-11-03 23:59:59'
-  timezone: America/Denver
-  place: Denver, Colorado, 2025
-  date: June 17-21, 2026
-  start: 2026-06-17
-  end: 2026-06-21
-  hindex: 389
-  sub: CV
-  note: Mandatory paper registration deadline on November 03, 2023 and optional supplementary material deadline on November 26, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2024'>here</a>.
-
-
+  
 - title: CVPR
   year: 2024
   id: cvpr24
@@ -1505,19 +1455,6 @@
   hindex: 120
   sub: ML
   note: Mandatory abstract deadline on Jan 11, 2023, and supplementary material deadline on Jan 23, 2023. More info <a href='https://ijcai-23.org/'>here</a>.
-
-- title: ICML
-  year: 2026
-  id: icml26
-  link: https://icml.cc/Conferences/2026
-  deadline: '2026-01-03 11:59:00'
-  timezone: America/Los_Angeles
-  place: Hawai'i, USA
-  date: July 23-29, 2026
-  start: 2026-07-23
-  end: 2026-07-29
-  hindex: 204
-  sub: ML
 
 - title: ICML
   year: 2023
