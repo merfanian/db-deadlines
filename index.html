@@ -210,15 +210,19 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          diff = today.diff(confDate);
+          diff = today.diff(confDate, 'days');
 
           $('#{{conf.id}}').attr("diff", diff)
           if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
-            $('#{{conf.id}}').appendTo($("#past_confs"))
             $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
             $('#{{conf.id}} .timer-small').replaceWith($('#{{conf.id}} .deadline'));
             $('#{{conf.id}} .calendar').remove();
+            if (diff < 366) {
+              $('#{{conf.id}}').appendTo($("#past_confs"))
+            } else{
+              $('#{{conf.id}}').remove();
+            }
           }
         {% endif %}
         {% endfor %}

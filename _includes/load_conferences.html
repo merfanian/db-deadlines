@@ -1,7 +1,6 @@
-<!-- _includes/load-conferences.html -->
 {% assign all_conferences = "" | split: "" %}
-{% for file in site.data.conferences %}
-  {% assign sublist = site.data.conferences[file[0]] %}
+{% for filehash in site.data.conferences %}
+  {% assign sublist = filehash[1] %}
     {% if sublist %}
         {% assign sublist_array = sublist | where_exp: "item", "item" %}
         {% assign all_conferences = all_conferences | concat: sublist_array %}
