@@ -3,7 +3,7 @@ METHOD:PUBLISH
 VERSION:2.0
 PRODID:-//{{ site.domain }}//ai-deadlines//EN
 X-PUBLISHED-TTL:PT1H
-{% include load-conferences.html %}
+{% include load_conferences.html %}
 {%- for conf in all_conferences -%}
 {% if conf.abstract_deadline and conf.abstract_deadline != "TBA" %}
 BEGIN:VEVENT

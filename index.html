@@ -65,7 +65,7 @@
         </div>
         <div id="confs">
         <div id="coming_confs">
-          {% include load-conferences.html %}
+          {% include load_conferences.html %}
           <!-- include all_conferences -->
           {% for conf in all_conferences %}
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
@@ -157,7 +157,7 @@
         {% include load_data.js %}
         {% include utils.js %}
         {% include multiselect_handler.js %}
-        {% include load-conferences.html %}
+        {% include load_conferences.html %}
 
         addUtcTimeZones();
 

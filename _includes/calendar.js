@@ -84,7 +84,7 @@
 function load_conference_list() {
   // Gather data
   var conf_list_all = [];
-  {% include load-conferences.html %}
+  {% include load_conferences.html %}
   <!--{% for conf in site.data.conferences %} -->
   {% for conf in all_conferences %}
     // add deadlines in red
