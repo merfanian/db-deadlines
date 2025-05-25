@@ -66,7 +66,6 @@
         <div id="confs">
         <div id="coming_confs">
           {% include load_conferences.html %}
-          <!-- include all_conferences -->
           {% for conf in all_conferences %}
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
@@ -169,7 +168,6 @@
           $('.local-timezone-hide').hide();
         }
 
-        <!--{% for conf in site.data.conferences %} -->
         {% for conf in all_conferences %}
         {% for sub in conf.sub %}
         $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
