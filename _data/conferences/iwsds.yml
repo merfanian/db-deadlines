@@ -1,0 +1,41 @@
+- title: IWSDS
+  year: 2025
+  id: iwsds2025
+  link: https://sites.google.com/view/iwsds2025/important-dates
+  deadline: '2025-01-11 23:59:59'
+  abstract_deadline: '2025-01-17 23:59:59'
+  timezone: UTC-12
+  place: Bilbao, Spain
+  date: May 27-30, 2025
+  start: 2025-05-27
+  end: 2025-05-30
+  sub: NLP
+  note: Mandatory paper registration deadline on Jan 11, 2025. More info <a href='https://sites.google.com/view/iwsds2025/important-dates'>here</a>.
+
+- title: IWSDS
+  year: 2024
+  id: iwsds2024
+  link: https://sites.google.com/grp.riken.jp/iwsds2024
+  deadline: '2023-11-17 23:59:59'
+  abstract_deadline: '2023-11-10 23:59:59'
+  timezone: UTC-12
+  place: Sapporo, Japan
+  date: March 4-6, 2024
+  start: 2024-03-04
+  end: 2024-03-06
+  sub: NLP
+  note: Mandatory paper registration deadline on Nov 10, 2023. More info <a href='https://sites.google.com/view/iwsds2023/important-dates'>here</a>.
+
+- title: IWSDS
+  year: 2023
+  id: iwsds2023
+  link: https://sites.google.com/view/iwsds2023/home
+  deadline: '2022-11-8 23:59:59'
+  abstract_deadline: '2022-11-1 23:59:59'
+  timezone: UTC-12
+  place: Los Angeles, USA
+  date: Feb 21-24, 2023
+  start: 2023-02-21
+  end: 2023-02-24
+  sub: NLP
+  note: Mandatory paper registration deadline on Nov 8, 2022. More info <a href='https://sites.google.com/view/iwsds2023/important-dates'>here</a>.

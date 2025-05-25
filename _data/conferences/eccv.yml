@@ -1,0 +1,42 @@
+- title: ECCV
+  year: 2026
+  id: eccv26
+  link:  https://eccv.ecva.net//
+  deadline: '2026-03-07 12:59:00'
+  abstract_deadline: '2026-02-29 12:59:00'
+  timezone: UTC-8
+  place: Milano, Italy
+  date: September 29 - October 04, 2026
+  start: 2026-09-29
+  end: 2026-10-04
+  hindex: 238
+  sub: CV
+  note: TBU, More info <a href='https://eccv2026.ecva.net/'>here</a>.
+
+- title: ECCV
+  year: 2024
+  id: eccv24
+  link: https://eccv2024.ecva.net/
+  deadline: '2024-03-07 12:59:00'
+  abstract_deadline: '2024-02-29 12:59:00'
+  timezone: UTC-8
+  place: Milano, Italy
+  date: September 29 - October 04, 2024
+  start: 2024-09-29
+  end: 2024-10-04
+  hindex: 238
+  sub: CV
+  note: More info <a href='https://eccv2024.ecva.net/'>here</a>.
+
+- title: ECCV
+  year: 2022
+  id: eccv22
+  link: https://eccv2022.ecva.net/
+  deadline: '2022-03-07 21:59:00'
+  timezone: CET
+  place: Tel Aviv, Israel
+  date: October 24-28, 2022
+  start: 2022-10-24
+  end: 2022-10-28
+  hindex: 197
+  sub: CV

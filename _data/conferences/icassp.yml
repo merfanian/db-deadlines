@@ -1,0 +1,37 @@
+- title: ICASSP
+  year: 2025
+  id: icassp25
+  link: https://2025.ieeeicassp.org/
+  deadline: '2024-09-09 23:59:59'
+  timezone: UTC-12
+  place: Hyderabad, India
+  date: April 6-11, 2025
+  start: 2025-04-6
+  end: 2025-04-11
+  sub: SP
+
+- title: ICASSP
+  year: 2024
+  id: icassp24
+  link: https://2024.ieeeicassp.org/
+  deadline: '2023-09-06 23:59:59'
+  timezone: UTC-12
+  place: Seoul, Korea
+  date: April 14-19, 2024
+  start: 2024-04-14
+  end: 2024-04-19
+  hindex: 123
+  sub: SP
+
+- title: ICASSP
+  year: 2023
+  id: icassp23
+  link: https://2023.ieeeicassp.org/
+  deadline: '2022-10-26 23:59:59'
+  timezone: UTC-12
+  place: Rhodes Island, Greece
+  date: June 4-9, 2023
+  start: 2023-06-04
+  end: 2023-06-09
+  hindex: 110
+  sub: SP

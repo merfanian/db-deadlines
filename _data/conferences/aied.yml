@@ -1,0 +1,42 @@
+- title: AIED
+  year: 2025
+  id: aied2025
+  link: https://aied2025.itd.cnr.it/
+  deadline: '2025-02-19 23:59:59'
+  abstract_deadline: '2025-02-12 23:59:59'
+  timezone: UTC-12
+  place: Sicily, Italy
+  date: July 22-24, 2025
+  start: 2025-07-22
+  end: 2025-07-24
+  hindex: 389
+  sub: ['NLP','ML','CV','EDU']
+  note: Mandatory paper registration deadline on Feb 12, 2025. More info <a href='https://aied2025.itd.cnr.it/'>here</a>.
+
+- title: AIED
+  year: 2024
+  id: aied2024
+  link: https://aied2024.cesar.school/
+  deadline: '2024-02-5 23:59:59'
+  abstract_deadline: '2024-01-29 23:59:59'
+  timezone: UTC-12
+  place: RECIFE, BRAZIL
+  date: July 8-12, 2024
+  start: 2024-07-08
+  end: 2024-07-12
+  sub: ['NLP','ML','CV','EDU']
+  note: Mandatory paper registration deadline on Feb 5, 2024. More info <a href='https://iaied.org/conferences/21/'>here</a>.`
+
+- title: AIED
+  year: 2023
+  id: aied2023
+  link: https://iaied.org/archive/conferences/AIED2023/index.html
+  deadline: '2023-01-16 23:59:59'
+  abstract_deadline: '2023-01-09 23:59:59'
+  timezone: UTC-12
+  place: Tokyo, Japan
+  date: July 3-7, 2023
+  start: 2023-07-03
+  end: 2023-07-07
+  sub: ['NLP','ML','CV','EDU']
+  note: Mandatory paper registration deadline on Jan 16, 2023. More info <a href='https://iaied.org/archive/conferences/AIED2023/cfp.html'>here</a>.`

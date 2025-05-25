@@ -1,0 +1,53 @@
+- title: EMNLP
+  year: 2025
+  id: emnlp25
+  link: https://2025.emnlp.org/
+  deadline: '2025-05-19 23:59:00'
+  timezone: UTC-12
+  place: Suzhou, China
+  date: November 5-9, 2025
+  start: 2025-11-5
+  end: 2025-11-9
+  sub: NLP
+
+- title: EMNLP
+  year: 2024
+  id: emnlp24
+  link: https://2024.emnlp.org/
+  deadline: '2024-06-15 23:59:00'
+  timezone: UTC-12
+  place: Miami, Florida, USA
+  date: November 12-16, 2024
+  start: 2024-11-12
+  end: 2024-11-16
+  sub: NLP
+  note: More info <a href='https://2024.emnlp.org/calls/main_conference_papers/'>here</a>.
+
+- title: EMNLP
+  year: 2023
+  id: emnlp23
+  link: https://2023.emnlp.org/
+  deadline: '2023-06-23 23:59:00'
+  abstract_deadline: '2023-06-16 23:59:00'
+  timezone: UTC-12
+  place: Singapore
+  date: December 6-10, 2023
+  start: 2023-12-06
+  end: 2023-12-10
+  sub: NLP
+  note: Mandatory abstract deadline on June 16, 2023. Hybrid format with ARR and OpenReview. More info <a href='https://2023.emnlp.org/calls/papers/Overview'>here</a>.
+
+- title: EMNLP
+  year: 2022
+  id: emnlp22
+  link: https://2022.emnlp.org/
+  deadline: '2022-06-24 23:59:00'
+  abstract_deadline: '2022-06-17 23:59:00'
+  timezone: UTC-12
+  place: Abu Dhabi, UAE
+  date: December 7-11, 2022
+  start: 2022-12-07
+  end: 2022-12-11
+  hindex: 132
+  sub: NLP
+  note: Hybrid format with ARR and START. More info <a href='https://2022.emnlp.org/calls/papers/Overview'>here</a>.

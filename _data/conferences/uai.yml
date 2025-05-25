@@ -1,0 +1,49 @@
+- title: UAI
+  year: 2024
+  id: uai24
+  link: https://www.auai.org/uai2024/
+  deadline: '2024-02-09 23:59:59'
+  timezone: UTC-12
+  place: Barcelona, Spain
+  date: July 15-19, 2024
+  start: 2024-07-15
+  end: 2024-07-19
+  sub: ML
+
+- title: UAI
+  year: 2023
+  id: uai23
+  link: https://www.auai.org/uai2023/
+  deadline: '2023-02-17 23:59:59'
+  timezone: UTC-12
+  place: Pittsburgh, USA
+  date: July 31 - August 04, 2023
+  start: 2023-07-31
+  end: 2023-08-04
+  sub: ML
+
+- title: UAI
+  year: 2022
+  id: uai22
+  link: https://www.auai.org/uai2022/
+  deadline: '2022-02-25 23:59:59'
+  timezone: UTC
+  place: Eindhoven, The Netherlands
+  date: August 1-5, 2022
+  start: 2022-08-01
+  end: 2022-08-05
+  sub: ML
+
+- title: UAI
+  year: 2021
+  id: uai21
+  link: http://auai.org/uai2021/
+  deadline: '2021-02-19 23:59:59'
+  timezone: UTC
+  place: TBD
+  date: July 26-30, 2021
+  start: 2021-07-26
+  end: 2021-07-30
+  paperslink: https://www.auai.org/uai2021/accepted_papers
+  hindex: 33
+  sub: ML

@@ -1,0 +1,42 @@
+- title: EDM
+  year: 2025
+  id: edm2025
+  link: https://educationaldatamining.org/edm2025/
+  deadline: '2025-02-20 23:59:59'
+  abstract_deadline: '2025-02-13 23:59:59'
+  timezone: UTC-12
+  place:  Sicily, Italy
+  date: July 20-23, 2025
+  start: 2025-07-20
+  end: 2025-07-23
+  hindex: 389
+  sub: ['NLP','ML','CV','EDU']
+  note: Mandatory paper registration deadline on Feb 13, 2025. More info <a href='https://educationaldatamining.org/edm2025/'>here</a>.
+
+- title: EDM
+  year: 2024
+  id: edm2024
+  link: https://educationaldatamining.org/edm2024/
+  deadline: '2024-02-19 23:59:59'
+  abstract_deadline: '2024-02-9 23:59:59'
+  timezone: UTC-12
+  place:  Atlanta, Geogia, USA
+  date: July 14-17, 2024
+  start: 2024-07-14
+  end: 2024-07-17
+  sub: ['NLP','ML','CV','EDU']
+  note: Mandatory paper registration deadline on Feb 13, 2025. More info <a href='https://educationaldatamining.org/edm2024/'>here</a>.
+
+- title: EDM
+  year: 2023
+  id: edm2023
+  link: https://educationaldatamining.org/edm2023/
+  deadline: '2023-01-20 23:59:59'
+  abstract_deadline: '2023-01-13 23:59:59'
+  timezone: UTC-12
+  place:  Atlanta, Geogia, USA
+  date: July 11-14, 2023
+  start: 2023-07-11
+  end: 2023-07-14
+  sub: ['NLP','ML','CV','EDU']
+  note: Mandatory paper registration deadline on Jan 13, 2023. More info <a href='https://educationaldatamining.org/edm2023/'>here</a>.

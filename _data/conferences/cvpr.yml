@@ -1,0 +1,57 @@
+- title: CVPR
+  year: 2026
+  id: cvpr26
+  link: https://cvpr.thecvf.com/Conferences/2026
+  deadline: '2025-11-17 23:59:59'
+  abstract_deadline: '2025-11-03 23:59:59'
+  timezone: America/Denver
+  place: Denver, Colorado, 2025
+  date: June 17-21, 2026
+  start: 2026-06-17
+  end: 2026-06-21
+  hindex: 389
+  sub: CV
+  note: More info <a href='https://cvpr.thecvf.com/Conferences/2026'>will be here, TBU</a>.
+
+- title: CVPR
+  year: 2025
+  id: cvpr25
+  link: https://cvpr.thecvf.com/Conferences/2025
+  deadline: '2024-11-15 06:59:59'
+  abstract_deadline: '2024-11-08 06:59:59'
+  timezone: GMT
+  place: Nashville, Tennessee, USA
+  date: June 10-17, 2025
+  start: 2025-06-10
+  end: 2025-06-17
+  hindex: 389
+  sub: CV
+  note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+
+- title: CVPR
+  year: 2024
+  id: cvpr24
+  link: https://cvpr.thecvf.com/Conferences/2024
+  deadline: '2023-11-17 23:59:59'
+  abstract_deadline: '2023-11-03 23:59:59'
+  timezone: America/Los_Angeles
+  place: Seattle, Washington, USA
+  date: June 17-21, 2024
+  start: 2024-06-17
+  end: 2024-06-21
+  hindex: 389
+  sub: CV
+  note: Mandatory paper registration deadline on November 03, 2023 and optional supplementary material deadline on November 26, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2024'>here</a>.
+
+- title: CVPR
+  year: 2023
+  id: cvpr23
+  link: http://cvpr2023.thecvf.com/
+  deadline: '2022-11-11 23:59:59'
+  timezone: America/Los_Angeles
+  place: Vancouver, Canada
+  date: June 17-23, 2023
+  start: 2022-06-17
+  end: 2022-06-23
+  hindex: 389
+  sub: CV

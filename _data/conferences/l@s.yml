@@ -1,0 +1,13 @@
+- title: Learing at Scale
+  year: 2025
+  id: ls2025
+  link:  https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/
+  deadline: '2025-02-20 23:59:59'
+  abstract_deadline: '2025-02-13 23:59:59'
+  timezone: UTC-12
+  place: Dublin, Ireland
+  date: July 21-23, 2025
+  start: 2025-07-21
+  end: 2025-07-23
+  sub: ['NLP','ML','CV','EDU']
+  note: Mandatory paper registration deadline on Feb 13, 2024. More info <a href='https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/'>here</a>.

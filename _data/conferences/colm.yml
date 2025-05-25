@@ -1,0 +1,45 @@
+- title: COLM
+  year: 2026
+  id: colm26
+  link: https://colmweb.org/
+  deadline: '2026-02-27 23:59:59'
+  abstract_deadline: '2026-02-20 23:59:59'
+  timezone: UTC-12
+  place: TBU
+  date: Oct 7-09, 2026
+  start: 2026-10-07
+  end: 2026-10-09
+  hindex: 389
+  sub: ['NLP','ML']
+  note: Mandatory paper registration deadline on November 07, 2026. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+
+- title: COLM
+  year: 2025
+  id: colm25
+  link: https://colmweb.org/
+  deadline: '2025-03-27 23:59:59'
+  abstract_deadline: '2025-03-20 23:59:59'
+  timezone: UTC-12
+  place: Montreal, Canada
+  date: Oct 7-09, 2025
+  start: 2025-10-07
+  end: 2025-10-09
+  hindex: 389
+  sub: ['NLP','ML']
+  note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+
+
+- title: COLM
+  year: 2024
+  id: colm24
+  full_name: 1st Conference on Language Modeling
+  link: https://colmweb.org/
+  deadline: '2024-03-29 23:59:59'
+  abstract_deadline: '2024-03-22 23:59:59'
+  timezone: UTC-12
+  place: Philadelphia, USA
+  date: October 7-9, 2024
+  start: 2024-10-07
+  end: 2024-10-09
+  sub: ['NLP', 'ML']
+  note: Mandatory abstract deadline on March 22, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.

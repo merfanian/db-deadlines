@@ -1,0 +1,25 @@
+- title: 3DV
+  year: 2024
+  id: threedv24
+  link: https://3dvconf.github.io/2024/
+  deadline: '2023-08-07 23:59:59'
+  timezone: America/Los_Angeles
+  place: Davos, Switzerland
+  date: March 18-21, 2024
+  start: 2024-03-18
+  end: 2024-03-21
+  sub: CV
+
+- title: 3DV
+  year: 2020
+  id: threedv20
+  link: http://3dv2020.dgcv.nii.ac.jp/index.html
+  deadline: '2020-07-31 23:59:59'
+  timezone: America/Los_Angeles
+  place: Fukuoka, Japan
+  date: November 25-28, 2020
+  start: 2020-11-25
+  end: 2020-11-28
+  paperslink: http://3dv2020.dgcv.nii.ac.jp/conferenceprogram.html
+  hindex: 29
+  sub: CV

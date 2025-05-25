@@ -1,0 +1,14 @@
+- title: BEA
+  year: 2025
+  id: bea2025
+  link: https://sig-edu.org/bea/2025
+  deadline: '2025-04-17 23:59:59'
+  abstract_deadline: '2025-04-17 23:59:59'
+  timezone: UTC-12
+  place: Vienna, Austria
+  date: July 31-31, 2025
+  start: 2025-07-31
+  end: 2025-08-01
+  hindex: 389
+  sub: ['NLP','ML','CV','EDU']
+  note: Mandatory paper registration deadline on Feb 13, 2024. More info <a href='https://sig-edu.org/bea/2025'>here</a>.

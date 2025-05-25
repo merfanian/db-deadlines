@@ -1,0 +1,51 @@
+- title: IROS
+  year: 2024
+  id: iros24
+  link: https://iros2024-abudhabi.org/
+  deadline: '2024-03-01 23:59:59'
+  timezone: America/Los_Angeles
+  place: Abu Dhabi, UAE
+  date: October 14-18, 2024
+  start: 2024-10-14
+  end: 2024-10-18
+  hindex: 80
+  sub: RO
+
+- title: IROS
+  year: 2023
+  id: iros23
+  link: https://ieee-iros.org/
+  deadline: '2023-03-01 23:59:59'
+  timezone: America/Los_Angeles
+  place: Detroit, USA
+  date: October 01-05, 2023
+  start: 2023-10-01
+  end: 2023-10-05
+  hindex: 80
+  sub: RO
+
+- title: IROS
+  year: 2022
+  id: iros22
+  link: https://iros2022.org/
+  deadline: '2022-03-01 23:59:59'
+  timezone: America/Los_Angeles
+  place: Kyoto, Japan
+  date: October 23-27, 2022
+  start: 2022-10-23
+  end: 2022-10-27
+  hindex: 73
+  sub: RO
+
+- title: IROS
+  year: 2021
+  id: iros21
+  link: https://www.iros2021.org/important-dates
+  deadline: '2021-03-01 23:59:59'
+  timezone: America/Los_Angeles
+  place: Prague, Czech Republic
+  date: September 27 - October 1, 2021
+  start: 2021-09-27
+  end: 2021-10-01
+  hindex: 58
+  sub: RO

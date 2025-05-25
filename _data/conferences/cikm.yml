@@ -1,0 +1,43 @@
+- title: CIKM
+  year: 2024
+  id: CIKM24
+  link: https://cikm2024.org/
+  deadline: '2024-05-20 23:59:59'
+  abstract_deadline: '2024-05-13 23:59:59'
+  timezone: UTC-12
+  place: Boise, Idaho, USA
+  data: October 21 - October 25, 2024
+  start: 2024-10-21
+  end: 2024-10-25
+  sub: ['DM', 'KR']
+  note: Mandatory abstract deadline on May 13, 2024. More info <a href='https://cikm2024.org/call-for-papers/'>here</a>.
+
+- title: CIKM
+  year: 2022
+  id: cikm22
+  link: https://www.cikm2022.org/
+  deadline: '2022-05-19 23:59:59'
+  abstract_deadline: '2022-05-12 23:59:59'
+  timezone: UTC-12
+  place: Atlanta, Georgia, USA
+  date: October 17-22, 2022
+  start: 2022-10-17
+  end: 2022-10-22
+  hindex: 48
+  sub: DM
+  note: Mandatory abstract deadline on May 12, 2022
+
+- title: CIKM
+  year: 2023
+  id: cikm23  # title as lower case + last two digits of year
+  full_name: International Conference on Information and Knowledge Managements # full conference name
+  link: https://cikm2023.github.io/
+  deadline: '2023-06-02 23:59:59'
+  abstract_deadline: '2023-05-26 23:59:59'
+  timezone: UTC-12
+  place: Birmingham, UK
+  date: October, 23-25, 2023
+  start: 2023-10-23
+  end: 2023-10-25
+  sub: KR
+  note: Check the conference website for workshop and demo deadlines

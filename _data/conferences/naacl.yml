@@ -1,0 +1,40 @@
+- title: NAACL
+  year: 2025
+  id: naacl25
+  link: https://2025.naacl.org
+  deadline: '2024-10-15 23:59:59'
+  timezone: UTC-12
+  place: Albuquerque, New Mexico, USA
+  date: April 29 - May 4, 2024
+  start: 2025-04-29
+  end: 2025-05-04
+  hindex: 132
+  sub: NLP
+  note: All submissions must be done through ARR. More info <a href='https://2025.naacl.org/calls/papers/'>here</a>.
+
+- title: NAACL
+  year: 2024
+  id: naacl24
+  link: https://2024.naacl.org
+  deadline: '2023-12-15 23:59:59'
+  timezone: UTC-12
+  place: Mexico City, Mexico
+  date: June 16-21, 2024
+  start: 2024-06-16
+  end: 2024-06-21
+  hindex: 133
+  sub: NLP
+  note: All submissions must be done through ARR. More info <a href='https://2024.naacl.org/calls/papers/'>here</a>.
+
+- title: NAACL
+  year: 2022
+  id: naacl22
+  link: https://2022.naacl.org/
+  deadline: '2022-01-15 23:59:00'
+  timezone: UTC-12
+  place: Seattle, Washington, USA
+  date: July 10-15, 2022
+  start: 2022-07-10
+  end: 2022-07-15
+  hindex: 105
+  sub: NLP

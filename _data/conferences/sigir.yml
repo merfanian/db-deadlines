@@ -1,0 +1,59 @@
+- title: SIGIR
+  year: 2024
+  id: sigir24
+  link: https://sigir-2024.github.io
+  deadline: '2024-01-25 23:59:00'
+  abstract_deadline: '2024-01-18 23:59:00'
+  timezone: UTC-12
+  place: Washington D.C., USA
+  date: July 14-18, 2024
+  start: 2024-07-14
+  end: 2024-07-18
+  hindex: 66
+  sub: DM
+  note: Mandatory abstract deadline on January 18, 2024. More info <a href='https://sigir-2024.github.io/call_for_papers.html'>here</a>.
+
+- title: SIGIR-AP
+  year: 2023
+  id: sigirap23
+  full_name: 1st International ACM SIGIR Conference on Information Retrieval in the Asia Pacific
+  link: http://www.sigir-ap.org/sigir-ap-2023/
+  deadline: '2023-07-03 23:59:00'
+  abstract_deadline: '2023-06-26 23:59:00'
+  timezone: UTC-12
+  place: Beijing, China
+  date: November 26-29, 2023
+  start: 2023-11-26
+  end: 2023-11-29
+  sub: DM
+  note: Mandatory abstract deadline on June 26, 2023. More info <a href='http://www.sigir-ap.org/sigir-ap-2023/call-for-papers/'>here</a>.
+
+- title: SIGIR
+  year: 2023
+  id: sigir23
+  link: https://sigir.org/sigir2023/
+  deadline: '2023-01-31 23:59:00'
+  abstract_deadline: '2023-01-24 23:59:00'
+  timezone: UTC-12
+  place: Taipei, Taiwan
+  date: July 23-27, 2023
+  start: 2023-07-23
+  end: 2023-07-27
+  hindex: 66
+  sub: DM
+  note: Mandatory abstract deadline on January 24, 2023. More info <a href='https://sigir.org/sigir2023/call-for-full-papers/'>here</a>.
+
+- title: SIGIR
+  year: 2022
+  id: sigir22
+  link: https://sigir.org/sigir2022/
+  deadline: '2022-01-28 23:59:00'
+  abstract_deadline: '2022-01-21 23:59:00'
+  timezone: UTC-12
+  place: Madrid, Spain
+  date: July 11-15, 2022
+  start: 2022-07-11
+  end: 2022-07-15
+  hindex: 66
+  sub: DM
+  note: Mandatory abstract deadline on January 21, 2022. More info <a href='https://sigir.org/sigir2022/call-for-papers/'>here</a>.
