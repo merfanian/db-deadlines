@@ -1,0 +1,7 @@
+<!-- _includes/load-conferences.html -->
+{% assign all_conferences = "" | split: "" %}
+{% for file in site.data.conferences %}
+  {% assign sublist = site.data.conferences[file[0]] %}
+  {% assign all_conferences = all_conferences | concat: sublist %}
+{% endfor %}
+    

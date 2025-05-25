@@ -87,6 +87,7 @@ permalink:  /conference/
 
         {% include load_data.js %}
         {% include utils.js %}
+        {% include load-conferences.html %}
 
         addUtcTimeZones();
         try {
@@ -97,7 +98,7 @@ permalink:  /conference/
           $('.local-timezone-hide').hide();
         }
 
-        {% for conf in site.data.conferences %}
+        {% for conf in all_conferences %}
             if (conf == "{{ conf.id }}") {
 
               $('#conf-title-href').text("{{conf.title}} {{conf.year}}");

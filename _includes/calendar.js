@@ -41,7 +41,7 @@
               content +=
                 '<div class="event-tooltip-content">' +
                 '<div class="event-name ' + headline_color + '">' +
-                '<b>' + e.events[i].name + '</b>' + 
+                '<b>' + e.events[i].name + '</b>' +
                 '</div>' +
                 '<div class="event-location">' +
                 location_html +
@@ -84,7 +84,9 @@
 function load_conference_list() {
   // Gather data
   var conf_list_all = [];
-  {% for conf in site.data.conferences %}
+  {% include load-conferences.html %}
+  <!--{% for conf in site.data.conferences %} -->
+  {% for conf in all_conferences %}
     // add deadlines in red
     conf_list_all.push({
       id: "{{conf.id}}-deadline",
