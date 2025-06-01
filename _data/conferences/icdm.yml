@@ -1,4 +1,30 @@
 - title: ICDM
+  year: 2025
+  id: icdm25
+  link: https://www3.cs.stonybrook.edu/~icdm2025/cfp.html
+  deadline: '2025-06-06 23:59:00'
+  abstract_deadline: '2025-06-06 23:59:00'
+  timezone: AoE
+  place: Washington DC, USA 
+  date: Novemember 12-15, 2025
+  start: 2025-12-09
+  end: 2025-12-12
+  sub: DM
+
+- title: ICDM
+  year: 2024
+  id: icdm24
+  link: https://icdm2024.org/dates/
+  deadline: '2024-06-14 23:59:00'
+  abstract_deadline: '2023-06-14 23:59:00'
+  timezone: AoE
+  place: Abu Dhaibi, UAE
+  date: December 1-4, 2024
+  start: 2024-12-09
+  end: 2024-12-12
+  sub: DM
+
+- title: ICDM
   year: 2023
   id: icdm23
   link: https://www.cloud-conf.net/icdm2023/
