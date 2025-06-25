@@ -1,4 +1,21 @@
 - title: IJCAI
+  year: 2025
+  id: ijcai25
+  full_name: International Joint Conference on Artificial Intelligence
+  link: https://2025.ijcai.org//
+  deadline: '2025-01-23 23:59:59'
+  abstract_deadline: '2025-01-16 23:59:59'
+  timezone: UTC-12
+  place: Montreal
+  date: August 16-22, 2025
+  start: 2025-08-16
+  end: 2025-08-23
+  hindex: 133
+  sub: ML
+  note: Mandatory abstract deadline on January 16, 2025 and optional supplementary material deadline on January 23, 2025. More info <a href='https://ijcai24.org/'>here</a>.
+
+
+- title: IJCAI
   year: 2024
   id: ijcai24
   full_name: International Joint Conference on Artificial Intelligence
