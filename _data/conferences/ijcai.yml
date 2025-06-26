@@ -1,4 +1,20 @@
 - title: IJCAI
+  year: 2026
+  id: ijcai26
+  full_name: International Joint Conference on Artificial Intelligence
+  link:  TBA
+  deadline: '2026-01-23 23:59:59'
+  abstract_deadline: '2026-01-16 23:59:59'
+  timezone: UTC-12
+  place: 
+  date: August 16-22, 2025
+  start: 2026-08-16
+  end: 2026-08-23
+  hindex: 133
+  sub: ML
+
+
+- title: IJCAI
   year: 2025
   id: ijcai25
   full_name: International Joint Conference on Artificial Intelligence
