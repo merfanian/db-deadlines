@@ -1,4 +1,35 @@
 - title: WACV
+  year: 2026
+  id: wacv26_2
+  full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+  link: https://wacv2026.thecvf.com/
+  deadline: '2025-09-19 23:59:59'
+  timezone: UTC-7
+  place: Tucson, Arizona
+  date: Mar 6 – Mar 10, 2026
+  start: 2026-3-10
+  end: 2026-3-06
+  hindex: 109
+  sub: ['ML', 'CV']
+  note: This is the second round of submissions. Paper deadline on Sept 19, 2025. More info <a href='https://wacv2026.thecvf.com/'>here</a>.
+
+- title: WACV
+  year: 2026
+  id: wacv26_1
+  full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+  link: https://wacv2026.thecvf.com/
+  deadline: '2025-07-11 23:59:59'
+  timezone: UTC-7
+  place: Tucson, Arizona
+  date: Mar 6 – Mar 10, 2026
+  start: 2026-3-06
+  end: 2026-3-10
+  hindex: 109
+  sub: ['ML', 'CV']
+  note: This is the first round of submissions. Paper deadline on July 18, 2025. More info <a href='https://wacv2026.thecvf.com/'>here</a>.
+
+
+- title: WACV
   year: 2025
   id: wacv25_2
   full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
