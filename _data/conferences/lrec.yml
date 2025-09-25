@@ -1,4 +1,16 @@
 - title: LREC
+  year: 2026
+  id: lrec26
+  link: https://lrec2026.info/
+  deadline: '2026-10-17 23:59:59'
+  timezone: UTC-12
+  place: Palma, Mallorca
+  date: May 11-16, 2026
+  start: 2026-05-11
+  end: 2026-05-16
+  sub: NLP
+
+- title: LREC
   year: 2022
   id: lrec22
   link: http://elra.info/en/lrec/lrec-2022/
