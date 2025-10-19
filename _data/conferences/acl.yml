@@ -2,10 +2,10 @@
   year: 2026
   id: acl26
   link: https://2026.aclweb.org/
-  deadline: '2026-01-5 23:59:00'
+  deadline: '2026-01-05 23:59:59'
   timezone: UTC-12
-  place: America(TBU)
-  date: July 2 - July 7, 2026
+  place: San Diego, CA, USA
+  date: July 02 - July 07, 2026
   start: 2026-07-02
   end: 2026-07-07
   hindex: 192
