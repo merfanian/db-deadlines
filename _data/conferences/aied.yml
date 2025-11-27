@@ -1,4 +1,20 @@
 - title: AIED
+  year: 2026
+  id: aied2026
+  link: https://aied-conference.org/2026/call-for-paper
+  deadline: '2026-02-02 23:59:59'
+  abstract_deadline: '2026-01-26 23:59:59'
+  timezone: UTC-12
+  place: Seoul, Korea
+  date: June 29 - July 24, 2026
+  start: 2026-06-29
+  end: 2025-07-3
+  hindex: 389
+  sub: ['NLP','ML','CV','EDU']
+
+
+
+- title: AIED
   year: 2025
   id: aied2025
   link: https://aied2025.itd.cnr.it/
