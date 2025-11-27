@@ -1,4 +1,18 @@
 - title: IWSDS
+  year: 2026
+  id: iwsds2026
+  link: https://sites.google.com/unitn.it/iwsds26/home/
+  deadline: TBA
+  abstract_deadline: TBA
+  timezone: UTC-12
+  place: Trento, Italy
+  date: February 26 - March 1, 2026
+  start: 2026-02-26
+  end: 2026-03-01
+  sub: NLP
+  note: 'The 16th International Workshop on Spoken Dialogue Systems. Theme: "Human-Machine Dialogue in the Era of Multimodal Foundation Models". More info <a href="https://sites.google.com/unitn.it/iwsds26/home/">here</a>.'
+
+- title: IWSDS
   year: 2025
   id: iwsds2025
   link: https://sites.google.com/view/iwsds2025/important-dates

@@ -157,6 +157,10 @@
         {% include utils.js %}
         {% include multiselect_handler.js %}
         {% include load_conferences.html %}
+        {% include predict_potential_calls.js %}
+        
+        // Make conference data available to JavaScript for predictions
+        var all_conferences_data = {{ all_conferences | jsonify }};
 
         addUtcTimeZones();
 
@@ -254,6 +258,17 @@
             $("#subject-select").multiselect('select', subs);
             update_filtering({ subs: subs, all_subs: all_subs});
         });
+        
+        // Generate and display potential call for papers
+        if (typeof all_conferences_data !== 'undefined' && all_conferences_data.length > 0) {
+            var predictions = predictPotentialCalls(all_conferences_data);
+            if (predictions.length > 0) {
+                renderPotentialCalls(predictions);
+                
+                // Apply filtering to potential calls as well
+                update_filtering({ subs: subs, all_subs: all_subs});
+            }
+        }
 
     });
     {% include google_analytics.js %}

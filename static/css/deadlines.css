@@ -238,6 +238,20 @@ footer {
   border-bottom: 2px solid #bb2d3b;
 }
 
+#potential-calls-title {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ff9800;
+  color: #ff9800;
+  margin-top: 30px;
+}
+
+.potential-call {
+  opacity: 0.95;
+  border-left: 3px solid #ff9800;
+  padding-left: 10px;
+  margin-left: -10px;
+}
+
 .badge-link {
   vertical-align: middle; 
   margin-bottom: 3px;
