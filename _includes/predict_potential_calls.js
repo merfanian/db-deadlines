@@ -1,3 +1,167 @@
+// Function to guess the target year's conference link
+function guessConferenceLink(baseLink, targetYear) {
+  if (!baseLink || baseLink === '#') {
+    return null;
+  }
+  
+  // Try common patterns to replace year in URL
+  var patterns = [
+    // Pattern: /2024/ -> /2025/
+    { regex: /\/(\d{4})\//g, replace: '/' + targetYear + '/' },
+    // Pattern: /2024 -> /2025
+    { regex: /\/(\d{4})(?:\/|$)/g, replace: '/' + targetYear + '/' },
+    // Pattern: -2024 -> -2025
+    { regex: /-(\d{4})(?:\/|$)/g, replace: '-' + targetYear + '/' },
+    // Pattern: 2024 -> 2025 (at end of domain or path)
+    { regex: /(\d{4})(?:\/|$)/g, replace: targetYear + '/' },
+  ];
+  
+  var guessedLink = baseLink;
+  for (var i = 0; i < patterns.length; i++) {
+    var pattern = patterns[i];
+    if (pattern.regex.test(baseLink)) {
+      guessedLink = baseLink.replace(pattern.regex, function(match, year) {
+        return match.replace(year, targetYear);
+      });
+      // If we successfully replaced a year, return it
+      if (guessedLink !== baseLink && guessedLink.indexOf(targetYear) !== -1) {
+        return guessedLink;
+      }
+    }
+  }
+  
+  // If no pattern matched, try appending year to common paths
+  var commonPaths = ['/' + targetYear, '/' + targetYear + '/', '/conferences/' + targetYear];
+  for (var j = 0; j < commonPaths.length; j++) {
+    var testLink = baseLink.replace(/\/$/, '') + commonPaths[j];
+    if (testLink !== baseLink) {
+      return testLink;
+    }
+  }
+  
+  return null;
+}
+
+// Function to fetch and extract deadline from a conference website
+function fetchConferenceDeadline(url, targetYear) {
+  // This will be called asynchronously, so we return a promise
+  return new Promise(function(resolve, reject) {
+    // Use a CORS proxy if needed, or try direct fetch
+    var fetchUrl = url;
+    
+    // Try to use a CORS proxy if direct fetch fails
+    // For now, we'll try direct fetch first
+    fetch(fetchUrl, {
+      method: 'GET',
+      mode: 'cors',
+      headers: {
+        'Accept': 'text/html'
+      }
+    })
+    .then(function(response) {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.text();
+    })
+    .then(function(html) {
+      // Parse HTML to extract deadline
+      var parser = new DOMParser();
+      var doc = parser.parseFromString(html, 'text/html');
+      var text = doc.body ? doc.body.innerText : html;
+      var textLower = text.toLowerCase();
+      
+      var deadline = null;
+      var abstractDeadline = null;
+      
+      // Look for "Important Dates" section
+      var importantSection = null;
+      var headings = doc.querySelectorAll('h1, h2, h3, h4, h5, h6, strong, b');
+      for (var i = 0; i < headings.length; i++) {
+        var headingText = headings[i].textContent.toLowerCase();
+        if (headingText.indexOf('important') !== -1 && headingText.indexOf('date') !== -1) {
+          // Get content after heading
+          var section = headings[i].nextElementSibling;
+          if (section) {
+            importantSection = section.textContent;
+          } else {
+            // Try parent's next sibling
+            var parent = headings[i].parentElement;
+            if (parent && parent.nextElementSibling) {
+              importantSection = parent.nextElementSibling.textContent;
+            }
+          }
+          break;
+        }
+      }
+      
+      var searchText = importantSection ? importantSection.toLowerCase() : textLower;
+      
+      // Extract deadline patterns (written and numeric dates)
+      var monthNames = {
+        'january': '01', 'february': '02', 'march': '03', 'april': '04',
+        'may': '05', 'june': '06', 'july': '07', 'august': '08',
+        'september': '09', 'october': '10', 'november': '11', 'december': '12',
+        'jan': '01', 'feb': '02', 'mar': '03', 'apr': '04',
+        'may': '05', 'jun': '06', 'jul': '07', 'aug': '08',
+        'sep': '09', 'oct': '10', 'nov': '11', 'dec': '12'
+      };
+      
+      var deadlinePatterns = [
+        // Written: "deadline: January 12th, 2025"
+        /(?:paper\s+)?(?:submission\s+)?deadline[:\s]+(\w+)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})/i,
+        // Numeric: "deadline: 01/12/2025"
+        /(?:paper\s+)?(?:submission\s+)?deadline[:\s]+(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})/i,
+      ];
+      
+      for (var j = 0; j < deadlinePatterns.length; j++) {
+        var match = searchText.match(deadlinePatterns[j]);
+        if (match) {
+          var month, day, year;
+          if (match[1].match(/^\d+$/)) {
+            // Numeric format
+            month = match[1];
+            day = match[2];
+            year = match[3];
+          } else {
+            // Written format
+            month = monthNames[match[1].toLowerCase()] || match[1];
+            day = match[2];
+            year = match[3];
+          }
+          
+          if (year.length === 2) {
+            year = '20' + year;
+          }
+          
+          // Only accept dates in the future and for the target year or next
+          var deadlineDate = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+          var now = new Date();
+          if (deadlineDate > now && (parseInt(year) === targetYear || parseInt(year) === targetYear + 1)) {
+            deadline = year + '-' + ('0' + month).slice(-2) + '-' + ('0' + day).slice(-2) + ' 23:59:59';
+            break;
+          }
+        }
+      }
+      
+      resolve({
+        deadline: deadline,
+        abstractDeadline: abstractDeadline,
+        link: url
+      });
+    })
+    .catch(function(error) {
+      // If fetch fails, return null (prediction will use historical pattern)
+      resolve({
+        deadline: null,
+        abstractDeadline: null,
+        link: url,
+        error: error.message
+      });
+    });
+  });
+}
+
 // Function to predict potential call for papers based on historical data
 function predictPotentialCalls(allConferences) {
   var predictions = [];
@@ -121,6 +285,15 @@ function predictPotentialCalls(allConferences) {
     
     // Only show predictions that are within the next 2 years
     if (daysUntilPrediction > 0 && daysUntilPrediction < 730) {
+      // Try to guess the target year's link
+      var targetLink = latestEntry.link || '#';
+      var guessedLink = guessConferenceLink(latestEntry.link, predictedYear);
+      
+      // If we guessed a different link, use it
+      if (guessedLink && guessedLink !== latestEntry.link) {
+        targetLink = guessedLink;
+      }
+      
       predictions.push({
         title: title,
         full_name: latestEntry.full_name || title,
@@ -130,9 +303,11 @@ function predictPotentialCalls(allConferences) {
         daysUntil: daysUntilPrediction,
         latestEntry: latestEntry,
         sub: latestEntry.sub || ['ML'],
-        link: latestEntry.link || '#',
+        link: targetLink,
+        guessedLink: guessedLink,
         timezone: timezone,
-        hindex: latestEntry.hindex || 0
+        hindex: latestEntry.hindex || 0,
+        needsVerification: true  // Flag to verify deadline from website
       });
     }
   }
@@ -172,12 +347,16 @@ function renderPotentialCalls(predictions) {
     html += '<div class="col-6">';
     html += '<span class="conf-title">';
     html += '<a title="' + (pred.full_name || 'Predicted Deadline') + ' Details" href="' + pred.link + '" target="_blank">';
-    html += pred.title + ' ' + pred.predictedYear + ' <span style="font-size: 0.7em; color: #888;">(Predicted)</span>';
+    var label = pred.verified ? '(Verified)' : '(Predicted)';
+    var labelColor = pred.verified ? '#4CAF50' : '#888';
+    html += pred.title + ' ' + pred.predictedYear + ' <span style="font-size: 0.7em; color: ' + labelColor + ';">' + label + '</span>';
     html += '</a>';
     html += '</span>';
     html += '<span class="conf-title-small">';
     html += '<a title="' + (pred.full_name || 'Predicted Deadline') + ' Details" href="' + pred.link + '" target="_blank">';
-    html += pred.title + " '" + String(pred.predictedYear).slice(-2) + ' <span style="font-size: 0.7em; color: #888;">(Pred)</span>';
+    var labelSmall = pred.verified ? '(Ver)' : '(Pred)';
+    var labelColorSmall = pred.verified ? '#4CAF50' : '#888';
+    html += pred.title + " '" + String(pred.predictedYear).slice(-2) + ' <span style="font-size: 0.7em; color: ' + labelColorSmall + ';">' + labelSmall + '</span>';
     html += '</a>';
     html += '</span>';
     html += '<span class="conf-title-icon">';

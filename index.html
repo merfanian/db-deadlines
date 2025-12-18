@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-12 col-sm-12">
                   <h1>
-                    {{ site.title }} 
+                    {{ site.title }}
                   </h1>
                 </div>
                 <div class="meta col-12">
@@ -152,13 +152,13 @@
         var colors = ['#341f97', '#ee5253', '#2e86de',
                       '#ff9f43', '#10ac84', '#222f3e']
 
-        
+
         {% include load_data.js %}
         {% include utils.js %}
         {% include multiselect_handler.js %}
         {% include load_conferences.html %}
         {% include predict_potential_calls.js %}
-        
+
         // Make conference data available to JavaScript for predictions
         var all_conferences_data = {{ all_conferences | jsonify }};
 
@@ -258,15 +258,60 @@
             $("#subject-select").multiselect('select', subs);
             update_filtering({ subs: subs, all_subs: all_subs});
         });
-        
+
         // Generate and display potential call for papers
         if (typeof all_conferences_data !== 'undefined' && all_conferences_data.length > 0) {
             var predictions = predictPotentialCalls(all_conferences_data);
+
+            // Verify predictions by fetching actual deadlines from websites
             if (predictions.length > 0) {
-                renderPotentialCalls(predictions);
+                var verificationPromises = [];
+                for (var i = 0; i < predictions.length; i++) {
+                    var pred = predictions[i];
+                    if (pred.needsVerification && pred.link && pred.link !== '#') {
+                        // Try to verify deadline from website
+                        var verifyPromise = fetchConferenceDeadline(pred.link, pred.predictedYear)
+                            .then(function(result) {
+                                // Update prediction with actual deadline if found
+                                if (result.deadline) {
+                                    pred.verifiedDeadline = result.deadline;
+                                    pred.verifiedLink = result.link;
+                                    // Update predicted deadline if verified one is different
+                                    var verifiedDate = moment.tz(result.deadline, pred.timezone);
+                                    if (verifiedDate.isValid()) {
+                                        pred.predictedDeadline = verifiedDate;
+                                        pred.predictedDeadlineString = verifiedDate.format('YYYY-MM-DD HH:mm:ss');
+                                        pred.daysUntil = verifiedDate.diff(moment(), 'days');
+                                        pred.verified = true;
+                                    }
+                                }
+                            })
+                            .catch(function(error) {
+                                // If verification fails, keep prediction as is
+                                console.log('Could not verify deadline for ' + pred.title + ' ' + pred.predictedYear);
+                            });
+                        verificationPromises.push(verifyPromise);
+                    }
+                }
+
+                // Wait for all verifications to complete (or timeout), then render
+                // Use Promise.allSettled if available, otherwise use Promise.all with catch
+                var allSettled = Promise.allSettled || function(promises) {
+                    return Promise.all(promises.map(function(p) {
+                        return p.then(function(value) {
+                            return { status: 'fulfilled', value: value };
+                        }).catch(function(reason) {
+                            return { status: 'rejected', reason: reason };
+                        });
+                    }));
+                };
                 
-                // Apply filtering to potential calls as well
-                update_filtering({ subs: subs, all_subs: all_subs});
+                allSettled(verificationPromises).then(function() {
+                    renderPotentialCalls(predictions);
+
+                    // Apply filtering to potential calls as well
+                    update_filtering({ subs: subs, all_subs: all_subs});
+                });
             }
         }
 

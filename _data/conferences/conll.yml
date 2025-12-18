@@ -2,6 +2,20 @@
   year: 2023
   id: conll23
   link: https://conll.org/
+  deadline: '2026-02-19 23:59:59'
+  timezone: UTC-12
+  place: San Diego 
+  date: July 3-4, 2026
+  start: 2026-07-03
+  end: 2026-07-04
+  hindex: 44
+  sub: NLP
+  note: Co-located with ACL 2026
+
+- title: CoNLL
+  year: 2023
+  id: conll23
+  link: https://conll.org/
   deadline: '2023-06-30 23:59:59'
   timezone: UTC-12
   place: Singapore
