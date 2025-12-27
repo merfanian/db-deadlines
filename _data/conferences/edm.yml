@@ -2,11 +2,11 @@
   year: 2026
   id: edm2026
   link: https://educationaldatamining.org/edm2026/
-  deadline: '2025-01-27 23:59:59'
+  deadline: '2026-01-27 23:59:59'
   abstract_deadline: '2026-01-20 23:59:59'
   timezone: UTC-12
   place: Seoul, South Korea
-  date: June 29 - July 03, 2025
+  date: June 29 - July 03, 2026
   start: 2026-06-29
   end: 2026-07-03
   sub: ['NLP','ML','CV','EDU']

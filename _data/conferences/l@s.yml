@@ -2,13 +2,13 @@
   year: 2026
   id: ls2026
   link: https://learningatscale.hosting.acm.org/las2026/ 
-  deadline: '2025-01-20 23:59:59'
+  deadline: '2026-01-20 23:59:59'
   abstract_deadline: '2026-01-13 23:59:59'
   timezone: UTC-12
   place: Seoul, Korea
   date: June 29-July 03, 2026
-  start: 2025-06-29
-  end: 2025-07-03
+  start: 2026-06-29
+  end: 2026-07-03
   sub: ['NLP','ML','CV','EDU']
   note: The above dates is estimated. read more details in https://learningatscale.hosting.acm.org/las2026/ 
 
