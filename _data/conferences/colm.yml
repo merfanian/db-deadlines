@@ -2,16 +2,16 @@
   year: 2026
   id: colm26
   link: https://colmweb.org/
-  deadline: '2026-02-27 23:59:59'
-  abstract_deadline: '2026-02-20 23:59:59'
+  deadline: '2026-03-26 23:59:59'
+  abstract_deadline: '2026-03-31 23:59:59'
   timezone: UTC-12
-  place: TBU
-  date: Oct 7-09, 2026
-  start: 2026-10-07
+  place: San Francisco
+  date: Oct 06-09, 2026
+  start: 2026-10-06
   end: 2026-10-09
   hindex: 389
   sub: ['NLP','ML']
-  note: Mandatory paper registration deadline on November 07, 2026. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+  note: Mandatory paper registration deadline on 03/26/2026. More info <a href=""https://colmweb.org/cfp.html'>here</a>.
 
 - title: COLM
   year: 2025
