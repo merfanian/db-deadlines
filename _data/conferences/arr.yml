@@ -1,5 +1,19 @@
 - title: ARR
   year: 2026
+  id: arr2603
+  link: https://aclrollingreview.org/dates
+  deadline: '2026-03-16 23:59:59'
+  timezone: UTC-12
+  place: America(TBU)
+  date: July 00 - July 07, 2026
+  start: 2026-07-01
+  end: 2026-07-07
+  sub: NLP
+  note: This ARR will lead to commit to SIGDIAL or EMNLP, not COLM. More info <a href="https://aclrollingreview.org/dates">here</a>.
+
+
+- title: ARR
+  year: 2026
   id: arr2601
   link: https://aclrollingreview.org/dates
   deadline: '2026-01-05 23:59:59'
