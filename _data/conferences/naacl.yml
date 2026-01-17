@@ -1,18 +1,4 @@
 - title: NAACL
-  year: 2026
-  id: naacl26
-  link: https://2026.naacl.org/
-  deadline: '2025-12-15 23:59:59'
-  timezone: UTC-12
-  place: TBD
-  date: June 2026
-  start: 2026-06-01
-  end: 2026-06-30
-  hindex: 132
-  sub: NLP
-  note: Predicted based on historical pattern. All submissions must be done through ARR. More info <a href='https://2026.naacl.org/calls/papers/'>here</a> (when available).
-
-- title: NAACL
   year: 2025
   id: naacl25
   link: https://2025.naacl.org

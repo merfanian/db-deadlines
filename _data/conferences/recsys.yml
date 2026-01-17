@@ -1,16 +1,16 @@
 - title: RecSys
   year: 2026
   id: recsys26
-  link: https://recsys.acm.org/recsys26/
-  deadline: '2026-04-23 23:59:59'
-  abstract_deadline: '2026-04-16 23:59:59'
+  link: https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/
+  deadline: '2026-04-21 23:59:59'
+  abstract_deadline: '2026-04-14 23:59:59'
   timezone: UTC-12
-  date: September 2026
-  place: TBD
-  start: 2026-09-01
-  end: 2026-09-30
+  date: September 28 - October 2, 2026
+  place: Minneapolis, Minnesota, USA
+  start: 2026-09-28
+  end: 2026-10-02
   sub: DM
-  note: Predicted based on historical pattern. Mandatory abstract deadline typically 1 week before paper deadline. More info <a href='https://recsys.acm.org/recsys26/call/'>here</a> (when available).
+  note: "Mandatory abstract deadline on April 14, 2026. Author rebuttal period: June 4-9, 2026. Notification: July 9, 2026. Camera-ready due: July 27, 2026. More info <a href='https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/'>here</a>."
 
 - title: RecSys
   year: 2023
