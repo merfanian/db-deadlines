@@ -1,16 +1,16 @@
 - title: Learing at Scale
   year: 2026
   id: ls2026
-  link: https://learningatscale.hosting.acm.org/las2026/ 
-  deadline: '2026-01-20 23:59:59'
-  abstract_deadline: '2026-01-13 23:59:59'
+  link: https://learningatscale.hosting.acm.org/las2026/call-for-papers/
+  deadline: '2026-02-16 23:59:59'
+  abstract_deadline: '2026-02-09 23:59:59'
   timezone: UTC-12
   place: Seoul, Korea
   date: June 29-July 03, 2026
   start: 2026-06-29
   end: 2026-07-03
   sub: ['NLP','ML','CV','EDU']
-  note: The above dates is estimated. read more details in https://learningatscale.hosting.acm.org/las2026/ 
+  note: Mandatory abstract deadline on February 9, 2026. Demonstrations deadline: April 14, 2026. More info <a href='https://learningatscale.hosting.acm.org/las2026/call-for-papers/'>here</a>. 
 
 - title: Learing at Scale
   year: 2025
