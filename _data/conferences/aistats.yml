@@ -1,4 +1,19 @@
 - title: AISTATS
+  year: 2026
+  id: aistats26
+  link: https://aistats.org/aistats2026/
+  deadline: '2025-10-15 23:59:59'
+  abstract_deadline: '2025-10-08 23:59:59'
+  timezone: UTC-12
+  place: TBD
+  date: May 2026
+  start: 2026-05-01
+  end: 2026-05-31
+  hindex: 100
+  sub: ML
+  note: Predicted based on historical pattern. Mandatory abstract deadline typically 1 week before paper deadline. More info <a href='https://aistats.org/aistats2026/call-for-papers.html'>here</a> (when available).
+
+- title: AISTATS
   year: 2025
   id: aistats25
   link: https://aistats.org/aistats2025/index.html

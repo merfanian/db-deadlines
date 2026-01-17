@@ -1,17 +1,17 @@
 - title: CVPR
   year: 2026
   id: cvpr26
-  link: https://cvpr.thecvf.com/Conferences/2026
+  link: https://cvpr.thecvf.com/Conferences/2026/CallForPapers
   deadline: '2025-11-17 23:59:59'
   abstract_deadline: '2025-11-03 23:59:59'
   timezone: America/Denver
-  place: Denver, Colorado, 2025
+  place: Denver, Colorado, USA
   date: June 17-21, 2026
   start: 2026-06-17
   end: 2026-06-21
   hindex: 389
   sub: CV
-  note: More info <a href='https://cvpr.thecvf.com/Conferences/2026'>will be here, TBU</a>.
+  note: Mandatory paper registration deadline typically 2 weeks before paper deadline. More info <a href='https://cvpr.thecvf.com/Conferences/2026/CallForPapers'>here</a>.
 
 - title: CVPR
   year: 2025

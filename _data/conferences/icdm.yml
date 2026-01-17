@@ -1,4 +1,18 @@
 - title: ICDM
+  year: 2026
+  id: icdm26
+  link: https://icdm2026.org/
+  deadline: '2026-06-10 23:59:00'
+  abstract_deadline: '2026-06-10 23:59:00'
+  timezone: AoE
+  place: TBD
+  date: December 2026
+  start: 2026-12-01
+  end: 2026-12-31
+  sub: DM
+  note: Predicted based on historical pattern. More info <a href='https://icdm2026.org/cfp.html'>here</a> (when available).
+
+- title: ICDM
   year: 2025
   id: icdm25
   link: https://www3.cs.stonybrook.edu/~icdm2025/cfp.html

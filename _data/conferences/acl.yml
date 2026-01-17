@@ -1,4 +1,18 @@
 - title: ACL
+  year: 2027
+  id: acl27
+  link: https://2027.aclweb.org/
+  deadline: '2027-02-15 23:59:00'
+  timezone: UTC-12
+  place: TBD
+  date: July 2027
+  start: 2027-07-01
+  end: 2027-07-31
+  hindex: 192
+  sub: NLP
+  note: Predicted based on historical pattern. All submissions should be done through ARR. More info <a href='https://2027.aclweb.org/'>here</a> (when available).
+
+- title: ACL
   year: 2026
   id: acl26
   link: https://2026.aclweb.org/

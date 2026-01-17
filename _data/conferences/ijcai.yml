@@ -1,4 +1,20 @@
 - title: IJCAI
+  year: 2027
+  id: ijcai27
+  full_name: International Joint Conference on Artificial Intelligence
+  link: https://2027.ijcai.org/
+  deadline: '2027-01-23 23:59:59'
+  abstract_deadline: '2027-01-16 23:59:59'
+  timezone: UTC-12
+  place: TBD
+  date: August 2027
+  start: 2027-08-01
+  end: 2027-08-31
+  hindex: 133
+  sub: ML
+  note: Predicted based on historical pattern. Mandatory abstract deadline typically 1 week before paper deadline. More info <a href='https://2027.ijcai.org/'>here</a> (when available).
+
+- title: IJCAI
   year: 2026
   id: ijcai26
   full_name: International Joint Conference on Artificial Intelligence

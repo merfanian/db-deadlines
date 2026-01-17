@@ -1,4 +1,20 @@
 - title: NeurIPS
+  year: 2027
+  id: neurips27
+  full_name: Conference on Neural Information Processing Systems
+  hindex: 309
+  link: https://nips.cc/Conferences/2027
+  deadline: '2027-05-15 19:59:59'
+  abstract_deadline: '2027-05-11 19:59:59'
+  timezone: UTC
+  place: TBD
+  date: December 2027
+  start: 2027-12-01
+  end: 2027-12-31
+  sub: ML
+  note: Predicted based on historical pattern. Mandatory abstract deadline typically 4 days before paper deadline. More info <a href='https://nips.cc/Conferences/2027'>here</a> (when available).
+
+- title: NeurIPS
   year: 2025
   id: neurips25
   full_name: Conference on Neural Information Processing Systems

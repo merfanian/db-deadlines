@@ -1,4 +1,19 @@
 - title: SIGIR
+  year: 2026
+  id: sigir26
+  link: https://sigir.org/sigir2026/
+  deadline: '2026-01-30 23:59:00'
+  abstract_deadline: '2026-01-23 23:59:00'
+  timezone: UTC-12
+  place: TBD
+  date: July 2026
+  start: 2026-07-01
+  end: 2026-07-31
+  hindex: 66
+  sub: DM
+  note: Predicted based on historical pattern. Mandatory abstract deadline typically 1 week before paper deadline. More info <a href='https://sigir.org/sigir2026/call-for-papers/'>here</a> (when available).
+
+- title: SIGIR
   year: 2024
   id: sigir24
   link: https://sigir-2024.github.io

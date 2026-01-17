@@ -1,4 +1,17 @@
 - title: UAI
+  year: 2027
+  id: uai27
+  link: https://www.auai.org/uai2027/
+  deadline: '2027-02-10 23:59:59'
+  timezone: UTC-12
+  place: TBD
+  date: July 2027
+  start: 2027-07-01
+  end: 2027-07-31
+  sub: ML
+  note: Predicted based on historical pattern. More info <a href='https://www.auai.org/uai2027/'>here</a> (when available).
+
+- title: UAI
   year: 2026
   id: uai26
   link: https://www.auai.org/uai20256/
