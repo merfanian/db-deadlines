@@ -1,4 +1,28 @@
 - title: UAI
+  year: 2026
+  id: uai26
+  link: https://www.auai.org/uai20256/
+  deadline: '2026-02-25 23:59:59'
+  timezone: UTC-12
+  place: Amsterdam, Netherlands
+  date: July 21-25, 2025
+  start: 2026-08-17
+  end: 2026-08-21
+  sub: ML
+
+- title: UAI
+  year: 2025
+  id: uai25
+  link: https://www.auai.org/uai2025/
+  deadline: '2025-01-05 23:59:59'
+  timezone: UTC-12
+  place: Rio de Janeiro, Brazil 
+  date: July 21-25, 2025
+  start: 2025-07-21
+  end: 2025-07-25
+  sub: ML
+
+- title: UAI
   year: 2024
   id: uai24
   link: https://www.auai.org/uai2024/
