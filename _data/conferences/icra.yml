@@ -1,4 +1,19 @@
 - title: ICRA
+  year: 2026
+  id: icra26
+  full_name: IEEE International Conference on Robotics and Automation
+  link: https://2026.ieee-icra.org/contribute/
+  deadline: '2025-09-15 23:59:59'
+  timezone: America/Los_Angeles
+  place: Vienna, Austria
+  date: June 1-5, 2026
+  start: 2026-06-01
+  end: 2026-06-05
+  hindex: 119
+  sub: RO
+  note: Workshops/tutorials deadline: September 25, 2025. More info <a href='https://2026.ieee-icra.org/contribute/'>here</a>.
+
+- title: ICRA
   year: 2025
   id: icra25
   link: https://2025.ieee-icra.org
