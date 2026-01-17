@@ -1,16 +1,17 @@
 - title: ICDM
   year: 2026
   id: icdm26
-  link: https://icdm2026.org/
-  deadline: '2026-06-10 23:59:00'
-  abstract_deadline: '2026-06-10 23:59:00'
+  full_name: IEEE International Conference on Data Mining
+  link: http://icdm2026.neu.edu.cn/
+  deadline: '2026-06-06 23:59:00'
+  abstract_deadline: '2026-05-30 23:59:00'
   timezone: AoE
-  place: TBD
-  date: December 2026
-  start: 2026-12-01
-  end: 2026-12-31
+  place: Shenyang, China
+  date: November 12-15, 2026
+  start: 2026-11-12
+  end: 2026-11-15
   sub: DM
-  note: Predicted based on historical pattern. More info <a href='https://icdm2026.org/cfp.html'>here</a> (when available).
+  note: "Main Conference Full Paper Submission: June 6, 2026. Abstract Submission: May 30, 2026. Author Notification: August 16, 2026. More info <a href='http://icdm2026.neu.edu.cn/'>here</a>."
 
 - title: ICDM
   year: 2025
