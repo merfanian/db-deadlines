@@ -5,11 +5,10 @@
   link: https://2026.eacl.org/
   deadline: '2025-10-6 23:59:59'
   timezone: UTC-12
-  place: St. Julians, Malta
+  place: Rabat, Morocco 
   date: March 17-22, 2026
   start: 2026-03-17
   end: 2026-03-22
-  note: TBU.
   sub: NLP
 
 - title: EACL
@@ -23,7 +22,6 @@
   date: March 17-22, 2024
   start: 2024-03-17
   end: 2024-03-22
-  hindex: 38
   note: Submission via ACL Rolling Review, commitment date 2023-12-20
   sub: NLP
 

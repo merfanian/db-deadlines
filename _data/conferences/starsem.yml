@@ -1,4 +1,17 @@
 - title: STARSEM
+  year: 2026
+  id: starsem2026
+  link: https://starsem2026.github.io/
+  deadline: '2026-02-13 23:59:59'
+  abstract_deadline: '2026-02-13 23:59:59'
+  timezone: UTC-12
+  place: San Diego, CA, US 
+  date: July 06, 2026
+  start: 2026-07-06
+  end: 2026-07-06
+  sub: NLP
+
+- title: STARSEM
   year: 2025
   id: starsem2025
   link: https://starsem2025.github.io/
