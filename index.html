@@ -107,7 +107,7 @@
                   </span>
                 </div>
                 {% if conf.note %}
-                  <div class="note">
+                  <div class="note{% if conf.note contains 'Predicted' %} predicted{% endif %}">
                       <b>Note: </b>{{conf.note}}
                   </div>
                 {% endif %}

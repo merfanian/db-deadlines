@@ -137,6 +137,13 @@ footer {
   margin-bottom: 5px;
 }
 
+.note.predicted {
+  background-color: #ffcccc;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border-left: 3px solid #ff0000;
+}
+
 .timer,
 .timer-small {
   font-size: 20px;
