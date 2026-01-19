@@ -1,17 +1,17 @@
 - title: ECCV
   year: 2026
   id: eccv26
-  link:  https://eccv.ecva.net//
-  deadline: '2026-03-07 12:59:00'
-  abstract_deadline: '2026-02-29 12:59:00'
-  timezone: UTC-8
+  link: https://eccv.ecva.net/Conferences/2026
+  deadline: '2026-03-05 11:00:00'
+  abstract_deadline: '2026-02-26 11:00:00'
+  timezone: Europe/Paris
   place: Milano, Italy
   date: September 29 - October 04, 2026
   start: 2026-09-29
   end: 2026-10-04
   hindex: 238
   sub: CV
-  note: "More info <a href='https://eccv2026.ecva.net/call-for-papers/'>here</a>."
+  note: "Paper registration deadline: February 26, 2026 (11:00 AM CET). Supplemental materials deadline: March 12, 2026. Reviews released: May 2, 2026. Rebuttal deadline: May 11, 2026. Final decisions: June 17, 2026. More info <a href='https://eccv.ecva.net/Conferences/2026'>here</a>."
 
 - title: ECCV
   year: 2024

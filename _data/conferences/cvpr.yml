@@ -2,9 +2,9 @@
   year: 2026
   id: cvpr26
   link: https://cvpr.thecvf.com/Conferences/2026/CallForPapers
-  deadline: '2025-11-17 23:59:59'
-  abstract_deadline: '2025-11-03 23:59:59'
-  timezone: America/Denver
+  deadline: '2025-11-13 23:59:59'
+  abstract_deadline: '2025-11-07 23:59:59'
+  timezone: UTC-12
   place: Denver, Colorado, USA
   date: June 17-21, 2026
   start: 2026-06-17

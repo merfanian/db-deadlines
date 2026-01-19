@@ -15,6 +15,22 @@
   note: Predicted based on historical pattern. Mandatory abstract deadline typically 4 days before paper deadline. More info <a href='https://nips.cc/Conferences/2027'>here</a> (when available).
 
 - title: NeurIPS
+  year: 2026
+  id: neurips26
+  full_name: Conference on Neural Information Processing Systems
+  hindex: 309
+  link: https://nips.cc/Conferences/2026
+  deadline: '2026-05-15 19:59:59'
+  abstract_deadline: '2026-05-11 19:59:59'
+  timezone: UTC
+  place: Sydney, Australia
+  date: December 6-12, 2026
+  start: 2026-12-06
+  end: 2026-12-12
+  sub: ML
+  note: "Predicted deadline based on historical pattern. Official CFP not yet released. Mandatory abstract deadline typically 4 days before paper deadline. More info <a href='https://nips.cc/Conferences/2026'>here</a> (when available)."
+
+- title: NeurIPS
   year: 2025
   id: neurips25
   full_name: Conference on Neural Information Processing Systems
