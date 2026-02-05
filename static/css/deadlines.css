@@ -5,7 +5,8 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-body *::selection {
+body *::selection,
+body *::-webkit-selection {
   background: #e74c3c;
   color: #fff;
 }
@@ -303,8 +304,8 @@ footer {
     display: none;
   }
   .timer-small {
+    display: block;
     text-align: right;
-    display: grid;
   }
   .conf-title {
     display: none;
