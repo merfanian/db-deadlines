@@ -231,25 +231,31 @@
         {% endif %}
         {% endfor %}
 
-        // Sort coming_confs and past_confs (numeric diff, Safari-safe)
+        // Sort coming_confs and past_confs by deadline (numeric diff, Safari-safe: use Array.sort)
         function getDiff(el) {
           var d = parseInt($(el).attr('diff'), 10);
           return (d === d) ? d : 999999;
         }
-        $("#coming_confs .ConfItem").sort(function (a, b) {
-          return getDiff(b) - getDiff(a);
-        }).appendTo($("#coming_confs"));
+        function sortComingByDeadline() {
+          var $container = $("#coming_confs");
+          var items = $container.children(".ConfItem").get();
+          items.sort(function (a, b) {
+            return getDiff(b) - getDiff(a);
+          });
+          $container.append(items);
+        }
+        function sortPastByDeadline(mostRecentFirst) {
+          var $container = $("#past_confs");
+          var items = $container.children(".ConfItem").get();
+          items.sort(function (a, b) {
+            return mostRecentFirst ? getDiff(a) - getDiff(b) : getDiff(b) - getDiff(a);
+          });
+          $container.append(items);
+        }
+        sortComingByDeadline();
 
         $("#sort-order-checkbox input").on("click", function() {
-          if ($("#sort-order-checkbox input").is(":checked")) {
-            $("#past_confs .ConfItem").sort(function (a, b) {
-              return getDiff(a) - getDiff(b);
-            }).appendTo($("#past_confs"));
-          } else {
-            $("#past_confs .ConfItem").sort(function (a, b) {
-              return getDiff(b) - getDiff(a);
-            }).appendTo($("#past_confs"));
-          }
+          sortPastByDeadline($("#sort-order-checkbox input").is(":checked"));
         });
 
         {% include handle_url_retrieval.js %}
