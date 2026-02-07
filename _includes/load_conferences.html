@@ -2,7 +2,7 @@
 {% for filehash in site.data.conferences %}
   {% assign sublist = filehash[1] %}
     {% if sublist %}
-        {% assign sublist_array = sublist | where_exp: "item", "item" %}
+        {% assign sublist_array = sublist | where_exp: "item", "item.id" %}
         {% assign all_conferences = all_conferences | concat: sublist_array %}
     {% endif %}
 {% endfor %}

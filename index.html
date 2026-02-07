@@ -178,6 +178,7 @@
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
+          $('#{{conf.id}}').attr("diff", "999999");
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
@@ -230,19 +231,23 @@
         {% endif %}
         {% endfor %}
 
-        // Sort coming_confs and past_confs
+        // Sort coming_confs and past_confs (numeric diff, Safari-safe)
+        function getDiff(el) {
+          var d = parseInt($(el).attr('diff'), 10);
+          return (d === d) ? d : 999999;
+        }
         $("#coming_confs .ConfItem").sort(function (a, b) {
-          return $(b).attr('diff') - $(a).attr('diff');
+          return getDiff(b) - getDiff(a);
         }).appendTo($("#coming_confs"));
 
         $("#sort-order-checkbox input").on("click", function() {
           if ($("#sort-order-checkbox input").is(":checked")) {
             $("#past_confs .ConfItem").sort(function (a, b) {
-              return $(a).attr('diff') - $(b).attr('diff');
+              return getDiff(a) - getDiff(b);
             }).appendTo($("#past_confs"));
           } else {
             $("#past_confs .ConfItem").sort(function (a, b) {
-              return $(b).attr('diff') - $(a).attr('diff');
+              return getDiff(b) - getDiff(a);
             }).appendTo($("#past_confs"));
           }
         });
