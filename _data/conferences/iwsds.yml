@@ -44,11 +44,11 @@
   year: 2023
   id: iwsds2023
   link: https://sites.google.com/view/iwsds2023/home
-  deadline: '2022-11-8 23:59:59'
-  abstract_deadline: '2022-11-1 23:59:59'
+  deadline: '2022-11-08 23:59:59'
+  abstract_deadline: '2022-11-01 23:59:59'
   timezone: UTC-12
   place: Los Angeles, USA
-  date: Feb 21-24, 2023
+  date: February 21-24, 2023
   start: 2023-02-21
   end: 2023-02-24
   sub: NLP
