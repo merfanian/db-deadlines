@@ -2,15 +2,15 @@
   year: 2026
   id: sigdial26
   link: https://2026.sigdial.org/
-  deadline: '2026-03-23 23:59:59'
-  abstract_deadline: '2026-03-16 23:59:59'
+  deadline: '2026-04-20 23:59:59'
+  abstract_deadline: '2026-04-13 23:59:59'
   timezone: UTC-12
   place: Atlanta, Geogia
-  date: July 13-15, 2026
-  start: 2026-07-13
-  end: 2026-08-15
+  date: Aug 01-05, 2026
+  start: 2026-08-01
+  end: 2026-08-05
   sub: NLP
-  note: Mapaper registration deadline on 03/16/2026. ARR commitment date is May 4.  More info <a href='https://2026.sigdial.org/calls/main_conference/'>here</a>.
+  note: Paper registration deadline on 04/13/2026. ARR commitment date is May 25.  More info <a href='https://2026.sigdial.org/calls/main_conference/'>here</a>.
 
 
 - title: SIGDIAL
