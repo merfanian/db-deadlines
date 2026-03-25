@@ -2,14 +2,14 @@
   year: 2026
   id: emnlp26
   link: https://2026.emnlp.org/
-  deadline: '2026-05-19 23:59:00'
+  deadline: '2026-05-25 23:59:00'
   timezone: UTC-12
   place: Budapest, Hungary
   date: October 24-29, 2026
   start: 2026-10-24
   end: 2026-10-29
   sub: NLP
-  note: "Estimated deadline. All submissions via ACL Rolling Review (ARR). More info <a href='https://2026.emnlp.org/calls/main_conference_papers/'>here</a> (when available)."
+  note: "All submissions via ACL Rolling Review (ARR). More info <a href='https://2026.emnlp.org/calls/main_conference_papers/'>here</a> (when available)."
 
 - title: EMNLP
   year: 2025
