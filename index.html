@@ -173,7 +173,10 @@
 
         {% for conf in all_conferences %}
         {% for sub in conf.sub %}
-        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
+        var subName = sub2name["{{sub}}"];
+        if (subName) {
+          $('#{{conf.id}} .{{sub}}-tag').html(subName.toLocaleLowerCase());
+        }
         {% endfor %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
