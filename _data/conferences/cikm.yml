@@ -1,29 +1,42 @@
 - title: CIKM
   year: 2027
   id: CIKM27
-  link: https://cikm2027.org/
-  deadline: '2026-05-20 23:59:59'
-  abstract_deadline: '2026-05-13 23:59:59'
+  link: http://www.cikmconference.org/
+  deadline: '2027-05-23 23:59:59'
+  abstract_deadline: '2027-05-16 23:59:59'
   timezone: UTC-12
-  place: TBA
-  data: October 21 - October 25, 2024
-  start: '2027-10-21'
-  end: '2027-10-25'
-  sub: ['DM', 'KR']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://cikm2027.org/'>here</a>.
+  place: Sydney, Australia
+  date: November 2027
+  start: 2027-11-01
+  end: 2027-11-30
+  sub: [DM, KR]
+  note: Predicted based on CIKM 2025/2026 schedule pattern (AoE). CIKM 2027 host city announced by CIKM steering site. More info <a href='http://www.cikmconference.org/'>here</a>.
 - title: CIKM
   year: 2026
   id: CIKM26
-  link: https://cikm2026.org/
-  deadline: '2025-05-20 23:59:59'
-  abstract_deadline: '2025-05-13 23:59:59'
+  link: https://cikm2026.diag.uniroma1.it/important-dates/
+  deadline: '2026-05-23 23:59:59'
+  abstract_deadline: '2026-05-16 23:59:59'
   timezone: UTC-12
-  place: TBA
-  data: October 21 - October 25, 2024
-  start: '2026-10-21'
-  end: '2026-10-25'
-  sub: ['DM', 'KR']
-  note: More info <a href='https://cikm2026.org/'>here</a>.
+  place: Rome, Italy
+  date: November 7-11, 2026
+  start: 2026-11-07
+  end: 2026-11-11
+  sub: [DM, KR]
+  note: "Official key deadlines (AoE): full/applied abstract deadline May 16, 2026; full/applied submission deadline May 23, 2026. More info <a href='https://cikm2026.diag.uniroma1.it/important-dates/'>here</a>."
+- title: CIKM
+  year: 2025
+  id: CIKM25
+  link: https://cikm2025.org/
+  deadline: '2025-05-23 23:59:59'
+  abstract_deadline: '2025-05-16 23:59:59'
+  timezone: UTC-12
+  place: Seoul, South Korea
+  date: November 10-14, 2025
+  start: 2025-11-10
+  end: 2025-11-14
+  sub: [DM, KR]
+  note: "Official key deadlines (AoE): full/applied abstract deadline May 16, 2025; full/applied submission deadline May 23, 2025. More info <a href='https://www.cikm2025.org/calls/full-research-papers'>here</a>."
 - title: CIKM
   year: 2024
   id: CIKM24
@@ -32,10 +45,10 @@
   abstract_deadline: '2024-05-13 23:59:59'
   timezone: UTC-12
   place: Boise, Idaho, USA
-  data: October 21 - October 25, 2024
+  date: October 21 - October 25, 2024
   start: 2024-10-21
   end: 2024-10-25
-  sub: ['DM', 'KR']
+  sub: [DM, KR]
   note: Mandatory abstract deadline on May 13, 2024. More info <a href='https://cikm2024.org/call-for-papers/'>here</a>.
 - title: CIKM
   year: 2022
@@ -49,7 +62,7 @@
   start: 2022-10-17
   end: 2022-10-22
   hindex: 48
-  sub: ['DM']
+  sub: [DM]
   note: Mandatory abstract deadline on May 12, 2022
 - title: CIKM
   year: 2023
@@ -63,5 +76,5 @@
   date: October, 23-25, 2023
   start: 2023-10-23
   end: 2023-10-25
-  sub: ['KR']
+  sub: [KR]
   note: Check the conference website for workshop and demo deadlines
