@@ -55,7 +55,8 @@
   start: 2022-10-17
   end: 2022-10-22
   hindex: 48
-  sub: DM
+  sub:
+  - DM
   note: Mandatory abstract deadline on May 12, 2022
 - title: CIKM
   year: 2023
@@ -69,5 +70,6 @@
   date: October, 23-25, 2023
   start: 2023-10-23
   end: 2023-10-25
-  sub: KR
+  sub:
+  - KR
   note: Check the conference website for workshop and demo deadlines

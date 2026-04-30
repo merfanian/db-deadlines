@@ -8,7 +8,8 @@
   date: July 00 - July 07, 2027
   start: '2027-07-01'
   end: '2027-07-07'
-  sub: NLP
+  sub:
+  - NLP
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://aclrollingreview.org/dates'>here</a>.
 - title: ARR
   year: 2026
@@ -20,7 +21,8 @@
   date: July 27 - Aug 01, 2027
   start: 2027-07-27
   end: 2027-08-01
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
 - title: ARR
   year: 2026
@@ -32,7 +34,8 @@
   date: July 27 - Aug 01, 2027
   start: 2027-07-27
   end: 2027-08-01
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
 - title: ARR
   year: 2026
@@ -44,7 +47,8 @@
   date: July 27 - Aug 01, 2027
   start: 2027-07-27
   end: 2027-08-01
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
 - title: ARR
   year: 2026
@@ -56,7 +60,8 @@
   date: July 27 - Aug 01, 2027
   start: 2027-07-27
   end: 2027-08-01
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
 - title: ARR
   year: 2026
@@ -68,7 +73,8 @@
   date: July 00 - July 07, 2026
   start: 2026-07-01
   end: 2026-07-07
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
 - title: ARR
   year: 2025
@@ -80,7 +86,8 @@
   date: July 27 - Aug 01, 2026
   start: 2026-07-27
   end: 2026-08-01
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
 - title: ARR
   year: 2025
@@ -92,7 +99,8 @@
   date: July 27 - Aug 01, 2026
   start: 2026-07-27
   end: 2026-08-01
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
 - title: ARR
   year: 2025
@@ -104,5 +112,6 @@
   date: July 27 - Aug 01, 2026
   start: 2026-07-27
   end: 2026-08-01
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.

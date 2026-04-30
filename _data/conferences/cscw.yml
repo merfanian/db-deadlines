@@ -11,7 +11,8 @@
   start: 2027-01-01
   end: 2027-12-31
   hindex: 122
-  sub: HCI
+  sub:
+  - HCI
   note: Predicted deadline based on CSCW rolling model; CSCW 2027 conference dates are not announced yet. More info <a href='https://cscw.acm.org/2026/rolling.html'>here</a>.
 - title: CSCW
   year: 2026
@@ -26,5 +27,6 @@
   start: 2026-10-10
   end: 2026-10-14
   hindex: 122
-  sub: HCI
+  sub:
+  - HCI
   note: CSCW 2026 is held October 10-14, 2026 in Salt Lake City, Utah, USA. CSCW uses a rolling review model. More info <a href='https://cscw.acm.org/2026/'>here</a>.

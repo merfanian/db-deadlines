@@ -9,7 +9,8 @@
   start: '2027-07-03'
   end: '2027-07-04'
   hindex: 44
-  sub: NLP
+  sub:
+  - NLP
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://conll.org/'>here</a>.
 - title: CoNLL
   year: 2026
@@ -22,7 +23,8 @@
   start: 2026-07-03
   end: 2026-07-04
   hindex: 44
-  sub: NLP
+  sub:
+  - NLP
   note: Co-located with ACL 2026
 - title: CoNLL
   year: 2023
@@ -35,7 +37,8 @@
   start: 2023-12-06
   end: 2023-12-07
   hindex: 44
-  sub: NLP
+  sub:
+  - NLP
   note: Co-located with EMNLP 2023
 - title: CoNLL
   year: 2020
@@ -49,4 +52,5 @@
   end: 2020-11-20
   paperslink: https://aclanthology.org/events/conll-2020/
   hindex: 34
-  sub: NLP
+  sub:
+  - NLP

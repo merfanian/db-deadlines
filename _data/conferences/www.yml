@@ -10,7 +10,8 @@
   start: '2027-04-30'
   end: '2027-05-04'
   hindex: 70
-  sub: DM
+  sub:
+  - DM
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www2027.thewebconf.org/'>here</a>.
 - title: WWW
   year: 2026
@@ -24,7 +25,8 @@
   start: '2026-04-30'
   end: '2026-05-04'
   hindex: 70
-  sub: DM
+  sub:
+  - DM
   note: More info <a href='https://www2026.thewebconf.org/'>here</a>.
 - title: WWW
   year: 2023
@@ -38,5 +40,6 @@
   start: 2022-04-30
   end: 2022-05-04
   hindex: 70
-  sub: DM
+  sub:
+  - DM
   note: Mandatory abstract deadline on October 6, 2022

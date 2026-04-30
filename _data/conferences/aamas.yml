@@ -60,7 +60,8 @@
   date: May 06 - May 10, 2024
   start: 2024-05-06
   end: 2024-05-10
-  sub: ML
+  sub:
+  - ML
   note: Mandatory abstract deadline on Oct 02, 2023. More info <a href='https://www.aamas2024-conference.auckland.ac.nz/calls/call-for-papers/'>here</a>.
 - title: AAMAS
   year: 2023
@@ -74,5 +75,6 @@
   start: 2023-05-29
   end: 2023-06-02
   hindex: 25
-  sub: ML
+  sub:
+  - ML
   note: Mandatory abstract deadline on Oct 21, 2022. More info <a href='https://aamas2023.soton.ac.uk/calls/call-for-papers/'>here</a>.

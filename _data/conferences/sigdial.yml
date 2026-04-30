@@ -9,7 +9,8 @@
   date: Aug 01-05, 2027
   start: '2027-08-01'
   end: '2027-08-05'
-  sub: NLP
+  sub:
+  - NLP
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.sigdial.org/'>here</a>.
 - title: SIGDIAL
   year: 2026
@@ -22,7 +23,8 @@
   date: Aug 01-05, 2026
   start: 2026-08-01
   end: 2026-08-05
-  sub: NLP
+  sub:
+  - NLP
   note: Paper registration deadline on 04/13/2026. ARR commitment date is May 25.  More info <a href='https://2026.sigdial.org/calls/main_conference/'>here</a>.
 - title: SIGDIAL
   year: 2025
@@ -35,7 +37,8 @@
   date: Aug 25-27, 2025
   start: 2025-08-25
   end: 2025-08-27
-  sub: NLP
+  sub:
+  - NLP
   note: Mandatory paper registration deadline on April 21, 2025. More info <a href='https://2025.sigdial.org/'>here</a>.
 - title: SIGDIAL
   year: 2024
@@ -48,7 +51,8 @@
   date: Sept 18-20, 2024
   start: 2024-09-18
   end: 2024-09-20
-  sub: NLP
+  sub:
+  - NLP
   note: Mandatory paper registration deadline on May 17, 2024. More info <a href='https://2024.sigdial.org/'>here</a>.
 - title: SIGDIAL
   year: 2023
@@ -61,7 +65,8 @@
   date: Sept 11-15, 2023
   start: 2023-09-11
   end: 2023-09-15
-  sub: NLP
+  sub:
+  - NLP
   note: Mandatory paper registration deadline on May 25, 2023. More info <a href='https://2023.sigdial.org/'>here</a>.
 - title: SIGDIAL
   year: 2022
@@ -74,5 +79,6 @@
   date: Sept 07-09, 2022
   start: 2022-09-07
   end: 2022-09-09
-  sub: NLP
+  sub:
+  - NLP
   note: Mandatory paper registration deadline on May 19, 2022. More info <a href='https://2022.sigdial.org/'>here</a>.

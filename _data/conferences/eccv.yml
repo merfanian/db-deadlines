@@ -10,7 +10,8 @@
   start: '2027-09-29'
   end: '2027-10-04'
   hindex: 238
-  sub: CV
+  sub:
+  - CV
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://eccv.ecva.net/Conferences/2027'>here</a>.
 - title: ECCV
   year: 2026
@@ -24,7 +25,8 @@
   start: 2026-09-29
   end: 2026-10-04
   hindex: 238
-  sub: CV
+  sub:
+  - CV
   note: 'Paper registration deadline: February 26, 2026 (11:00 AM CET). Supplemental materials deadline: March 12, 2026. Reviews released: May 2, 2026. Rebuttal deadline: May 11, 2026. Final decisions: June 17, 2026. More info <a href=''https://eccv.ecva.net/Conferences/2026''>here</a>.'
 - title: ECCV
   year: 2024
@@ -38,7 +40,8 @@
   start: 2024-09-29
   end: 2024-10-04
   hindex: 238
-  sub: CV
+  sub:
+  - CV
   note: More info <a href='https://eccv2024.ecva.net/'>here</a>.
 - title: ECCV
   year: 2022
@@ -51,4 +54,5 @@
   start: 2022-10-24
   end: 2022-10-28
   hindex: 197
-  sub: CV
+  sub:
+  - CV

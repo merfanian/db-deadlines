@@ -61,5 +61,6 @@
   date: December, 09-12, 2022
   start: 2022-12-09
   end: 2022-12-12
-  sub: ML
+  sub:
+  - ML
   note: This is the inaugural event of a conference dedicated to Graph Machine Learning

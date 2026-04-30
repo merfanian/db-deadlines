@@ -9,7 +9,8 @@
   start: 2027-07-01
   end: 2027-07-31
   hindex: 192
-  sub: NLP
+  sub:
+  - NLP
   note: Predicted based on historical pattern. All submissions should be done through ARR. More info <a href='https://2027.aclweb.org/'>here</a> (when available).
 - title: ACL
   year: 2026
@@ -22,7 +23,8 @@
   start: 2026-07-02
   end: 2026-07-07
   hindex: 192
-  sub: NLP
+  sub:
+  - NLP
   note: 'All submissions via ACL Rolling Review (ARR). ARR reviews available: March 9, 2026. Commitment deadline: March 14, 2026. Notification: April 4, 2026. Camera-ready: April 19, 2026. More info <a href=''https://2026.aclweb.org/calls/main_conference_papers/''>here</a>.'
 - title: ACL
   year: 2025
@@ -35,7 +37,8 @@
   start: 2025-07-27
   end: 2025-08-01
   hindex: 192
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://www.aclweb.org/portal/sites/default/files/Submission%20Dates%20and%20Process%20for%20EACL_NAACL%20and%20ACL%202024-2.pdf">here</a>.
 - title: ACL
   year: 2024
@@ -48,7 +51,8 @@
   start: 2024-08-11
   end: 2024-08-16
   hindex: 192
-  sub: NLP
+  sub:
+  - NLP
   note: All submissions should be done through ARR. More info <a href="https://www.aclweb.org/portal/sites/default/files/Submission%20Dates%20and%20Process%20for%20EACL_NAACL%20and%20ACL%202024-2.pdf">here</a>.
 - title: ACL
   year: 2023
@@ -62,7 +66,8 @@
   start: 2023-07-09
   end: 2023-07-14
   hindex: 169
-  sub: NLP
+  sub:
+  - NLP
   note: Hybrid format with ARR and START. Above deadlines are for START while abstract deadline is 13 January 2023. Submission to ARR should before 15 December 2022. More info <a href="https://2023.aclweb.org/calls/main_conference/">here</a>.
 - title: ACL
   year: 2022
@@ -75,4 +80,5 @@
   start: 2022-05-22
   end: 2022-05-27
   hindex: 157
-  sub: NLP
+  sub:
+  - NLP

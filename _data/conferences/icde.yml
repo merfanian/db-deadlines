@@ -9,7 +9,8 @@
   date: May 4-8, 2027
   start: '2027-05-04'
   end: '2027-05-08'
-  sub: DM
+  sub:
+  - DM
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://icde2027.github.io/'>here</a>.
 - title: ICDE-2
   year: 2026
@@ -22,7 +23,8 @@
   date: May 4-8, 2026
   start: 2026-05-04
   end: 2026-05-08
-  sub: DM
+  sub:
+  - DM
   note: More info <a href='https://icde2026.github.io/'>here</a>.
 - title: ICDE-2
   year: 2025
@@ -35,7 +37,8 @@
   date: May 4-8, 2026
   start: 2026-05-04
   end: 2026-05-08
-  sub: DM
+  sub:
+  - DM
 - title: ICDE-1
   year: 2025
   id: icde25-1
@@ -47,4 +50,5 @@
   date: May 4-8, 2026
   start: 2026-05-04
   end: 2026-05-08
-  sub: DM
+  sub:
+  - DM

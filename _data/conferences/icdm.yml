@@ -10,7 +10,8 @@
   date: November 12-15, 2027
   start: '2027-11-12'
   end: '2027-11-15'
-  sub: DM
+  sub:
+  - DM
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='http://icdm2027.neu.edu.cn/'>here</a>.
 - title: ICDM
   year: 2026
@@ -24,7 +25,8 @@
   date: November 12-15, 2026
   start: 2026-11-12
   end: 2026-11-15
-  sub: DM
+  sub:
+  - DM
   note: 'Main Conference Full Paper Submission: June 6, 2026. Abstract Submission: May 30, 2026. Author Notification: August 16, 2026. More info <a href=''http://icdm2026.neu.edu.cn/''>here</a>.'
 - title: ICDM
   year: 2025
@@ -37,7 +39,8 @@
   date: Novemember 12-15, 2025
   start: 2025-12-09
   end: 2025-12-12
-  sub: DM
+  sub:
+  - DM
 - title: ICDM
   year: 2024
   id: icdm24
@@ -49,7 +52,8 @@
   date: December 1-4, 2024
   start: 2024-12-09
   end: 2024-12-12
-  sub: DM
+  sub:
+  - DM
 - title: ICDM
   year: 2023
   id: icdm23
@@ -61,7 +65,8 @@
   date: December 1-4, 2023
   start: 2023-12-01
   end: 2023-12-04
-  sub: DM
+  sub:
+  - DM
   note: null
 - title: ICDM
   year: 2022
@@ -75,7 +80,8 @@
   start: 2022-11-30
   end: 2022-12-03
   hindex: 124.0
-  sub: DM
+  sub:
+  - DM
   note: Paper submissions limited to ten (10) pages, in the IEEE 2-column format | <a href="https://icdm22.cse.usf.edu/key-dates.html"> Key Dates</a> | <a href="https://icdm22.cse.usf.edu/calls/Papers.html">Call for Papers </a>
 - title: ICDM
   year: 2021
@@ -88,4 +94,5 @@
   start: 2021-12-07
   end: 2021-12-10
   hindex: -1
-  sub: DM
+  sub:
+  - DM
