@@ -1,4 +1,21 @@
 - title: AAMAS
+  year: 2027
+  id: aamas27
+  link: https://aamas2027.org/
+  deadline: '2025-10-16 23:59:59'
+  abstract_deadline: '2025-10-09 23:59:59'
+  timezone: UTC-12
+  place: Detroit, Michigan, USA
+  date: May 19 - May 23, 2027
+  start: '2027-05-19'
+  end: '2027-05-23'
+  sub:
+  - KR
+  - ML
+  - RO
+  - AP
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://aamas2027.org/'>here</a>.
+- title: AAMAS
   year: 2025
   id: aamas25
   link: https://aamas2025.org/
@@ -9,9 +26,12 @@
   date: May 19 - May 23, 2025
   start: 2025-05-19
   end: 2025-05-23
-  sub: ['KR', 'ML', 'RO', 'AP']
+  sub:
+  - KR
+  - ML
+  - RO
+  - AP
   note: Mandatory abstract deadline on Oct 09, 2024. More info <a href='https://aamas2025.org/'>here</a>.
-
 - title: AAMAS
   year: 2024
   id: aamas24
@@ -25,7 +45,6 @@
   end: 2024-05-10
   sub: ML
   note: Mandatory abstract deadline on Oct 02, 2023. More info <a href='https://www.aamas2024-conference.auckland.ac.nz/calls/call-for-papers/'>here</a>.
-
 - title: AAMAS
   year: 2023
   id: aamas23

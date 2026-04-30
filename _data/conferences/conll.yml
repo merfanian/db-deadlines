@@ -1,17 +1,29 @@
 - title: CoNLL
+  year: 2027
+  id: conll27
+  link: https://conll.org/
+  deadline: '2027-02-19 23:59:59'
+  timezone: UTC-12
+  place: San Diego
+  date: July 3-4, 2027
+  start: '2027-07-03'
+  end: '2027-07-04'
+  hindex: 44
+  sub: NLP
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://conll.org/'>here</a>.
+- title: CoNLL
   year: 2026
   id: conll26
   link: https://conll.org/
   deadline: '2026-02-19 23:59:59'
   timezone: UTC-12
-  place: San Diego 
+  place: San Diego
   date: July 3-4, 2026
   start: 2026-07-03
   end: 2026-07-04
   hindex: 44
   sub: NLP
   note: Co-located with ACL 2026
-
 - title: CoNLL
   year: 2023
   id: conll23
@@ -25,7 +37,6 @@
   hindex: 44
   sub: NLP
   note: Co-located with EMNLP 2023
-
 - title: CoNLL
   year: 2020
   id: conll2020

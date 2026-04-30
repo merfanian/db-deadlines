@@ -1,7 +1,20 @@
 - title: ICDE-2
+  year: 2027
+  id: icde25-227
+  link: https://icde2027.github.io/
+  deadline: '2026-10-27 23:59:00'
+  abstract_deadline: '2026-10-27 23:59:00'
+  timezone: AoE
+  place: Montreal, Canada
+  date: May 4-8, 2027
+  start: '2027-05-04'
+  end: '2027-05-08'
+  sub: DM
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://icde2027.github.io/'>here</a>.
+- title: ICDE-2
   year: 2025
   id: icde25-2
-  link: https://icde2026.github.io/ 
+  link: https://icde2026.github.io/
   deadline: '2025-10-27 23:59:00'
   abstract_deadline: '2025-10-27 23:59:00'
   timezone: AoE
@@ -10,11 +23,10 @@
   start: 2026-05-04
   end: 2026-05-08
   sub: DM
-
 - title: ICDE-1
   year: 2025
   id: icde25-1
-  link: https://icde2026.github.io/ 
+  link: https://icde2026.github.io/
   deadline: '2025-06-18 23:59:00'
   abstract_deadline: '2025-06-18 23:59:00'
   timezone: AoE

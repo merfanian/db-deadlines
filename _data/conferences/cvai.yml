@@ -1,4 +1,20 @@
 - title: CVAI
+  year: 2027
+  id: cvai27
+  full_name: International Symposium on Computer Vision and Artificial Intelligence
+  link: https://www.cvai2027.org/index.html
+  deadline: '2027-02-05 23:59:59'
+  timezone: Asia/Shanghai
+  place: Shanghai, China
+  date: March 27-29, 2027
+  start: '2027-03-27'
+  end: '2027-03-29'
+  sub:
+  - CV
+  - ML
+  - RO
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.cvai2027.org/index.html'>here</a>.
+- title: CVAI
   year: 2026
   id: cvai26
   full_name: International Symposium on Computer Vision and Artificial Intelligence
@@ -9,5 +25,8 @@
   date: March 27-29, 2026
   start: 2026-03-27
   end: 2026-03-29
-  sub: ['CV', 'ML', 'RO']
-  note: "Extended deadline (originally Nov 30, 2025). Second round. First round deadline: Sep 25, 2025. More info <a href='https://www.cvai2026.org/index.html'>here</a>."
+  sub:
+  - CV
+  - ML
+  - RO
+  note: 'Extended deadline (originally Nov 30, 2025). Second round. First round deadline: Sep 25, 2025. More info <a href=''https://www.cvai2026.org/index.html''>here</a>.'

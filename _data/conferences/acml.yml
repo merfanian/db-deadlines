@@ -1,4 +1,17 @@
 - title: ACML
+  year: 2027
+  id: acml27
+  full_name: Asian Conference on Machine Learning
+  link: https://www.acml-conf.org/2027/papers.htm
+  deadline: '2026-06-26 23:59:59'
+  timezone: UTC-12
+  place: Taipei, Taiwan
+  date: December 9-12, 2027
+  start: '2027-12-09'
+  end: '2027-12-12'
+  sub: ML
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.acml-conf.org/2027/papers.htm'>here</a>.
+- title: ACML
   year: 2025
   id: acml25
   full_name: Asian Conference on Machine Learning
@@ -10,8 +23,7 @@
   start: 2025-12-09
   end: 2025-12-12
   sub: ML
-  note: "Conference track deadline. Journal track deadline: May 30, 2025. More info <a href='https://www.acml-conf.org/2025/papers.htm'>here</a>."
-
+  note: 'Conference track deadline. Journal track deadline: May 30, 2025. More info <a href=''https://www.acml-conf.org/2025/papers.htm''>here</a>.'
 - title: ACML
   year: 2023
   id: acml23
@@ -23,7 +35,6 @@
   start: 2023-11-11
   end: 2023-11-14
   sub: ML
-
 - title: ACML
   year: 2022
   id: acml22
@@ -36,7 +47,6 @@
   end: 2022-12-14
   hindex: 20
   sub: ML
-
 - title: ACML
   year: 2021
   id: acml21

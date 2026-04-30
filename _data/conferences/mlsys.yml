@@ -1,7 +1,19 @@
-- title: MLSYS 
+- title: MLSYS
+  year: 2027
+  id: mlsys27
+  link: https://mlsys.org/Conferences/2027/
+  deadline: '2026-10-30 13:00:00'
+  timezone: America/Los_Angeles
+  place: Seattle
+  date: May 17-22, 2027
+  start: '2027-05-17'
+  end: '2027-05-23'
+  sub: ML
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://mlsys.org/Conferences/2027/'>here</a>.
+- title: MLSYS
   year: 2026
   id: mlsys26
-  link:  https://mlsys.org/Conferences/2026/
+  link: https://mlsys.org/Conferences/2026/
   deadline: '2025-10-30 13:00:00'
   timezone: America/Los_Angeles
   place: Seattle

@@ -1,7 +1,21 @@
 - title: LAK
+  year: 2027
+  id: lak27
+  link: https://www.solaresearch.org/events/lak/lak25/
+  deadline: '2025-09-23 23:59:59'
+  abstract_deadline: '2025-09-23 23:59:59'
+  timezone: UTC-12
+  place: Dublin, Ireland
+  date: March 03-03, 2027
+  start: '2027-03-03'
+  end: '2027-03-07'
+  hindex: 389
+  sub: EDU
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.solaresearch.org/events/lak/lak25/'>here</a>.
+- title: LAK
   year: 2025
   id: lak2025
-  link:  https://www.solaresearch.org/events/lak/lak25/
+  link: https://www.solaresearch.org/events/lak/lak25/
   deadline: '2024-09-23 23:59:59'
   abstract_deadline: '2024-09-23 23:59:59'
   timezone: UTC-12

@@ -1,4 +1,17 @@
 - title: ICMLA
+  year: 2027
+  id: icmla27
+  full_name: International Conference on Machine Learning and Applications
+  link: https://www.icmla-conference.org/icmla25/callforpapers.html
+  deadline: '2026-07-28 23:59:59'
+  timezone: UTC-12
+  place: TBD
+  date: December 3-5, 2027
+  start: '2027-12-03'
+  end: '2027-12-05'
+  sub: ML
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.icmla-conference.org/icmla25/callforpapers.html'>here</a>.
+- title: ICMLA
   year: 2025
   id: icmla25
   full_name: International Conference on Machine Learning and Applications
@@ -10,4 +23,4 @@
   start: 2025-12-03
   end: 2025-12-05
   sub: ML
-  note: "Extended deadline (originally July 15, 2025). Special sessions/tutorials deadline: May 8, 2025. More info <a href='https://www.icmla-conference.org/icmla25/callforpapers.html'>here</a>."
+  note: 'Extended deadline (originally July 15, 2025). Special sessions/tutorials deadline: May 8, 2025. More info <a href=''https://www.icmla-conference.org/icmla25/callforpapers.html''>here</a>.'

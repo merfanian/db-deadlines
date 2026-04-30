@@ -1,4 +1,18 @@
 - title: COLING
+  year: 2027
+  id: coling27
+  full_name: The 31st International Conference on Computational Linguistics
+  link: https://coling2027.org/
+  deadline: '2025-09-16 23:59:59'
+  timezone: UTC-12
+  place: Abu Dhabi, UAE
+  date: January 19-24, 2027
+  start: '2027-01-19'
+  end: '2027-01-24'
+  hindex: 73
+  sub: NLP
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://coling2027.org/'>here</a>.
+- title: COLING
   year: 2025
   id: coling25
   full_name: The 31st International Conference on Computational Linguistics
@@ -12,7 +26,6 @@
   hindex: 73
   sub: NLP
   note: More info can be found <a href="https://coling2025.org/calls/main_conference_papers/#important-dates">here</a>.
-
 - title: LREC-COLING
   year: 2024
   id: lreccoling24
@@ -27,7 +40,6 @@
   hindex: -1
   sub: NLP
   note: Workshop / Tutorial proposals are also due on October 13th, more info <a href="https://lrec-coling-2024.lrec-conf.org/1stCfP-LRECCOLING2024.html">here</a>.
-
 - title: COLING
   year: 2022
   id: coling22

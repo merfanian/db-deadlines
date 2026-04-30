@@ -1,4 +1,17 @@
 - title: IWSDS
+  year: 2027
+  id: iwsds27
+  link: https://sites.google.com/unitn.it/iwsds26/home/
+  deadline: '2027-10-28 23:59:59'
+  abstract_deadline: '2027-10-28 23:59:59'
+  timezone: UTC-12
+  place: Trento, Italy
+  date: February 26 - March 1, 2027
+  start: '2027-02-26'
+  end: '2027-03-01'
+  sub: NLP
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://sites.google.com/unitn.it/iwsds26/home/'>here</a>.
+- title: IWSDS
   year: 2026
   id: iwsds2026
   link: https://sites.google.com/unitn.it/iwsds26/home/
@@ -11,7 +24,6 @@
   end: 2026-03-01
   sub: NLP
   note: 'The 16th International Workshop on Spoken Dialogue Systems. Theme: "Human-Machine Dialogue in the Era of Multimodal Foundation Models". More info <a href="https://sites.google.com/unitn.it/iwsds26/home/">here</a>.'
-
 - title: IWSDS
   year: 2025
   id: iwsds2025
@@ -25,7 +37,6 @@
   end: 2025-05-30
   sub: NLP
   note: Mandatory paper registration deadline on Jan 11, 2025. More info <a href='https://sites.google.com/view/iwsds2025/important-dates'>here</a>.
-
 - title: IWSDS
   year: 2024
   id: iwsds2024
@@ -39,7 +50,6 @@
   end: 2024-03-06
   sub: NLP
   note: Mandatory paper registration deadline on Nov 10, 2023. More info <a href='https://sites.google.com/view/iwsds2023/important-dates'>here</a>.
-
 - title: IWSDS
   year: 2023
   id: iwsds2023

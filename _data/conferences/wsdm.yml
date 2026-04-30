@@ -1,4 +1,18 @@
 - title: WSDM
+  year: 2027
+  id: wsdm27
+  full_name: ACM International Conference on Web Search and Data Mining
+  link: https://wsdm-conference.org/2027/index.php/call-for-papers/
+  deadline: '2026-08-14 23:59:59'
+  abstract_deadline: '2026-08-07 23:59:59'
+  timezone: UTC-12
+  place: Boise, Idaho, USA
+  date: February 22-26, 2027
+  start: '2027-02-22'
+  end: '2027-02-26'
+  sub: DM
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://wsdm-conference.org/2027/index.php/call-for-papers/'>here</a>.
+- title: WSDM
   year: 2026
   id: wsdm26
   full_name: ACM International Conference on Web Search and Data Mining
@@ -11,8 +25,7 @@
   start: 2026-02-22
   end: 2026-02-26
   sub: DM
-  note: "Short paper track: Sep 25, 2025. More info <a href='https://wsdm-conference.org/2026/index.php/call-for-papers/'>here</a>."
-
+  note: 'Short paper track: Sep 25, 2025. More info <a href=''https://wsdm-conference.org/2026/index.php/call-for-papers/''>here</a>.'
 - title: WSDM
   year: 2025
   id: wsdm25
@@ -26,7 +39,6 @@
   start: 2025-03-10
   end: 2025-03-14
   sub: DM
-
 - title: WSDM
   year: 2023
   id: wsdm23
@@ -39,7 +51,6 @@
   end: 2023-03-03
   hindex: 54
   sub: DM
-
 - title: WSDM
   year: 2022
   id: wsdm22

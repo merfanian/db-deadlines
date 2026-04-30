@@ -1,16 +1,28 @@
 - title: STARSEM
+  year: 2027
+  id: starsem27
+  link: https://starsem2027.github.io/
+  deadline: '2027-02-13 23:59:59'
+  abstract_deadline: '2027-02-13 23:59:59'
+  timezone: UTC-12
+  place: San Diego, CA, US
+  date: July 06, 2027
+  start: '2027-07-06'
+  end: '2027-07-06'
+  sub: NLP
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://starsem2027.github.io/'>here</a>.
+- title: STARSEM
   year: 2026
   id: starsem2026
   link: https://starsem2026.github.io/
   deadline: '2026-02-13 23:59:59'
   abstract_deadline: '2026-02-13 23:59:59'
   timezone: UTC-12
-  place: San Diego, CA, US 
+  place: San Diego, CA, US
   date: July 06, 2026
   start: 2026-07-06
   end: 2026-07-06
   sub: NLP
-
 - title: STARSEM
   year: 2025
   id: starsem2025
@@ -18,18 +30,17 @@
   deadline: '2025-05-30 23:59:59'
   abstract_deadline: '2025-05-30 23:59:59'
   timezone: UTC-12
-  place:  Suzhou, China
+  place: Suzhou, China
   date: Sept 22-24, 2025
   start: 2025-09-22
   end: 2025-09-24
   hindex: 389
   sub: NLP
   note: Mandatory paper registration deadline on June 04, 2025. More info <a href='https://iwcs2025.github.io/call_for_papers'>here</a>.
-
 - title: STARSEM
   year: 2023
-  id: starsem23  # title as lower case + last two digits of year
-  full_name: '*SEM 2023'  # full conference name
+  id: starsem23
+  full_name: '*SEM 2023'
   link: https://sites.google.com/view/starsem2023
   deadline: 2023-03-24 23:59
   timezone: UTC-12

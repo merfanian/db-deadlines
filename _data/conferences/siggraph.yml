@@ -1,4 +1,17 @@
 - title: SIGGRAPH
+  year: 2027
+  id: siggraph27
+  link: https://s2027.siggraph.org/
+  deadline: '2025-01-24 22:00:00'
+  abstract_deadline: '2025-01-23 22:00:00'
+  timezone: GMT
+  place: Denver, USA
+  date: July 28 - August 1, 2027
+  start: '2027-07-28'
+  end: '2027-08-01'
+  sub: CG
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://s2027.siggraph.org/'>here</a>.
+- title: SIGGRAPH
   year: 2024
   id: siggraph24
   link: https://s2024.siggraph.org/
@@ -11,7 +24,6 @@
   end: 2024-08-01
   sub: CG
   note: Mandatory abstract deadline on Jan 23, 2024. More info <a href='https://s2024.siggraph.org/program/technical-papers/'>here</a>.
-
 - title: SIGGRAPH
   year: 2023
   id: siggraph23

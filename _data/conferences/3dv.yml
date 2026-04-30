@@ -1,4 +1,16 @@
 - title: 3DV
+  year: 2027
+  id: threedv27
+  link: https://3dvconf.github.io/2027/
+  deadline: '2024-08-07 23:59:59'
+  timezone: America/Los_Angeles
+  place: Davos, Switzerland
+  date: March 18-21, 2027
+  start: '2027-03-18'
+  end: '2027-03-21'
+  sub: CV
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://3dvconf.github.io/2027/'>here</a>.
+- title: 3DV
   year: 2024
   id: threedv24
   link: https://3dvconf.github.io/2024/
@@ -9,7 +21,6 @@
   start: 2024-03-18
   end: 2024-03-21
   sub: CV
-
 - title: 3DV
   year: 2020
   id: threedv20

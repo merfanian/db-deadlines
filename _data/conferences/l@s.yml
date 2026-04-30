@@ -1,4 +1,21 @@
 - title: Learing at Scale
+  year: 2027
+  id: ls27
+  link: https://learningatscale.hosting.acm.org/las2027/call-for-papers/
+  deadline: '2027-02-16 23:59:59'
+  abstract_deadline: '2027-02-09 23:59:59'
+  timezone: UTC-12
+  place: Seoul, Korea
+  date: June 29-July 03, 2027
+  start: '2027-06-29'
+  end: '2027-07-03'
+  sub:
+  - NLP
+  - ML
+  - CV
+  - EDU
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://learningatscale.hosting.acm.org/las2027/call-for-papers/'>here</a>.
+- title: Learing at Scale
   year: 2026
   id: ls2026
   link: https://learningatscale.hosting.acm.org/las2026/call-for-papers/
@@ -9,13 +26,16 @@
   date: June 29-July 03, 2026
   start: 2026-06-29
   end: 2026-07-03
-  sub: ['NLP','ML','CV','EDU']
-  note: "Mandatory abstract deadline on February 9, 2026. Demonstrations deadline: April 14, 2026. More info <a href='https://learningatscale.hosting.acm.org/las2026/call-for-papers/'>here</a>." 
-
+  sub:
+  - NLP
+  - ML
+  - CV
+  - EDU
+  note: 'Mandatory abstract deadline on February 9, 2026. Demonstrations deadline: April 14, 2026. More info <a href=''https://learningatscale.hosting.acm.org/las2026/call-for-papers/''>here</a>.'
 - title: Learing at Scale
   year: 2025
   id: ls2025
-  link:  https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/
+  link: https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/
   deadline: '2025-02-20 23:59:59'
   abstract_deadline: '2025-02-13 23:59:59'
   timezone: UTC-12
@@ -23,5 +43,9 @@
   date: July 21-23, 2025
   start: 2025-07-21
   end: 2025-07-23
-  sub: ['NLP','ML','CV','EDU']
+  sub:
+  - NLP
+  - ML
+  - CV
+  - EDU
   note: Mandatory paper registration deadline on Feb 13, 2024. More info <a href='https://learningatscale.hosting.acm.org/las2025/index.php/call-for-papers/'>here</a>.

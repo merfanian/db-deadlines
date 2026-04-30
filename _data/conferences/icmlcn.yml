@@ -1,4 +1,17 @@
 - title: ICMLCN
+  year: 2027
+  id: icmlcn27
+  full_name: IEEE International Conference on Machine Learning for Communication and Networking
+  link: https://icmlcn2027.ieee-icmlcn.org/call-papers
+  deadline: '2026-11-13 23:59:59'
+  timezone: UTC-12
+  place: Abu Dhabi, United Arab Emirates
+  date: March 30 - April 2, 2027
+  start: '2027-03-30'
+  end: '2027-04-02'
+  sub: ML
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://icmlcn2027.ieee-icmlcn.org/call-papers'>here</a>.
+- title: ICMLCN
   year: 2026
   id: icmlcn26
   full_name: IEEE International Conference on Machine Learning for Communication and Networking
@@ -10,4 +23,4 @@
   start: 2026-03-30
   end: 2026-04-02
   sub: ML
-  note: "Extended deadline. Camera-ready due: February 25, 2026. More info <a href='https://icmlcn2026.ieee-icmlcn.org/call-papers'>here</a>."
+  note: 'Extended deadline. Camera-ready due: February 25, 2026. More info <a href=''https://icmlcn2026.ieee-icmlcn.org/call-papers''>here</a>.'

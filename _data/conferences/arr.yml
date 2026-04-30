@@ -1,4 +1,16 @@
 - title: ARR
+  year: 2027
+  id: arr2627
+  link: https://aclrollingreview.org/dates
+  deadline: '2027-03-16 23:59:59'
+  timezone: UTC-12
+  place: America(TBU)
+  date: July 00 - July 07, 2027
+  start: '2027-07-01'
+  end: '2027-07-07'
+  sub: NLP
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://aclrollingreview.org/dates'>here</a>.
+- title: ARR
   year: 2026
   id: arr2603
   link: https://aclrollingreview.org/dates
@@ -10,8 +22,6 @@
   end: 2026-07-07
   sub: NLP
   note: This ARR will lead to commit to SIGDIAL or EMNLP, not COLM. More info <a href="https://aclrollingreview.org/dates">here</a>.
-
-
 - title: ARR
   year: 2026
   id: arr2601
@@ -24,7 +34,6 @@
   end: 2026-07-07
   sub: NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
-
 - title: ARR
   year: 2025
   id: arr2505
@@ -37,7 +46,6 @@
   end: 2026-08-01
   sub: NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
-
 - title: ARR
   year: 2025
   id: arr2507
@@ -50,7 +58,6 @@
   end: 2026-08-01
   sub: NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
-
 - title: ARR
   year: 2025
   id: arr2510
@@ -63,4 +70,3 @@
   end: 2026-08-01
   sub: NLP
   note: All submissions should be done through ARR. More info <a href="https://aclrollingreview.org/dates">here</a>.
-

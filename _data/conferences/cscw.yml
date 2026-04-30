@@ -1,8 +1,23 @@
 - title: CSCW
+  year: 2027
+  id: cscw27
+  full_name: The ACM Conference on Computer-Supported Cooperative Work and Social Computing
+  link: https://cscw.acm.org/2027/papers.html
+  deadline: '2026-05-13 23:59:59'
+  abstract_deadline: '2026-05-13 23:59:59'
+  timezone: UTC-12
+  place: Barcelona, Spain
+  date: April 26 - May 01, 2027
+  start: '2027-04-26'
+  end: '2027-05-01'
+  hindex: 122
+  sub: HCI
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://cscw.acm.org/2027/papers.html'>here</a>.
+- title: CSCW
   year: 2026
   id: cscw26
   full_name: The ACM Conference on Computer-Supported Cooperative Work and Social Computing
-  link: https://cscw.acm.org/2026/papers.html 
+  link: https://cscw.acm.org/2026/papers.html
   deadline: '2025-05-13 23:59:59'
   abstract_deadline: '2025-05-13 23:59:59'
   timezone: UTC-12

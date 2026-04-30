@@ -1,4 +1,16 @@
 - title: LREC
+  year: 2027
+  id: lrec27
+  link: https://lrec2027.info/
+  deadline: '2026-10-17 23:59:59'
+  timezone: UTC-12
+  place: Palma, Mallorca
+  date: May 11-16, 2027
+  start: '2027-05-11'
+  end: '2027-05-16'
+  sub: NLP
+  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://lrec2027.info/'>here</a>.
+- title: LREC
   year: 2026
   id: lrec26
   link: https://lrec2026.info/
@@ -9,7 +21,6 @@
   start: 2026-05-11
   end: 2026-05-16
   sub: NLP
-
 - title: LREC
   year: 2022
   id: lrec22
