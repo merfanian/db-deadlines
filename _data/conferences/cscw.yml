@@ -1,19 +1,4 @@
 - title: CSCW
-  year: 2027
-  id: cscw27
-  full_name: The ACM Conference on Computer-Supported Cooperative Work and Social Computing
-  link: https://cscw.acm.org/2027/papers.html
-  deadline: '2026-05-13 23:59:59'
-  abstract_deadline: '2026-05-13 23:59:59'
-  timezone: UTC-12
-  place: TBA
-  date: TBA, 2027
-  start: 2027-01-01
-  end: 2027-12-31
-  hindex: 122
-  sub: ['HCI']
-  note: Predicted deadline based on CSCW rolling model; CSCW 2027 conference dates are not announced yet. More info <a href='https://cscw.acm.org/2026/rolling.html'>here</a>.
-- title: CSCW
   year: 2026
   id: cscw26
   full_name: The ACM Conference on Computer-Supported Cooperative Work and Social Computing
@@ -26,5 +11,5 @@
   start: 2026-10-10
   end: 2026-10-14
   hindex: 122
-  sub: ['HCI']
+  sub: [HCI]
   note: CSCW 2026 is held October 10-14, 2026 in Salt Lake City, Utah, USA. CSCW uses a rolling review model. More info <a href='https://cscw.acm.org/2026/'>here</a>.
