@@ -186,6 +186,10 @@
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          // Some entries use "AoE" (Anywhere on Earth). Normalize for moment-timezone.
+          if (timezone === "AoE") {
+            timezone = "UTC-12";
+          }
           var confDate = moment.tz("{{conf.deadline}}", timezone);
           if (!confDate.isValid()) {
             // Guard against malformed dates so sorting logic still runs.
@@ -221,7 +225,10 @@
             date: confDate.toDate(),
             duration: 60,
           })
-          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
+          var calendarNode = document.querySelector('#{{conf.id}} .calendar');
+          if (calendarNode) {
+            calendarNode.appendChild(myCalendar);
+          }
 
           // check if date has passed, add 'past' class to it
           var today = moment();
