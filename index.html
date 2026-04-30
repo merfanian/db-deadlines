@@ -179,6 +179,7 @@
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
           $('#{{conf.id}}').attr("diff", "999999");
+          $('#{{conf.id}}').attr("deadline_ts", "9007199254740991");
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
@@ -217,6 +218,7 @@
           diff = today.diff(confDate, 'days');
 
           $('#{{conf.id}}').attr("diff", diff)
+          $('#{{conf.id}}').attr("deadline_ts", confDate.isValid() ? confDate.valueOf() : "9007199254740991");
           if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
             $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
@@ -231,16 +233,20 @@
         {% endif %}
         {% endfor %}
 
-        // Sort coming_confs and past_confs by deadline (numeric diff, Safari-safe: use Array.sort)
+        // Sort conferences by exact deadline timestamp for stable ordering.
         function getDiff(el) {
           var d = parseInt($(el).attr('diff'), 10);
           return (d === d) ? d : 999999;
+        }
+        function getDeadlineTs(el) {
+          var ts = parseFloat($(el).attr('deadline_ts'));
+          return (ts === ts) ? ts : 9007199254740991;
         }
         function sortComingByDeadline() {
           var $container = $("#coming_confs");
           var items = $container.children(".ConfItem").get();
           items.sort(function (a, b) {
-            return getDiff(b) - getDiff(a);
+            return getDeadlineTs(a) - getDeadlineTs(b);
           });
           $container.append(items);
         }
@@ -248,7 +254,7 @@
           var $container = $("#past_confs");
           var items = $container.children(".ConfItem").get();
           items.sort(function (a, b) {
-            return mostRecentFirst ? getDiff(a) - getDiff(b) : getDiff(b) - getDiff(a);
+            return mostRecentFirst ? getDeadlineTs(b) - getDeadlineTs(a) : getDeadlineTs(a) - getDeadlineTs(b);
           });
           $container.append(items);
         }
