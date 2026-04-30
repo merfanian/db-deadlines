@@ -10,7 +10,7 @@
   start: '2026-12-01'
   end: '2026-12-04'
   sub: ML
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.acml-conf.org/2027/papers.htm'>here</a>.
+  note: More info <a href='https://www.acml-conf.org/2027/papers.htm'>here</a>.
 - title: ACML
   year: 2025
   id: acml25

@@ -9,7 +9,19 @@
   start: '2027-11-18'
   end: '2027-11-21'
   sub: NLP
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://uncertainlp.github.io/#important-dates'>here</a>.
+  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://uncertainlp.github.io/#important-dates'>here</a>.
+- title: UncertaiNLP
+  year: 2026
+  id: uncertainlp26
+  link: https://uncertainlp.github.io/#important-dates
+  deadline: '2025-08-08 23:59:59'
+  timezone: UTC-12
+  place: Davos, Switzerland
+  date: Nov 15, 2026
+  start: 2025-11-18
+  end: 2025-11-21
+  sub: NLP
+  note: More info <a href='https://uncertainlp.github.io/#important-dates'>here</a>.
 - title: UncertaiNLP
   year: 2025
   id: uncertainlp25

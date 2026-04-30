@@ -10,7 +10,20 @@
   start: TBD
   end: TBD
   sub: ML
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.icaaaiml.com/call.html'>here</a>.
+  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www.icaaaiml.com/call.html'>here</a>.
+- title: ICAAAIML
+  year: 2026
+  id: icaaaaiml26
+  full_name: International Conference on Advances and Applications of Artificial Intelligence and Machine Learning
+  link: https://www.icaaaiml.com/call.html
+  deadline: '2025-04-15 23:59:59'
+  timezone: UTC-12
+  place: Greater Noida, India
+  date: TBD
+  start: TBD
+  end: TBD
+  sub: ML
+  note: More info <a href='https://www.icaaaiml.com/call.html'>here</a>.
 - title: ICAAAIML
   year: 2025
   id: icaaaaiml25

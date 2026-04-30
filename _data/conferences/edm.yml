@@ -9,11 +9,7 @@
   date: June 29 - July 03, 2027
   start: '2027-06-29'
   end: '2027-07-03'
-  sub:
-  - NLP
-  - ML
-  - CV
-  - EDU
+  sub: ['NLP', 'ML', 'CV', 'EDU']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://educationaldatamining.org/edm2027/call-for-papers/'>here</a>.
 - title: EDM
   year: 2026
@@ -26,11 +22,7 @@
   date: June 29 - July 03, 2026
   start: 2026-06-29
   end: 2026-07-03
-  sub:
-  - NLP
-  - ML
-  - CV
-  - EDU
+  sub: ['NLP', 'ML', 'CV', 'EDU']
   note: Mandatory abstract deadline on February 2, 2026. Workshop & Tutorial proposals also due February 9, 2026. More info <a href='https://educationaldatamining.org/edm2026/call-for-papers/'>here</a>.
 - title: EDM
   year: 2025
@@ -44,11 +36,7 @@
   start: 2025-07-20
   end: 2025-07-23
   hindex: 389
-  sub:
-  - NLP
-  - ML
-  - CV
-  - EDU
+  sub: ['NLP', 'ML', 'CV', 'EDU']
   note: Mandatory paper registration deadline on Feb 13, 2025. More info <a href='https://educationaldatamining.org/edm2025/'>here</a>.
 - title: EDM
   year: 2024
@@ -61,11 +49,7 @@
   date: July 14-17, 2024
   start: 2024-07-14
   end: 2024-07-17
-  sub:
-  - NLP
-  - ML
-  - CV
-  - EDU
+  sub: ['NLP', 'ML', 'CV', 'EDU']
   note: Mandatory paper registration deadline on Feb 13, 2025. More info <a href='https://educationaldatamining.org/edm2024/'>here</a>.
 - title: EDM
   year: 2023
@@ -78,9 +62,5 @@
   date: July 11-14, 2023
   start: 2023-07-11
   end: 2023-07-14
-  sub:
-  - NLP
-  - ML
-  - CV
-  - EDU
+  sub: ['NLP', 'ML', 'CV', 'EDU']
   note: Mandatory paper registration deadline on Jan 13, 2023. More info <a href='https://educationaldatamining.org/edm2023/'>here</a>.

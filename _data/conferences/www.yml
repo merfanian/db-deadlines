@@ -11,7 +11,21 @@
   end: '2027-05-04'
   hindex: 70
   sub: DM
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www2027.thewebconf.org/'>here</a>.
+  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www2027.thewebconf.org/'>here</a>.
+- title: WWW
+  year: 2026
+  id: www26
+  link: https://www2026.thewebconf.org/
+  deadline: '2025-10-13 23:59:59'
+  abstract_deadline: '2025-10-06 23:59:59'
+  timezone: UTC-12
+  place: TBA
+  date: April 30 - May 4, 2026
+  start: '2026-04-30'
+  end: '2026-05-04'
+  hindex: 70
+  sub: DM
+  note: More info <a href='https://www2026.thewebconf.org/'>here</a>.
 - title: WWW
   year: 2023
   id: www23

@@ -9,10 +9,7 @@
   date: March 27-29, 2027
   start: '2027-03-27'
   end: '2027-03-29'
-  sub:
-  - CV
-  - ML
-  - RO
+  sub: ['CV', 'ML', 'RO']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.cvai2027.org/index.html'>here</a>.
 - title: CVAI
   year: 2026
@@ -25,8 +22,5 @@
   date: March 27-29, 2026
   start: 2026-03-27
   end: 2026-03-29
-  sub:
-  - CV
-  - ML
-  - RO
+  sub: ['CV', 'ML', 'RO']
   note: 'Extended deadline (originally Nov 30, 2025). Second round. First round deadline: Sep 25, 2025. More info <a href=''https://www.cvai2026.org/index.html''>here</a>.'

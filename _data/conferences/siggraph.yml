@@ -10,7 +10,20 @@
   start: '2027-07-28'
   end: '2027-08-01'
   sub: CG
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://s2027.siggraph.org/'>here</a>.
+  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://s2027.siggraph.org/'>here</a>.
+- title: SIGGRAPH
+  year: 2026
+  id: siggraph26
+  link: https://s2026.siggraph.org/
+  deadline: '2025-01-24 22:00:00'
+  abstract_deadline: '2025-01-23 22:00:00'
+  timezone: GMT
+  place: TBA
+  date: July 28 - August 1, 2026
+  start: '2026-07-28'
+  end: '2026-08-01'
+  sub: CG
+  note: More info <a href='https://s2026.siggraph.org/'>here</a>.
 - title: SIGGRAPH
   year: 2024
   id: siggraph24

@@ -12,7 +12,22 @@
   sub:
   - DM
   - KR
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://cikm2027.org/'>here</a>.
+  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://cikm2027.org/'>here</a>.
+- title: CIKM
+  year: 2026
+  id: CIKM26
+  link: https://cikm2026.org/
+  deadline: '2025-05-20 23:59:59'
+  abstract_deadline: '2025-05-13 23:59:59'
+  timezone: UTC-12
+  place: TBA
+  data: October 21 - October 25, 2024
+  start: '2026-10-21'
+  end: '2026-10-25'
+  sub:
+  - DM
+  - KR
+  note: More info <a href='https://cikm2026.org/'>here</a>.
 - title: CIKM
   year: 2024
   id: CIKM24

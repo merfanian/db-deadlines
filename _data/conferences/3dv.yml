@@ -2,14 +2,38 @@
   year: 2027
   id: threedv27
   link: https://3dvconf.github.io/2027/
-  deadline: '2026-08-07 23:59:59'
+  deadline: '2026-08-18 23:59:59'
   timezone: America/Los_Angeles
   place: TBA
-  date: March 18-21, 2027
-  start: '2027-03-18'
-  end: '2027-03-21'
+  date: March 20-23, 2027
+  start: '2027-03-20'
+  end: '2027-03-23'
   sub: CV
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://3dvconf.github.io/2027/'>here</a>.
+  note: Predicted based on 3DV 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://3dvconf.github.io/2027/'>here</a>.
+- title: 3DV
+  year: 2026
+  id: threedv26
+  link: https://3dvconf.github.io/2026/call-for-papers/
+  deadline: '2025-08-18 23:59:59'
+  timezone: America/Los_Angeles
+  place: Vancouver, BC, Canada
+  date: March 20-23, 2026
+  start: 2026-03-20
+  end: 2026-03-23
+  sub: CV
+  note: 'Paper submission deadline: August 18, 2025 (23:59 PT). Supplementary material deadline: August 21, 2025. More info <a href=''https://3dvconf.github.io/2026/call-for-papers/''>here</a>.'
+- title: 3DV
+  year: 2025
+  id: threedv25
+  link: https://3dvconf.github.io/2025/call-for-papers
+  deadline: '2024-08-12 23:59:59'
+  timezone: America/Los_Angeles
+  place: Singapore
+  date: March 25-28, 2025
+  start: 2025-03-25
+  end: 2025-03-28
+  sub: CV
+  note: 'Paper submission deadline: August 12, 2024 (23:59 PT). Supplementary material deadline: August 19, 2024. More info <a href=''https://3dvconf.github.io/2025/call-for-papers''>here</a>.'
 - title: 3DV
   year: 2024
   id: threedv24

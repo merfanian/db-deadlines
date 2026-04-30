@@ -14,7 +14,24 @@
   - ML
   - RO
   - AP
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://aamas2027.org/'>here</a>.
+  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://aamas2027.org/'>here</a>.
+- title: AAMAS
+  year: 2026
+  id: aamas26
+  link: https://aamas2026.org/
+  deadline: '2024-10-16 23:59:59'
+  abstract_deadline: '2024-10-09 23:59:59'
+  timezone: UTC-12
+  place: Detroit, Michigan, USA
+  date: May 19 - May 23, 2026
+  start: 2025-05-19
+  end: 2025-05-23
+  sub:
+  - KR
+  - ML
+  - RO
+  - AP
+  note: More info <a href='https://aamas2026.org/'>here</a>.
 - title: AAMAS
   year: 2025
   id: aamas25

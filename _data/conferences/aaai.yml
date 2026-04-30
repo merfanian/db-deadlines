@@ -11,17 +11,7 @@
   start: 2027-02-01
   end: 2027-02-28
   hindex: 212
-  sub:
-  - DM
-  - KR
-  - ML
-  - RO
-  - NLP
-  - SP
-  - CV
-  - CG
-  - HCI
-  - AP
+  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
   note: Predicted based on historical pattern. Mandatory abstract deadline typically 1 week before paper deadline. More info <a href='https://aaai.org/conference/aaai/aaai-27/'>here</a> (when available).
 - title: AAAI
   year: 2026
@@ -33,17 +23,7 @@
   date: Jan 20-27, 2026
   start: 2026-01-20
   end: 2026-01-27
-  sub:
-  - DM
-  - KR
-  - ML
-  - RO
-  - NLP
-  - SP
-  - CV
-  - CG
-  - HCI
-  - AP
+  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
 - title: AAAI
   year: 2025
   id: aaai25
@@ -57,17 +37,7 @@
   start: 2025-02-25
   end: 2025-03-04
   hindex: 212
-  sub:
-  - DM
-  - KR
-  - ML
-  - RO
-  - NLP
-  - SP
-  - CV
-  - CG
-  - HCI
-  - AP
+  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
   note: Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline on Aug 19, 2024. More info <a href='https://aaai.org/conference/aaai/aaai-25/'>here</a>.
 - title: AAAI 2024 Spring Symposium on Clinical Foundation Models
   year: 2024

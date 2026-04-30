@@ -9,7 +9,19 @@
   start: '2027-12-20'
   end: '2027-12-25'
   sub: NLP
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.afnlp.org/conferences/ijcnlp2027/'>here</a>.
+  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www.afnlp.org/conferences/ijcnlp2027/'>here</a>.
+- title: AACL
+  year: 2026
+  id: aacl26
+  link: https://www.afnlp.org/conferences/ijcnlp2026/
+  deadline: '2025-07-28 23:59:00'
+  timezone: UTC-12
+  place: Mumbai, India
+  date: Dec 20-25, 2026
+  start: 2025-12-20
+  end: 2025-12-25
+  sub: NLP
+  note: More info <a href='https://www.afnlp.org/conferences/ijcnlp2026/'>here</a>.
 - title: AACL
   year: 2025
   id: aacl25

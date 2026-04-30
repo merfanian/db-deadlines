@@ -15,7 +15,25 @@
   - ML
   - CV
   - EDU
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://sig-edu.org/bea/2027'>here</a>.
+  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://sig-edu.org/bea/2027'>here</a>.
+- title: BEA
+  year: 2026
+  id: bea2026
+  link: https://sig-edu.org/bea/2026
+  deadline: '2025-04-17 23:59:59'
+  abstract_deadline: '2025-04-17 23:59:59'
+  timezone: UTC-12
+  place: Vienna, Austria
+  date: July 31-31, 2026
+  start: 2025-07-31
+  end: 2025-08-01
+  hindex: 389
+  sub:
+  - NLP
+  - ML
+  - CV
+  - EDU
+  note: More info <a href='https://sig-edu.org/bea/2026'>here</a>.
 - title: BEA
   year: 2025
   id: bea2025
