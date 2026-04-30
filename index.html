@@ -184,6 +184,13 @@
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var confDate = moment.tz("{{conf.deadline}}", timezone);
+          if (!confDate.isValid()) {
+            // Guard against malformed dates so sorting logic still runs.
+            $('#{{conf.id}} .timer').html("TBA");
+            $('#{{conf.id}} .deadline-time').html("TBA");
+            $('#{{conf.id}}').attr("diff", "999999");
+            $('#{{conf.id}}').attr("deadline_ts", "9007199254740991");
+          } else {
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function (event) {
@@ -229,6 +236,7 @@
             } else{
               $('#{{conf.id}}').remove();
             }
+          }
           }
         {% endif %}
         {% endfor %}
