@@ -8,8 +8,7 @@
   date: Nov 15, 2027
   start: '2027-11-18'
   end: '2027-11-21'
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://uncertainlp.github.io/#important-dates'>here</a>.
 - title: UncertaiNLP
   year: 2026
@@ -21,8 +20,7 @@
   date: Nov 15, 2026
   start: 2025-11-18
   end: 2025-11-21
-  sub:
-  - NLP
+  sub: ['NLP']
   note: More info <a href='https://uncertainlp.github.io/#important-dates'>here</a>.
 - title: UncertaiNLP
   year: 2025
@@ -34,8 +32,7 @@
   date: Nov 15, 2025
   start: 2025-11-18
   end: 2025-11-21
-  sub:
-  - NLP
+  sub: ['NLP']
 - title: UncertaiNLP
   year: 2024
   id: uncertainlp24
@@ -46,5 +43,4 @@
   date: March 22, 2024
   start: 2024-03-22
   end: 2024-03-24
-  sub:
-  - NLP
+  sub: ['NLP']

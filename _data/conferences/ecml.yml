@@ -10,8 +10,7 @@
   end: '2027-09-13'
   paperslink: https://ecmlpkdd.org/2024/program-at-a-glance/
   hindex: 45
-  sub:
-  - ML
+  sub: ['ML']
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://2027.ecmlpkdd.org/'>here</a>.
 - title: ECML PKDD
   year: 2026
@@ -25,8 +24,7 @@
   end: '2026-09-13'
   paperslink: https://ecmlpkdd.org/2024/program-at-a-glance/
   hindex: 45
-  sub:
-  - ML
+  sub: ['ML']
   note: More info <a href='https://2026.ecmlpkdd.org/'>here</a>.
 - title: ECML PKDD
   year: 2024
@@ -40,8 +38,7 @@
   end: 2024-09-13
   paperslink: https://ecmlpkdd.org/2024/program-at-a-glance/
   hindex: 45
-  sub:
-  - ML
+  sub: ['ML']
 - title: ECML/PKDD
   year: 2023
   id: ecmlpkdd23
@@ -54,8 +51,7 @@
   date: September, 18-22, 2023
   start: 2023-09-18
   end: 2023-09-22
-  sub:
-  - SP
+  sub: ['SP']
   note: Check the conference website for workshop and demo deadlines
 - title: ECML/PKDD
   year: 2022
@@ -69,8 +65,7 @@
   date: September, 19-23, 2022
   start: 2022-09-19
   end: 2022-09-23
-  sub:
-  - SP
+  sub: ['SP']
   note: Check the conference website for workshop and demo deadlines
 - title: ECML-PKDD
   year: 2021
@@ -85,6 +80,5 @@
   end: 2021-09-17
   paperslink: https://2021.ecmlpkdd.org/?page_id=1811
   hindex: 30
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on Mar 26, 2021. More info <a href='https://2021.ecmlpkdd.org/?page_id=1599/'>here</a>.

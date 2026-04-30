@@ -9,8 +9,7 @@
   date: February 26 - March 1, 2027
   start: '2027-02-26'
   end: '2027-03-01'
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://sites.google.com/unitn.it/iwsds26/home/'>here</a>.
 - title: IWSDS
   year: 2026
@@ -23,8 +22,7 @@
   date: February 26 - March 1, 2026
   start: 2026-02-26
   end: 2026-03-01
-  sub:
-  - NLP
+  sub: ['NLP']
   note: 'The 16th International Workshop on Spoken Dialogue Systems. Theme: "Human-Machine Dialogue in the Era of Multimodal Foundation Models". More info <a href="https://sites.google.com/unitn.it/iwsds26/home/">here</a>.'
 - title: IWSDS
   year: 2025
@@ -37,8 +35,7 @@
   date: May 27-30, 2025
   start: 2025-05-27
   end: 2025-05-30
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Mandatory paper registration deadline on Jan 11, 2025. More info <a href='https://sites.google.com/view/iwsds2025/important-dates'>here</a>.
 - title: IWSDS
   year: 2024
@@ -51,8 +48,7 @@
   date: March 4-6, 2024
   start: 2024-03-04
   end: 2024-03-06
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Mandatory paper registration deadline on Nov 10, 2023. More info <a href='https://sites.google.com/view/iwsds2023/important-dates'>here</a>.
 - title: IWSDS
   year: 2023
@@ -65,6 +61,5 @@
   date: February 21-24, 2023
   start: 2023-02-21
   end: 2023-02-24
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Mandatory paper registration deadline on Nov 8, 2022. More info <a href='https://sites.google.com/view/iwsds2023/important-dates'>here</a>.

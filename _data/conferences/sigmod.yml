@@ -9,8 +9,7 @@
   date: May 31- June 5, 2027
   start: '2027-05-31'
   end: '2027-06-05'
-  sub:
-  - DM
+  sub: ['DM']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.sigmod.org/'>here</a>.
 - title: SIGMOD-4
   year: 2026
@@ -23,8 +22,7 @@
   date: May 31- June 5, 2026
   start: 2026-05-31
   end: 2026-06-05
-  sub:
-  - DM
+  sub: ['DM']
 - title: SIGMOD-3
   year: 2026
   id: sigmod26-3
@@ -36,8 +34,7 @@
   date: May 31- June 5, 2026
   start: 2026-05-31
   end: 2026-06-05
-  sub:
-  - DM
+  sub: ['DM']
 - title: SIGMOD-2
   year: 2026
   id: sigmod26-2
@@ -49,8 +46,7 @@
   date: May 31- June 5, 2026
   start: 2026-05-31
   end: 2026-06-05
-  sub:
-  - DM
+  sub: ['DM']
 - title: SIGMOD-1
   year: 2026
   id: sigmod26-1
@@ -62,5 +58,4 @@
   date: May 31- June 5, 2026
   start: 2026-05-31
   end: 2026-06-05
-  sub:
-  - DM
+  sub: ['DM']

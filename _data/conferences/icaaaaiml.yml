@@ -9,8 +9,7 @@
   date: TBD
   start: TBD
   end: TBD
-  sub:
-  - ML
+  sub: ['ML']
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www.icaaaiml.com/call.html'>here</a>.
 - title: ICAAAIML
   year: 2026
@@ -23,8 +22,7 @@
   date: TBD
   start: TBD
   end: TBD
-  sub:
-  - ML
+  sub: ['ML']
   note: More info <a href='https://www.icaaaiml.com/call.html'>here</a>.
 - title: ICAAAIML
   year: 2025
@@ -37,6 +35,5 @@
   date: TBD
   start: TBD
   end: TBD
-  sub:
-  - ML
+  sub: ['ML']
   note: 'Acceptance notification: June 15, 2025. Camera-ready: June 20, 2025. More info <a href=''https://www.icaaaiml.com/call.html''>here</a>.'

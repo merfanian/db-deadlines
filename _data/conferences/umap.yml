@@ -10,8 +10,7 @@
   date: June 8-11, 2027
   start: '2027-06-08'
   end: '2027-06-11'
-  sub:
-  - HCI
+  sub: ['HCI']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.um.org/umap2027/call-for-full-short-papers/'>here</a>.
 - title: UMAP
   year: 2026
@@ -25,6 +24,5 @@
   date: June 8-11, 2026
   start: 2026-06-08
   end: 2026-06-11
-  sub:
-  - HCI
+  sub: ['HCI']
   note: 'Mandatory abstract deadline on January 22, 2026. Notification: March 25, 2026. Camera-ready: April 10, 2026. More info <a href=''https://www.um.org/umap2026/call-for-full-short-papers/''>here</a>.'

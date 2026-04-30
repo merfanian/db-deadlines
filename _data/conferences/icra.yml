@@ -10,8 +10,7 @@
   start: '2027-06-01'
   end: '2027-06-05'
   hindex: 119
-  sub:
-  - RO
+  sub: ['RO']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.ieee-icra.org/contribute/'>here</a>.
 - title: ICRA
   year: 2026
@@ -25,8 +24,7 @@
   start: 2026-06-01
   end: 2026-06-05
   hindex: 119
-  sub:
-  - RO
+  sub: ['RO']
   note: 'Workshops/tutorials deadline: September 25, 2025. More info <a href=''https://2026.ieee-icra.org/contribute/''>here</a>.'
 - title: ICRA
   year: 2025
@@ -39,8 +37,7 @@
   start: 2025-05-19
   end: 2025-05-23
   hindex: 119
-  sub:
-  - RO
+  sub: ['RO']
 - title: ICRA
   year: 2024
   id: icra24
@@ -52,8 +49,7 @@
   start: 2024-05-13
   end: 2024-05-17
   hindex: 116
-  sub:
-  - RO
+  sub: ['RO']
 - title: ICRA
   year: 2023
   id: icra23
@@ -65,5 +61,4 @@
   start: 2023-05-29
   end: 2023-06-02
   hindex: 94
-  sub:
-  - RO
+  sub: ['RO']

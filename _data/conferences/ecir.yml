@@ -10,8 +10,7 @@
   date: April 6 - April 10, 2027
   start: '2027-04-06'
   end: '2027-04-10'
-  sub:
-  - DM
+  sub: ['DM']
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://ecir2027.eu/'>here</a>.
 - title: ECIR
   year: 2026
@@ -25,8 +24,7 @@
   date: April 6 - April 10, 2026
   start: 2025-04-06
   end: 2025-04-10
-  sub:
-  - DM
+  sub: ['DM']
   note: More info <a href='https://ecir2026.eu/'>here</a>.
 - title: ECIR
   year: 2025
@@ -40,8 +38,7 @@
   date: April 6 - April 10, 2025
   start: 2025-04-06
   end: 2025-04-10
-  sub:
-  - DM
+  sub: ['DM']
   note: Abstract deadline on Oct 2, 2024. More info <a href='https://ecir2025.eu/'>here</a>.
 - title: ECIR
   year: 2024
@@ -56,6 +53,5 @@
   start: 2024-03-24
   end: 2024-03-28
   hindex: 31
-  sub:
-  - DM
+  sub: ['DM']
   note: Abstract deadline on Sep 20, 2023. More info <a href='https://www.ecir2024.org/'>here</a>.

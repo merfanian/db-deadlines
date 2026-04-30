@@ -10,8 +10,7 @@
   date: February 22-26, 2027
   start: '2027-02-22'
   end: '2027-02-26'
-  sub:
-  - DM
+  sub: ['DM']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://wsdm-conference.org/2027/index.php/call-for-papers/'>here</a>.
 - title: WSDM
   year: 2026
@@ -25,8 +24,7 @@
   date: February 22-26, 2026
   start: 2026-02-22
   end: 2026-02-26
-  sub:
-  - DM
+  sub: ['DM']
   note: 'Short paper track: Sep 25, 2025. More info <a href=''https://wsdm-conference.org/2026/index.php/call-for-papers/''>here</a>.'
 - title: WSDM
   year: 2025
@@ -40,8 +38,7 @@
   date: March 10-14, 2025
   start: 2025-03-10
   end: 2025-03-14
-  sub:
-  - DM
+  sub: ['DM']
 - title: WSDM
   year: 2023
   id: wsdm23
@@ -53,8 +50,7 @@
   start: 2023-02-27
   end: 2023-03-03
   hindex: 54
-  sub:
-  - DM
+  sub: ['DM']
 - title: WSDM
   year: 2022
   id: wsdm22
@@ -66,5 +62,4 @@
   start: 2022-02-21
   end: 2022-02-25
   hindex: 54
-  sub:
-  - DM
+  sub: ['DM']

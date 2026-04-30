@@ -10,8 +10,7 @@
   start: '2027-03-03'
   end: '2027-03-07'
   hindex: 389
-  sub:
-  - EDU
+  sub: ['EDU']
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www.solaresearch.org/events/lak/lak25/'>here</a>.
 - title: LAK
   year: 2026
@@ -25,8 +24,7 @@
   start: 2025-03-03
   end: 2025-03-07
   hindex: 389
-  sub:
-  - EDU
+  sub: ['EDU']
   note: More info <a href='https://www.solaresearch.org/events/lak/lak25/'>here</a>.
 - title: LAK
   year: 2025
@@ -40,6 +38,5 @@
   start: 2025-03-03
   end: 2025-03-07
   hindex: 389
-  sub:
-  - EDU
+  sub: ['EDU']
   note: Mandatory paper registration deadline on Sept 23, 2024. More info <a href='https://www.solaresearch.org/events/lak/lak25/'>here</a>.

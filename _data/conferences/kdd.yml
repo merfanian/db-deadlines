@@ -9,8 +9,7 @@
   date: August 25-29, 2027
   start: '2027-08-03'
   end: '2027-08-07'
-  sub:
-  - DM
+  sub: ['DM']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://kdd2027.kdd.org/'>here</a>.
 - title: KDD-2
   year: 2026
@@ -23,8 +22,7 @@
   date: August 25-29, 2026
   start: 2026-08-03
   end: 2026-08-07
-  sub:
-  - DM
+  sub: ['DM']
 - title: KDD-1
   year: 2026
   id: kdd26-1
@@ -36,8 +34,7 @@
   date: August 9-13, 2026
   start: 2026-08-09
   end: 2026-08-13
-  sub:
-  - DM
+  sub: ['DM']
   note: 'First cycle. Author rebuttal: October 4-18, 2025. More info <a href=''https://kdd2026.kdd.org/research-track-call-for-papers/''>here</a>.'
 - title: KDD-2
   year: 2025
@@ -50,8 +47,7 @@
   date: August 3-7, 2025
   start: 2025-08-03
   end: 2025-08-07
-  sub:
-  - DM
+  sub: ['DM']
   note: 'Second cycle. Datasets & Benchmarks track: Feb 24, 2025. More info <a href=''https://kdd2025.kdd.org/research-track-call-for-papers/''>here</a>.'
 - title: KDD-1
   year: 2025
@@ -64,8 +60,7 @@
   date: August 25-29, 2024
   start: 2025-08-03
   end: 2024-08-07
-  sub:
-  - DM
+  sub: ['DM']
 - title: KDD
   year: 2024
   id: kdd24
@@ -77,8 +72,7 @@
   date: August 25-29, 2024
   start: 2024-08-25
   end: 2024-08-29
-  sub:
-  - DM
+  sub: ['DM']
 - title: KDD
   year: 2023
   id: kdd23
@@ -90,5 +84,4 @@
   start: 2023-08-06
   end: 2023-08-10
   hindex: 114
-  sub:
-  - DM
+  sub: ['DM']

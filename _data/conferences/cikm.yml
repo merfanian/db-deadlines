@@ -9,9 +9,7 @@
   data: October 21 - October 25, 2024
   start: '2027-10-21'
   end: '2027-10-25'
-  sub:
-  - DM
-  - KR
+  sub: ['DM', 'KR']
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://cikm2027.org/'>here</a>.
 - title: CIKM
   year: 2026
@@ -24,9 +22,7 @@
   data: October 21 - October 25, 2024
   start: '2026-10-21'
   end: '2026-10-25'
-  sub:
-  - DM
-  - KR
+  sub: ['DM', 'KR']
   note: More info <a href='https://cikm2026.org/'>here</a>.
 - title: CIKM
   year: 2024
@@ -39,9 +35,7 @@
   data: October 21 - October 25, 2024
   start: 2024-10-21
   end: 2024-10-25
-  sub:
-  - DM
-  - KR
+  sub: ['DM', 'KR']
   note: Mandatory abstract deadline on May 13, 2024. More info <a href='https://cikm2024.org/call-for-papers/'>here</a>.
 - title: CIKM
   year: 2022
@@ -55,8 +49,7 @@
   start: 2022-10-17
   end: 2022-10-22
   hindex: 48
-  sub:
-  - DM
+  sub: ['DM']
   note: Mandatory abstract deadline on May 12, 2022
 - title: CIKM
   year: 2023
@@ -70,6 +63,5 @@
   date: October, 23-25, 2023
   start: 2023-10-23
   end: 2023-10-25
-  sub:
-  - KR
+  sub: ['KR']
   note: Check the conference website for workshop and demo deadlines

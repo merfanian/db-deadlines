@@ -10,11 +10,7 @@
   start: '2027-07-31'
   end: '2027-08-01'
   hindex: 389
-  sub:
-  - NLP
-  - ML
-  - CV
-  - EDU
+  sub: ['NLP', 'ML', 'CV', 'EDU']
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://sig-edu.org/bea/2027'>here</a>.
 - title: BEA
   year: 2026
@@ -28,11 +24,7 @@
   start: 2025-07-31
   end: 2025-08-01
   hindex: 389
-  sub:
-  - NLP
-  - ML
-  - CV
-  - EDU
+  sub: ['NLP', 'ML', 'CV', 'EDU']
   note: More info <a href='https://sig-edu.org/bea/2026'>here</a>.
 - title: BEA
   year: 2025
@@ -46,9 +38,5 @@
   start: 2025-07-31
   end: 2025-08-01
   hindex: 389
-  sub:
-  - NLP
-  - ML
-  - CV
-  - EDU
+  sub: ['NLP', 'ML', 'CV', 'EDU']
   note: Mandatory paper registration deadline on Feb 13, 2024. More info <a href='https://sig-edu.org/bea/2025'>here</a>.

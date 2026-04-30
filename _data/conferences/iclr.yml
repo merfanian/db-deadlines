@@ -10,13 +10,7 @@
   start: '2027-04-24'
   end: '2027-04-28'
   hindex: 304
-  sub:
-  - ML
-  - AP
-  - RO
-  - CV
-  - NLP
-  - SP
+  sub: ['ML', 'AP', 'RO', 'CV', 'NLP', 'SP']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://iclr.cc/Conferences/2027/CallForPapers'>here</a>.
 - title: ICLR
   year: 2026
@@ -30,13 +24,7 @@
   start: 2026-04-24
   end: 2026-04-28
   hindex: 304
-  sub:
-  - ML
-  - AP
-  - RO
-  - CV
-  - NLP
-  - SP
+  sub: ['ML', 'AP', 'RO', 'CV', 'NLP', 'SP']
   note: Mandatory abstract deadline on September 27, 2025. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.
 - title: ICLR
   year: 2025
@@ -50,13 +38,7 @@
   start: 2025-04-24
   end: 2025-04-28
   hindex: 304
-  sub:
-  - ML
-  - AP
-  - RO
-  - CV
-  - NLP
-  - SP
+  sub: ['ML', 'AP', 'RO', 'CV', 'NLP', 'SP']
   note: Mandatory abstract deadline on September 27, 2024. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.
 - title: ICLR
   year: 2024
@@ -70,8 +52,7 @@
   start: 2024-05-07
   end: 2024-05-11
   hindex: 286
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on September 23, 2023. More info <a href='https://iclr.cc/Conferences/2024/CallForPapers'>here</a>.
 - title: ICLR
   year: 2023
@@ -85,8 +66,7 @@
   start: 2023-05-01
   end: 2023-05-05
   hindex: 286
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on September 21, 2022. More info <a href='https://iclr.cc/Conferences/2023/CallForPapers'>here</a>.
 - title: ICLR
   year: 2022
@@ -100,6 +80,5 @@
   start: 2022-04-25
   end: 2022-04-29
   hindex: 203
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on September 28, 2021. More info <a href='https://iclr.cc/Conferences/2022/CallForPapers'>here</a>.

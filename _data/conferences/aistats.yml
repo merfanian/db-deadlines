@@ -10,8 +10,7 @@
   start: '2027-05-02'
   end: '2027-05-05'
   hindex: 100
-  sub:
-  - ML
+  sub: ['ML']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://virtual.aistats.org/Conferences/2027/CallForPapers'>here</a>.
 - title: AISTATS
   year: 2026
@@ -25,8 +24,7 @@
   start: 2026-05-02
   end: 2026-05-05
   hindex: 100
-  sub:
-  - ML
+  sub: ['ML']
   note: 'Mandatory abstract deadline on September 25, 2025. Supplementary material deadline: October 9, 2025. Notification: January 22, 2026. More info <a href=''https://virtual.aistats.org/Conferences/2026/CallForPapers''>here</a>.'
 - title: AISTATS
   year: 2025
@@ -40,8 +38,7 @@
   start: 2025-05-03
   end: 2025-05-05
   hindex: 100
-  sub:
-  - ML
+  sub: ['ML']
 - title: AISTATS
   year: 2024
   id: aistats24
@@ -53,8 +50,7 @@
   start: 2024-05-02
   end: 2024-05-04
   hindex: 91
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on Oct 6, 2023. More info <a href='https://aistats.org/aistats2024/dates.html'>here</a>.
 - title: AISTATS
   year: 2023
@@ -67,8 +63,7 @@
   start: 2023-04-25
   end: 2023-04-27
   hindex: 85
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on Oct 6, 2022. More info <a href='https://aistats.org/aistats2023/call-for-papers.html'>here</a>.
 - title: AISTATS
   year: 2022
@@ -81,8 +76,7 @@
   start: 2022-03-30
   end: 2022-04-01
   hindex: 57
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on Oct 8, 2021. More info <a href='http://www.aistats.org/aistats2022/cfp.html'>here</a>.
 - title: AISTATS
   year: 2021
@@ -96,6 +90,5 @@
   end: 2021-04-15
   paperslink: http://proceedings.mlr.press/v130/
   hindex: 52
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on Oct 8, 2020. More info <a href='http://www.aistats.org/aistats2021/cfp.html'>here</a>.

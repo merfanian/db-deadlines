@@ -8,8 +8,7 @@
   date: March 20-23, 2027
   start: '2027-03-20'
   end: '2027-03-23'
-  sub:
-  - CV
+  sub: ['CV']
   note: Predicted based on 3DV 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://3dvconf.github.io/2027/'>here</a>.
 - title: 3DV
   year: 2026
@@ -21,8 +20,7 @@
   date: March 20-23, 2026
   start: 2026-03-20
   end: 2026-03-23
-  sub:
-  - CV
+  sub: ['CV']
   note: 'Paper submission deadline: August 18, 2025 (23:59 PT). Supplementary material deadline: August 21, 2025. More info <a href=''https://3dvconf.github.io/2026/call-for-papers/''>here</a>.'
 - title: 3DV
   year: 2025
@@ -34,8 +32,7 @@
   date: March 25-28, 2025
   start: 2025-03-25
   end: 2025-03-28
-  sub:
-  - CV
+  sub: ['CV']
   note: 'Paper submission deadline: August 12, 2024 (23:59 PT). Supplementary material deadline: August 19, 2024. More info <a href=''https://3dvconf.github.io/2025/call-for-papers''>here</a>.'
 - title: 3DV
   year: 2024
@@ -47,8 +44,7 @@
   date: March 18-21, 2024
   start: 2024-03-18
   end: 2024-03-21
-  sub:
-  - CV
+  sub: ['CV']
 - title: 3DV
   year: 2020
   id: threedv20
@@ -61,5 +57,4 @@
   end: 2020-11-28
   paperslink: http://3dv2020.dgcv.nii.ac.jp/conferenceprogram.html
   hindex: 29
-  sub:
-  - CV
+  sub: ['CV']

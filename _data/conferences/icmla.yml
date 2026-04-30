@@ -9,8 +9,7 @@
   date: December 3-5, 2027
   start: '2027-12-03'
   end: '2027-12-05'
-  sub:
-  - ML
+  sub: ['ML']
   note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www.icmla-conference.org/icmla25/callforpapers.html'>here</a>.
 - title: ICMLA
   year: 2026
@@ -23,8 +22,7 @@
   date: December 3-5, 2026
   start: 2025-12-03
   end: 2025-12-05
-  sub:
-  - ML
+  sub: ['ML']
   note: More info <a href='https://www.icmla-conference.org/icmla25/callforpapers.html'>here</a>.
 - title: ICMLA
   year: 2025
@@ -37,6 +35,5 @@
   date: December 3-5, 2025
   start: 2025-12-03
   end: 2025-12-05
-  sub:
-  - ML
+  sub: ['ML']
   note: 'Extended deadline (originally July 15, 2025). Special sessions/tutorials deadline: May 8, 2025. More info <a href=''https://www.icmla-conference.org/icmla25/callforpapers.html''>here</a>.'

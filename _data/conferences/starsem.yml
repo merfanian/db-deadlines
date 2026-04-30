@@ -9,8 +9,7 @@
   date: July 06, 2027
   start: '2027-07-06'
   end: '2027-07-06'
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://starsem2027.github.io/'>here</a>.
 - title: STARSEM
   year: 2026
@@ -23,8 +22,7 @@
   date: July 06, 2026
   start: 2026-07-06
   end: 2026-07-06
-  sub:
-  - NLP
+  sub: ['NLP']
 - title: STARSEM
   year: 2025
   id: starsem2025
@@ -37,8 +35,7 @@
   start: 2025-09-22
   end: 2025-09-24
   hindex: 389
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Mandatory paper registration deadline on June 04, 2025. More info <a href='https://iwcs2025.github.io/call_for_papers'>here</a>.
 - title: STARSEM
   year: 2023
@@ -49,6 +46,5 @@
   timezone: UTC-12
   place: Toronto, Canada
   date: July, 13-14, 2023
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Co-located with ACL 2023

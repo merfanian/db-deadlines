@@ -9,8 +9,7 @@
   date: December 9-12, 2026
   start: '2026-12-01'
   end: '2026-12-04'
-  sub:
-  - ML
+  sub: ['ML']
   note: More info <a href='https://www.acml-conf.org/2027/papers.htm'>here</a>.
 - title: ACML
   year: 2025
@@ -23,8 +22,7 @@
   date: December 9-12, 2025
   start: 2025-12-09
   end: 2025-12-12
-  sub:
-  - ML
+  sub: ['ML']
   note: 'Conference track deadline. Journal track deadline: May 30, 2025. More info <a href=''https://www.acml-conf.org/2025/papers.htm''>here</a>.'
 - title: ACML
   year: 2023
@@ -36,8 +34,7 @@
   date: November 11-14, 2023
   start: 2023-11-11
   end: 2023-11-14
-  sub:
-  - ML
+  sub: ['ML']
 - title: ACML
   year: 2022
   id: acml22
@@ -49,8 +46,7 @@
   start: 2022-12-12
   end: 2022-12-14
   hindex: 20
-  sub:
-  - ML
+  sub: ['ML']
 - title: ACML
   year: 2021
   id: acml21
@@ -62,5 +58,4 @@
   start: 2021-11-17
   end: 2021-11-19
   hindex: 17
-  sub:
-  - ML
+  sub: ['ML']

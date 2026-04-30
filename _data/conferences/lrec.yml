@@ -8,8 +8,7 @@
   date: May 11-16, 2027
   start: '2027-05-11'
   end: '2027-05-16'
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://lrec2027.info/'>here</a>.
 - title: LREC
   year: 2026
@@ -21,8 +20,7 @@
   date: May 11-16, 2026
   start: 2026-05-11
   end: 2026-05-16
-  sub:
-  - NLP
+  sub: ['NLP']
 - title: LREC
   year: 2022
   id: lrec22
@@ -34,5 +32,4 @@
   start: 2022-06-20
   end: 2022-06-25
   hindex: 38
-  sub:
-  - NLP
+  sub: ['NLP']

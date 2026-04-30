@@ -9,8 +9,7 @@
   date: March 17-22, 2027
   start: '2027-03-17'
   end: '2027-03-22'
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.eacl.org/'>here</a>.
 - title: EACL
   year: 2026
@@ -23,8 +22,7 @@
   date: March 17-22, 2026
   start: 2026-03-17
   end: 2026-03-22
-  sub:
-  - NLP
+  sub: ['NLP']
 - title: EACL
   year: 2024
   id: eacl24
@@ -37,8 +35,7 @@
   start: 2024-03-17
   end: 2024-03-22
   note: Submission via ACL Rolling Review, commitment date 2023-12-20
-  sub:
-  - NLP
+  sub: ['NLP']
 - title: EACL
   year: 2023
   id: eacl23
@@ -51,8 +48,7 @@
   start: 2023-05-02
   end: 2023-05-06
   hindex: 62
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Hybrid format with ARR and START. Above deadlines are for START. More info <a href="https://2023.eacl.org/calls/papers/">here</a>.
 - title: EACL
   year: 2021
@@ -67,5 +63,4 @@
   paperslink: https://aclanthology.org/events/eacl-2021/#2021-eacl-main
   pwclink: https://paperswithcode.com/conference/eacl-2021-2
   hindex: 36
-  sub:
-  - NLP
+  sub: ['NLP']

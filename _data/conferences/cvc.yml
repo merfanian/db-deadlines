@@ -9,8 +9,7 @@
   date: May 21-22, 2027
   start: '2027-05-21'
   end: '2027-05-22'
-  sub:
-  - CV
+  sub: ['CV']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://saiconference.com/CVC/CallforPapers'>here</a>.
 - title: CVC
   year: 2026
@@ -23,6 +22,5 @@
   date: May 21-22, 2026
   start: 2026-05-21
   end: 2026-05-22
-  sub:
-  - CV
+  sub: ['CV']
   note: 'Round 2 deadline. Round 1 deadline: October 1, 2025. Virtual participation available. More info <a href=''https://saiconference.com/CVC/CallforPapers''>here</a>.'

@@ -9,8 +9,7 @@
   start: '2027-04-29'
   end: '2027-05-04'
   hindex: 132
-  sub:
-  - NLP
+  sub: ['NLP']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.naacl.org'>here</a>.
 - title: NAACL
   year: 2025
@@ -23,8 +22,7 @@
   start: 2025-04-29
   end: 2025-05-04
   hindex: 132
-  sub:
-  - NLP
+  sub: ['NLP']
   note: All submissions must be done through ARR. More info <a href='https://2025.naacl.org/calls/papers/'>here</a>.
 - title: NAACL
   year: 2024
@@ -37,8 +35,7 @@
   start: 2024-06-16
   end: 2024-06-21
   hindex: 133
-  sub:
-  - NLP
+  sub: ['NLP']
   note: All submissions must be done through ARR. More info <a href='https://2024.naacl.org/calls/papers/'>here</a>.
 - title: NAACL
   year: 2022
@@ -51,5 +48,4 @@
   start: 2022-07-10
   end: 2022-07-15
   hindex: 105
-  sub:
-  - NLP
+  sub: ['NLP']

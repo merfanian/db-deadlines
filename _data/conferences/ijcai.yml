@@ -11,8 +11,7 @@
   start: 2027-08-01
   end: 2027-08-31
   hindex: 133
-  sub:
-  - ML
+  sub: ['ML']
   note: Predicted based on historical pattern. Mandatory abstract deadline typically 1 week before paper deadline. More info <a href='https://2027.ijcai.org/'>here</a> (when available).
 - title: IJCAI-ECAI
   year: 2026
@@ -27,8 +26,7 @@
   start: 2026-08-16
   end: 2026-08-22
   hindex: 133
-  sub:
-  - ML
+  sub: ['ML']
   note: 'Joint with ECAI 2026. Mandatory abstract deadline: January 12, 2026. More info <a href=''https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track''>here</a>.'
 - title: IJCAI
   year: 2025
@@ -43,8 +41,7 @@
   start: 2025-08-16
   end: 2025-08-23
   hindex: 133
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on January 16, 2025 and optional supplementary material deadline on January 23, 2025. More info <a href='https://ijcai24.org/'>here</a>.
 - title: IJCAI
   year: 2024
@@ -59,8 +56,7 @@
   start: 2024-08-03
   end: 2024-08-09
   hindex: 133
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on January 10, 2024 and optional supplementary material deadline on January 24, 2024. More info <a href='https://ijcai24.org/'>here</a>.
 - title: IJCAI
   year: 2023
@@ -73,8 +69,7 @@
   start: 2023-08-19
   end: 2023-08-25
   hindex: 120
-  sub:
-  - ML
+  sub: ['ML']
   note: Mandatory abstract deadline on Jan 11, 2023, and supplementary material deadline on Jan 23, 2023. More info <a href='https://ijcai-23.org/'>here</a>.
 - title: IJCAI-ECAI
   year: 2022
@@ -89,5 +84,4 @@
   start: 2022-07-23
   end: 2022-07-29
   hindex: 105
-  sub:
-  - ML
+  sub: ['ML']

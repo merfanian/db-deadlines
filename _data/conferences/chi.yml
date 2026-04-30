@@ -11,8 +11,7 @@
   start: '2027-04-26'
   end: '2027-05-01'
   hindex: 122
-  sub:
-  - HCI
+  sub: ['HCI']
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://chi2027.acm.org/'>here</a>.
 - title: CHI
   year: 2026
@@ -27,8 +26,7 @@
   start: 2026-04-26
   end: 2026-05-01
   hindex: 122
-  sub:
-  - HCI
+  sub: ['HCI']
   note: Mandatory abstract deadline on Sep 04, 2025. More info <a href='https://chi2026.acm.org/for-authors/papers/'>here</a>.
 - title: CHI
   year: 2025
@@ -43,8 +41,7 @@
   start: 2025-04-26
   end: 2025-05-01
   hindex: 122
-  sub:
-  - HCI
+  sub: ['HCI']
   note: Mandatory abstract deadline on Sep 05, 2024. More info <a href='https://chi2025.acm.org/for-authors/papers/'>here</a>.
 - title: CHI
   year: 2024
@@ -59,6 +56,5 @@
   start: 2024-05-11
   end: 2024-05-16
   hindex: 180
-  sub:
-  - HCI
+  sub: ['HCI']
   note: Mandatory abstract deadline on Sep 07, 2023, and paper deadline on Sep 14, 2023. More info <a href='https://chi2024.acm.org/'>here</a>.
