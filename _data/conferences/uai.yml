@@ -4,13 +4,12 @@
   link: https://www.auai.org/uai2027/
   deadline: '2027-02-10 23:59:59'
   timezone: UTC-12
-  place: TBD
+  place: TBA
   date: July 2027
   start: 2027-07-01
   end: 2027-07-31
   sub: ML
   note: Predicted based on historical pattern. More info <a href='https://www.auai.org/uai2027/'>here</a> (when available).
-
 - title: UAI
   year: 2026
   id: uai26
@@ -22,19 +21,17 @@
   start: 2026-08-17
   end: 2026-08-21
   sub: ML
-
 - title: UAI
   year: 2025
   id: uai25
   link: https://www.auai.org/uai2025/
   deadline: '2025-01-05 23:59:59'
   timezone: UTC-12
-  place: Rio de Janeiro, Brazil 
+  place: Rio de Janeiro, Brazil
   date: July 21-25, 2025
   start: 2025-07-21
   end: 2025-07-25
   sub: ML
-
 - title: UAI
   year: 2024
   id: uai24
@@ -46,7 +43,6 @@
   start: 2024-07-15
   end: 2024-07-19
   sub: ML
-
 - title: UAI
   year: 2023
   id: uai23
@@ -58,7 +54,6 @@
   start: 2023-07-31
   end: 2023-08-04
   sub: ML
-
 - title: UAI
   year: 2022
   id: uai22
@@ -70,7 +65,6 @@
   start: 2022-08-01
   end: 2022-08-05
   sub: ML
-
 - title: UAI
   year: 2021
   id: uai21

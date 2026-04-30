@@ -1,14 +1,14 @@
 - title: ACML
-  year: 2027
-  id: acml27
+  year: 2026
+  id: acml26
   full_name: Asian Conference on Machine Learning
   link: https://www.acml-conf.org/2027/papers.htm
-  deadline: '2026-06-26 23:59:59'
+  deadline: '2026-07-01 23:59:59'
   timezone: UTC-12
   place: Taipei, Taiwan
-  date: December 9-12, 2027
-  start: '2027-12-09'
-  end: '2027-12-12'
+  date: December 9-12, 2026
+  start: '2026-12-01'
+  end: '2026-12-04'
   sub: ML
   note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://www.acml-conf.org/2027/papers.htm'>here</a>.
 - title: ACML

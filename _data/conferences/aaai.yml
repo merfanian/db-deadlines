@@ -6,14 +6,23 @@
   deadline: '2026-08-15 23:59:59'
   abstract_deadline: '2026-08-07 23:59:59'
   timezone: UTC-12
-  place: TBD
+  place: TBA
   date: February 2027
   start: 2027-02-01
   end: 2027-02-28
   hindex: 212
-  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
+  sub:
+  - DM
+  - KR
+  - ML
+  - RO
+  - NLP
+  - SP
+  - CV
+  - CG
+  - HCI
+  - AP
   note: Predicted based on historical pattern. Mandatory abstract deadline typically 1 week before paper deadline. More info <a href='https://aaai.org/conference/aaai/aaai-27/'>here</a> (when available).
-
 - title: AAAI
   year: 2026
   id: aaai26
@@ -24,9 +33,17 @@
   date: Jan 20-27, 2026
   start: 2026-01-20
   end: 2026-01-27
-  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
-
-
+  sub:
+  - DM
+  - KR
+  - ML
+  - RO
+  - NLP
+  - SP
+  - CV
+  - CG
+  - HCI
+  - AP
 - title: AAAI
   year: 2025
   id: aaai25
@@ -40,13 +57,22 @@
   start: 2025-02-25
   end: 2025-03-04
   hindex: 212
-  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
+  sub:
+  - DM
+  - KR
+  - ML
+  - RO
+  - NLP
+  - SP
+  - CV
+  - CG
+  - HCI
+  - AP
   note: Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline on Aug 19, 2024. More info <a href='https://aaai.org/conference/aaai/aaai-25/'>here</a>.
-
 - title: AAAI 2024 Spring Symposium on Clinical Foundation Models
   year: 2024
-  id: aaaisss24cfm  # title as lower case + last two digits of year
-  full_name: AAAI 2024 Spring Symposium on Clinical Foundation Models  # full conference name
+  id: aaaisss24cfm
+  full_name: AAAI 2024 Spring Symposium on Clinical Foundation Models
   link: https://clinicalfoundationmodels.github.io/
   deadline: '2024-01-26 23:59:59'
   timezone: UTC-12
@@ -56,7 +82,6 @@
   end: 2024-03-27
   sub: ML
   note: More info <a href='https://clinicalfoundationmodels.github.io/'>here</a>.
-
 - title: AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems
   year: 2024
   id: aia24
@@ -69,7 +94,6 @@
   end: 2024-03-27
   hindex: -1
   sub: ML
-
 - title: AAAI
   year: 2024
   id: aaai24
@@ -85,7 +109,6 @@
   hindex: 180
   sub: ML
   note: Mandatory abstract deadline on Aug 08, 2023, and supplementary material deadline on Aug 18, 2023. More info <a href='https://aaai.org/aaai-conference/'>here</a>.
-
 - title: AAAI
   year: 2023
   id: aaai23
@@ -100,7 +123,6 @@
   end: 2023-02-14
   hindex: 95
   sub: ML
-
 - title: AAAI
   year: 2022
   id: aaai22
