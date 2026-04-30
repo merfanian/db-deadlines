@@ -311,7 +311,8 @@
                                     pred.verifiedDeadline = result.deadline;
                                     pred.verifiedLink = result.link;
                                     // Update predicted deadline if verified one is different
-                                    var verifiedDate = moment.tz(result.deadline, pred.timezone);
+                                    var predTimezone = pred.timezone === "AoE" ? "UTC-12" : pred.timezone;
+                                    var verifiedDate = moment.tz(result.deadline, predTimezone);
                                     if (verifiedDate.isValid()) {
                                         pred.predictedDeadline = verifiedDate;
                                         pred.predictedDeadlineString = verifiedDate.format('YYYY-MM-DD HH:mm:ss');

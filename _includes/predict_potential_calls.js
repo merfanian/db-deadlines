@@ -42,6 +42,16 @@ function guessConferenceLink(baseLink, targetYear) {
   return null;
 }
 
+function normalizeTimezone(tz) {
+  if (!tz) {
+    return 'America/New_York';
+  }
+  if (tz === 'AoE') {
+    return 'UTC-12';
+  }
+  return tz;
+}
+
 // Function to fetch and extract deadline from a conference website
 function fetchConferenceDeadline(url, targetYear) {
   // This will be called asynchronously, so we return a promise
@@ -224,7 +234,7 @@ function predictPotentialCalls(allConferences) {
       if (entry.deadline && entry.deadline !== 'TBA') {
         try {
           // Parse date with timezone if available
-          var timezone = entry.timezone || 'America/New_York';
+          var timezone = normalizeTimezone(entry.timezone);
           var deadlineDate = moment.tz(entry.deadline, timezone);
           if (deadlineDate.isValid()) {
             deadlinePatterns.push({
@@ -264,7 +274,7 @@ function predictPotentialCalls(allConferences) {
     var predictedDay = avgDay;
     
     // Create predicted deadline date using moment with timezone
-    var timezone = latestEntry.timezone || 'America/New_York';
+    var timezone = normalizeTimezone(latestEntry.timezone);
     // Format: YYYY-MM-DD HH:mm:ss, moment month is 0-indexed so add 1 for display
     var monthStr = ('0' + (predictedMonth + 1)).slice(-2);
     var dayStr = ('0' + predictedDay).slice(-2);
@@ -409,11 +419,14 @@ function renderPotentialCalls(predictions) {
     
     // Set subject tags
     for (var j = 0; j < subs.length; j++) {
-      $('#' + confId + ' .' + subs[j] + '-tag').html(sub2name[subs[j]].toLocaleLowerCase());
+      var subName = sub2name[subs[j]];
+      if (subName) {
+        $('#' + confId + ' .' + subs[j] + '-tag').html(subName.toLocaleLowerCase());
+      }
     }
     
     // Set up countdown timer
-    var timezone = pred.timezone || 'America/New_York';
+    var timezone = normalizeTimezone(pred.timezone);
     var confDate = pred.predictedDeadline; // Already a moment object
     
     // Render countdown timer
@@ -442,7 +455,10 @@ function renderPotentialCalls(predictions) {
       date: confDate.toDate(),
       duration: 60,
     });
-    document.querySelector('#' + confId + ' .calendar').appendChild(myCalendar);
+    var calendarNode = document.querySelector('#' + confId + ' .calendar');
+    if (calendarNode) {
+      calendarNode.appendChild(myCalendar);
+    }
     
     // Set diff attribute for sorting
     var today = moment();
