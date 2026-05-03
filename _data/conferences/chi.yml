@@ -2,17 +2,16 @@
   year: 2027
   id: chi27
   full_name: The ACM Conference on Human Factors in Computing Systems
-  link: https://chi2027.acm.org/
-  deadline: '2026-09-11 23:59:59'
-  abstract_deadline: '2026-09-04 23:59:59'
+  link: https://chi2027.acm.org/authors/papers/
+  deadline: '2026-09-10 23:59:59'
   timezone: UTC-12
-  place: TBA
-  date: April 26 - May 01, 2027
-  start: '2027-04-26'
-  end: '2027-05-01'
+  place: Pittsburgh, Pennsylvania, USA
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
   hindex: 122
   sub: ['HCI']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://chi2027.acm.org/'>here</a>.
+  note: "CHI 2027 papers (AoE): no abstract deadline. Submission site opens July 30, 2026; full paper deadline September 10, 2026 (includes videos and supplementary materials). Revise-and-resubmit phase with resubmission December 3, 2026; final notification December 17, 2026. More info <a href='https://chi2027.acm.org/authors/papers/#submission-details'>here</a>."
 - title: CHI
   year: 2026
   id: chi26
