@@ -2,15 +2,15 @@
   year: 2026
   id: acml26
   full_name: Asian Conference on Machine Learning
-  link: https://www.acml-conf.org/2027/papers.htm
-  deadline: '2026-07-01 23:59:59'
+  link: https://www.acml-conf.org/2026/
+  deadline: '2026-06-26 23:59:59'
   timezone: UTC-12
   place: TBA
-  date: December 9-12, 2026
+  date: December 1-4, 2026
   start: '2026-12-01'
   end: '2026-12-04'
   sub: ['ML']
-  note: More info <a href='https://www.acml-conf.org/2027/papers.htm'>here</a>.
+  note: 'Conference track deadline. Journal track deadline: June 20, 2026. All deadlines AoE. More info <a href=''https://www.acml-conf.org/2026/''>here</a>.'
 - title: ACML
   year: 2025
   id: acml25
