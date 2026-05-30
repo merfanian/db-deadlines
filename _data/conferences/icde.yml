@@ -33,9 +33,10 @@
   timezone: AoE
   place: Montreal, Canada
   date: May 4-8, 2026
-  start: 2026-05-04
-  end: 2026-05-08
+  start: '2026-05-04'
+  end: '2026-05-08'
   sub: ['DM']
+  note: Second review cycle for ICDE 2026. Conference dates are May 2026. More info <a href='https://icde2026.github.io/'>here</a>.
 - title: ICDE-1
   year: 2025
   id: icde25-1
@@ -45,6 +46,7 @@
   timezone: AoE
   place: Montreal, Canada
   date: May 4-8, 2026
-  start: 2026-05-04
-  end: 2026-05-08
+  start: '2026-05-04'
+  end: '2026-05-08'
   sub: ['DM']
+  note: First review cycle for ICDE 2026. Conference dates are May 2026. More info <a href='https://icde2026.github.io/'>here</a>.

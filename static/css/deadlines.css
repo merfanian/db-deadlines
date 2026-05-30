@@ -1,8 +1,15 @@
+/* ============================================================
+   AI Conference Deadlines — Main Stylesheet
+   ============================================================ */
+
+/* ---------- Base / Reset ---------- */
 body {
   font-size: 16px;
-  line-height: 23px;
-  font-weight: 300;
-  -webkit-font-smoothing: subpixel-antialiased;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #2d3748;
+  -webkit-font-smoothing: antialiased;
+  background: #f7f8fa;
 }
 
 body *::selection,
@@ -12,42 +19,80 @@ body *::-webkit-selection {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1000px;
 }
 
-.top-strip {
-  background-color: #333;
-  height: 0.25em;
-  width: 100%;
-}
-
-h1,
-h2,
-h3 {
-  /* font-weight: 300; */
+/* ---------- Typography ---------- */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #1a202c;
 }
 
 h1 {
-  margin: 0 0 10px;
-  font-size: 30px;
-  line-height: 35px;
+  margin: 0 0 8px;
+  font-size: 28px;
+  line-height: 1.2;
 }
 
 h2 {
-  margin: 0 0 10px;
-  font-size: 25px;
-  line-height: 30px;
+  margin: 0 0 8px;
+  font-size: 22px;
+  line-height: 1.3;
 }
 
 h3 {
   margin: 0;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 1.3;
 }
 
+p {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #2563eb;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+a:hover,
+a:focus {
+  color: #1d4ed8;
+  border-bottom-color: #1d4ed8;
+  text-decoration: none;
+}
+
+/* ---------- Top strip ---------- */
+.top-strip {
+  background: linear-gradient(90deg, #2563eb 0%, #7c3aed 100%);
+  height: 4px;
+  width: 100%;
+}
+
+/* ---------- Navbar ---------- */
+.navbar.bg-dark {
+  background: #1a202c !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: #fff !important;
+  border-bottom: none !important;
+}
+
+/* ---------- Page header area ---------- */
 .page-header {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding: 20px 24px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
 }
 
 #conf-title.page-header {
@@ -58,65 +103,92 @@ h3 {
   margin-bottom: 5px;
 }
 
-p.authors {
-  margin-bottom: 5px;
-  color: #808080;
-  font-size: 20px;
-}
-
-p.authors a {
-  border-color: #dedede;
-}
-
-img {
-  max-width: 100%;
-}
-
-p {
-  text-align: justify;
-}
-
-a {
-  text-decoration: none;
-  border-bottom: 1px solid #ccc;
-  color: inherit;
-}
-
-p.lead.authors a {
-  border-bottom: none;
-}
-
-a:hover,
-a:focus {
-  color: inherit;
-  text-decoration: none;
-}
-
-.thumb {
-  margin: 20px 0;
-  border: 1px solid #808080;
-}
-
-pre {
-  color: #333;
-  font-size: 12px;
-  line-height: 17px;
-}
-
-footer {
+.meta {
   font-size: 13px;
+  color: #718096;
 }
 
+/* ---------- Filter row ---------- */
+.filter-label {
+  text-align: right;
+  font-weight: 500;
+  color: #4a5568;
+}
+
+/* ---------- Conference list container ---------- */
+#confs {
+  margin-top: 16px;
+}
+
+/* ---------- Individual conference card ---------- */
+.ConfItem {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  padding: 14px 18px 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #e2e8f0;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+
+.ConfItem:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+  border-left-color: #2563eb;
+}
+
+.ConfItem.past {
+  opacity: 0.72;
+  border-left-color: #e2e8f0;
+  background: #fafafa;
+}
+
+.ConfItem.past:hover {
+  opacity: 0.88;
+  border-left-color: #a0aec0;
+}
+
+/* urgency colour coding on the left border */
+.ConfItem[diff="-0"],
+.ConfItem[diff="0"],
+.ConfItem[diff="1"],
+.ConfItem[diff="2"],
+.ConfItem[diff="3"],
+.ConfItem[diff="4"],
+.ConfItem[diff="5"],
+.ConfItem[diff="6"],
+.ConfItem[diff="7"] {
+  border-left-color: #e53e3e; /* < 1 week — red */
+}
+
+/* We use JS-set diff attribute, so handle via CSS attribute selectors is limited;
+   the red / orange / green fallback is handled by JavaScript below via classes */
+
+.ConfItem.deadline-critical { border-left-color: #e53e3e; }  /* ≤ 7 days  */
+.ConfItem.deadline-soon     { border-left-color: #dd6b20; }  /* 8–30 days */
+.ConfItem.deadline-ok       { border-left-color: #38a169; }  /* > 30 days */
+
+/* ---------- Conference title & icons ---------- */
 .conf-row {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+  align-items: center;
 }
 
 .conf-title,
 .conf-title-small,
 .conf-title-icon {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
+}
 
+.conf-title a,
+.conf-title-small a {
+  color: #1a202c;
+  border-bottom: none;
+}
+
+.conf-title a:hover,
+.conf-title-small a:hover {
+  color: #2563eb;
 }
 
 .conf-title-small {
@@ -125,99 +197,146 @@ footer {
 
 .conf-title-icon {
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 18px;
+  margin-left: 4px;
 }
 
+.badge-link {
+  vertical-align: middle;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+
+.badge-link:hover {
+  opacity: 1;
+}
+
+/* ---------- Countdown timer ---------- */
+.timer,
+.timer-small {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2563eb;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.timer-small {
+  display: none;
+}
+
+/* ---------- Deadline & meta ---------- */
 .deadline,
 .meta {
   font-size: 13px;
 }
 
-.note {
+.conf-date,
+.conf-place {
   font-size: 13px;
-  margin-bottom: 5px;
+  color: #4a5568;
+}
+
+.conf-place a {
+  color: #4a5568;
+  border-bottom: none;
+}
+
+.conf-place a:hover {
+  color: #2563eb;
+}
+
+/* ---------- Notes ---------- */
+.note {
+  font-size: 12px;
+  color: #718096;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .note.predicted {
-  background-color: #ffcccc;
-  padding: 5px 8px;
-  border-radius: 3px;
-  border-left: 3px solid #ff0000;
+  background: #fff5f5;
+  color: #c53030;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border-left: 3px solid #fc8181;
 }
 
-.timer,
-.timer-small {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-#confs {
-  margin-top: 20px;
-}
-.timer-small {
-  display: none;
-}
-
-#conf-timer {
-  font-size: 72px;
-  color: #444;
-  margin-top: 40px;
-  margin-bottom: 0.5em;
-}
-
-#conf-key-facts {
-  margin-bottom: 10px;
-}
-
+/* ---------- Subject tag badges ---------- */
 .conf-sub {
-  color: rgb(36, 101, 191);
-  background: rgba(236, 240, 241, 0.7);
-  font-size: 13px;
-  padding: 3px 5px;
-  margin-right: 8px;
+  display: inline-block;
+  color: #2563eb;
+  background: #ebf4ff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 7px;
+  margin-right: 5px;
+  margin-top: 6px;
+  border-radius: 3px;
   cursor: pointer;
-  font-weight: 300;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  transition: background 0.15s, color 0.15s;
 }
 
-.conf-sub::selection {
-  background: #0097e6;
+.conf-sub:hover {
+  background: #2563eb;
+  color: #fff;
 }
 
-.checkbox input[type="checkbox"]:checked:after {
-  background-color: #0097e6;
-  border-color: #0097e6;
+/* ---------- Past events section ---------- */
+#past-events-title {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e53e3e;
+  color: #e53e3e;
+  margin-top: 28px;
 }
 
-.checkbox input[type="checkbox"]:after,
-.checkbox input[type="checkbox"]:focus:after {
-  border-color: #0097e6;
+/* ---------- Potential calls section ---------- */
+#potential-calls-title {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #dd6b20;
+  color: #dd6b20;
+  margin-top: 30px;
 }
 
+.potential-call {
+  opacity: 0.92;
+  border-left: 3px solid #dd6b20;
+  padding-left: 10px;
+  margin-left: -10px;
+}
+
+/* ---------- Sort order checkbox ---------- */
 #sort-order-checkbox {
-    text-align: right;
-    font-size: 14px;
-    padding-top: 5px;
-}
-
-#sort-order-checkbox input[type="checkbox"]:checked:after {
-    background-color: #0097e6;
-    border-color: #0097e6;
-  }
-  
-#sort-order-checkbox input[type="checkbox"]:after,
-#sort-order-checkbox input[type="checkbox"]:focus:after {
-    border-color: #0097e6;
-}
-
-.filter-label {
   text-align: right;
+  font-size: 13px;
+  padding-top: 6px;
+  color: #718096;
 }
 
+/* ---------- Calendar button ---------- */
+.calendar {
+  font-size: 12px;
+  margin-top: 4px;
+}
 
+.calendar img {
+  height: 18px;
+  margin-right: 4px;
+}
+
+.ind-cal {
+  margin: 0 4px;
+}
+
+/* ---------- PaperswithCode icon ---------- */
 .pwc-link {
   text-decoration: none;
   border: none;
-  vertical-align: middle;
 }
 
 .pwc-link:hover {
@@ -225,8 +344,8 @@ footer {
 }
 
 .icon-inner {
-  width: .95em;
-  height: .95em;
+  width: 0.95em;
+  height: 0.95em;
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -237,50 +356,111 @@ footer {
   color: #1198b2;
 }
 
+/* ---------- Footer ---------- */
+footer {
+  font-size: 13px;
+  color: #718096;
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+footer a {
+  color: #4a5568;
+  border-bottom: none;
+}
+
+footer a:hover {
+  color: #2563eb;
+}
+
+.footer-links a {
+  margin-right: 12px;
+}
+
 .twitter-github-icons {
   line-height: 16px;
 }
 
-#past-events-title {
-  padding-bottom: 15px;
-  border-bottom: 2px solid #bb2d3b;
+/* ---------- Conference detail page ---------- */
+#conf-timer {
+  font-size: 64px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 0.5em;
 }
 
-#potential-calls-title {
-  padding-bottom: 15px;
-  border-bottom: 2px solid #ff9800;
-  color: #ff9800;
-  margin-top: 30px;
+#conf-key-facts {
+  margin-bottom: 10px;
 }
 
-.potential-call {
-  opacity: 0.95;
-  border-left: 3px solid #ff9800;
-  padding-left: 10px;
-  margin-left: -10px;
+p.authors {
+  margin-bottom: 5px;
+  color: #718096;
+  font-size: 18px;
 }
-
-.badge-link {
-  vertical-align: middle; 
-  margin-bottom: 3px;
-  margin-left: 2px;
-  margin-right: 2px;
-}
-
 
 .badge-danger {
-  background-color: #bb2d3b;
+  background-color: #e53e3e;
 }
+
+/* ---------- Images ---------- */
+img {
+  max-width: 100%;
+}
+
+.thumb {
+  margin: 20px 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+}
+
+/* ---------- Code ---------- */
+pre {
+  color: #2d3748;
+  font-size: 12px;
+  line-height: 1.5;
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+/* ---------- Checkbox styles ---------- */
+.checkbox {
+  font-size: 12px;
+}
+
+.checkbox input[type="checkbox"]:checked:after,
+#sort-order-checkbox input[type="checkbox"]:checked:after {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.checkbox input[type="checkbox"]:after,
+.checkbox input[type="checkbox"]:focus:after,
+#sort-order-checkbox input[type="checkbox"]:after,
+#sort-order-checkbox input[type="checkbox"]:focus:after {
+  border-color: #2563eb;
+}
+
+/* ============================================================
+   Responsive overrides
+   ============================================================ */
 
 @media only screen and (max-width: 768px) {
   #conf-timer {
-    font-size: 64px;
+    font-size: 52px;
   }
   .calendar {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .filter-label {
     text-align: left;
+  }
+  .page-header {
+    padding: 14px 16px;
   }
 }
 
@@ -298,7 +478,7 @@ footer {
     display: none;
   }
   .conf-row {
-    margin-bottom: 7px;
+    margin-bottom: 6px;
   }
   .timer {
     display: none;
@@ -313,32 +493,14 @@ footer {
   .conf-title-small {
     display: inline;
   }
-
+  .ConfItem {
+    padding: 10px 12px 8px;
+    margin-bottom: 8px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   #conf-timer {
     font-size: 28px;
   }
-}
-
-.checkbox {
-  font-size: 12px;
-}
-
-.calendar {
-  font-size: 12px;
-  margin-top: 3px;
-}
-
-.calendar img {
-  margin-right: 5px;
-}
-
-.ind-cal {
-  margin: 0 5px;
-}
-
-.calendar img {
-  height: 20px;
 }

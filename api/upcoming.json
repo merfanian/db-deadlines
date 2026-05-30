@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /api/upcoming.json
+---
+{% include load_conferences.html %}
+{% assign today = 'now' | date: '%s' %}
+{% assign upcoming = "" | split: "" %}
+{% for conf in all_conferences %}
+  {% if conf.deadline != "TBA" %}
+    {% assign upcoming = upcoming | push: conf %}
+  {% endif %}
+{% endfor %}
+{{ upcoming | jsonify }}

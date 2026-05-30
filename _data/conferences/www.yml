@@ -33,10 +33,10 @@
   deadline: '2022-10-13 23:59:59'
   abstract_deadline: '2022-10-06 23:59:59'
   timezone: UTC-12
-  place: Texas, USA
-  date: April 30 - May 4, 2022
-  start: 2022-04-30
-  end: 2022-05-04
+  place: Austin, Texas, USA
+  date: April 30 - May 4, 2023
+  start: '2023-04-30'
+  end: '2023-05-04'
   hindex: 70
   sub: ['DM']
   note: Mandatory abstract deadline on October 6, 2022

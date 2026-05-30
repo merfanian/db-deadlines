@@ -23,6 +23,34 @@ This file is deployed with the **AI Conference Deadlines** site. Agents may **fe
 
 Dataset backing this deployment (when applicable): conference YAML under `_data/conferences/` and `_data/types.yml` in the [source repository](https://github.com/mlciv/ai-deadlines).
 
+## JSON API endpoints (machine-readable, no scraping required)
+
+These endpoints are generated at build time and served as static JSON files.
+
+| Endpoint | Description |
+|---|---|
+| `/ai-deadlines/conferences.json` | **All** conferences as a flat JSON array |
+| `/ai-deadlines/api/` | API index with endpoint URLs and field documentation |
+| `/ai-deadlines/api/upcoming.json` | Conferences with a concrete (non-TBA) deadline |
+| `/ai-deadlines/api/ML.json` | Machine Learning conferences |
+| `/ai-deadlines/api/CV.json` | Computer Vision conferences |
+| `/ai-deadlines/api/NLP.json` | NLP conferences |
+| `/ai-deadlines/api/RO.json` | Robotics conferences |
+| `/ai-deadlines/api/SP.json` | Speech conferences |
+| `/ai-deadlines/api/DM.json` | Data Mining conferences |
+| `/ai-deadlines/api/AP.json` | Planning / Autonomous Agents |
+| `/ai-deadlines/api/KR.json` | Knowledge Representation |
+| `/ai-deadlines/api/HCI.json` | HCI conferences |
+| `/ai-deadlines/api/EDU.json` | AI in Education |
+| `/ai-deadlines/api/CG.json` | Computer Graphics |
+| `/ai-deadlines/ai-deadlines.ics` | iCalendar feed (subscribe in Google/Apple Calendar) |
+
+**Recommended agent workflow:**
+1. Fetch `conferences.json` or a subject endpoint (e.g. `NLP.json`) — no HTML scraping needed.
+2. Sort entries by the `deadline` field (ISO datetime string + `timezone`).
+3. Flag entries whose `note` contains "Predicted" as unconfirmed — verify via the official `link`.
+4. Use the `/api/` index JSON to discover current endpoint URLs programmatically.
+
 ## Audience
 
 This file is **agent-agnostic**: any assistant (Cursor, OpenClaw, CLI agents, IDE plugins, etc.) can follow it if the instructions are **loaded into context** or **referenced as a skill URL**. No editor-specific APIs are required.

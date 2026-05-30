@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /conferences.json
+---
+{% include load_conferences.html %}
+{{ all_conferences | jsonify }}

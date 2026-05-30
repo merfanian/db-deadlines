@@ -14,14 +14,14 @@
   year: 2026
   id: aacl26
   link: https://www.afnlp.org/conferences/ijcnlp2026/
-  deadline: '2025-07-28 23:59:00'
+  deadline: '2026-07-28 23:59:00'
   timezone: UTC-12
-  place: Mumbai, India
-  date: Dec 20-25, 2026
-  start: 2025-12-20
-  end: 2025-12-25
+  place: TBA
+  date: Dec 2026
+  start: '2026-12-20'
+  end: '2026-12-25'
   sub: ['NLP']
-  note: More info <a href='https://www.afnlp.org/conferences/ijcnlp2026/'>here</a>.
+  note: Predicted deadline based on historical AACL/IJCNLP pattern. Please verify on the official conference website. More info <a href='https://www.afnlp.org/conferences/ijcnlp2026/'>here</a>.
 - title: AACL
   year: 2025
   id: aacl25
@@ -30,8 +30,8 @@
   timezone: UTC-12
   place: Mumbai, India
   date: Dec 20-25, 2025
-  start: 2025-12-20
-  end: 2025-12-25
+  start: '2025-12-20'
+  end: '2025-12-25'
   sub: ['NLP']
 - title: IJCNLP-AACL
   year: 2023

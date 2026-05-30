@@ -22,8 +22,8 @@
   timezone: UTC-12
   place: Lucca, Tuscany, Italy
   date: April 6 - April 10, 2026
-  start: 2025-04-06
-  end: 2025-04-10
+  start: '2026-04-06'
+  end: '2026-04-10'
   sub: ['DM']
   note: More info <a href='https://ecir2026.eu/'>here</a>.
 - title: ECIR

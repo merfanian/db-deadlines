@@ -236,6 +236,19 @@
 
           $('#{{conf.id}}').attr("diff", diff)
           $('#{{conf.id}}').attr("deadline_ts", confDate.isValid() ? confDate.valueOf() : "9007199254740991");
+
+          // Add urgency class for colour-coded left border
+          if (diff <= 0) {
+            var daysUntil = -diff;
+            if (daysUntil <= 7) {
+              $('#{{conf.id}}').addClass('deadline-critical');
+            } else if (daysUntil <= 30) {
+              $('#{{conf.id}}').addClass('deadline-soon');
+            } else {
+              $('#{{conf.id}}').addClass('deadline-ok');
+            }
+          }
+
           if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
             $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));

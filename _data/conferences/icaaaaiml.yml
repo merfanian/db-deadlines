@@ -3,25 +3,21 @@
   id: icaaaaiml27
   full_name: International Conference on Advances and Applications of Artificial Intelligence and Machine Learning
   link: https://www.icaaaiml.com/call.html
-  deadline: '2026-04-15 23:59:59'
+  deadline: '2027-04-15 23:59:59'
   timezone: UTC-12
   place: TBA
   date: TBD
-  start: TBD
-  end: TBD
   sub: ['ML']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www.icaaaiml.com/call.html'>here</a>.
+  note: Predicted deadline based on historical ICAAAIML pattern. Please verify on the official conference website. More info <a href='https://www.icaaaiml.com/call.html'>here</a>.
 - title: ICAAAIML
   year: 2026
   id: icaaaaiml26
   full_name: International Conference on Advances and Applications of Artificial Intelligence and Machine Learning
   link: https://www.icaaaiml.com/call.html
-  deadline: '2025-04-15 23:59:59'
+  deadline: '2026-04-15 23:59:59'
   timezone: UTC-12
   place: Greater Noida, India
   date: TBD
-  start: TBD
-  end: TBD
   sub: ['ML']
   note: More info <a href='https://www.icaaaiml.com/call.html'>here</a>.
 - title: ICAAAIML
@@ -33,7 +29,5 @@
   timezone: UTC-12
   place: Greater Noida, India
   date: TBD
-  start: TBD
-  end: TBD
   sub: ['ML']
   note: 'Acceptance notification: June 15, 2025. Camera-ready: June 20, 2025. More info <a href=''https://www.icaaaiml.com/call.html''>here</a>.'

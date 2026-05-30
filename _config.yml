@@ -4,6 +4,7 @@ author: Jie Cao
 
 domain: "mlciv.com"
 baseurl: "/ai-deadlines"
+url: "https://mlciv.com"
 
 twitter_hashtag: mlciv_jiessie
 github_username: mlciv
@@ -12,4 +13,11 @@ github_repo: ai-deadlines
 markdown: kramdown
 ga_id:
 
-include: ['_pages']
+include: ['_pages', 'api']
+
+# API: expose JSON endpoints for agent/tool consumption
+# Built by _plugins/api_json_generator.rb at build time:
+#   /conferences.json          — all conferences
+#   /api/{SUB}.json            — per-subject filtered lists
+#   /api/upcoming.json         — non-TBA deadlines
+#   /api/index.json            — endpoint directory
