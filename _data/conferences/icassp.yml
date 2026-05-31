@@ -1,15 +1,15 @@
 - title: ICASSP
   year: 2027
   id: icassp27
-  link: https://2027.ieeeicassp.org/
-  deadline: '2026-09-17 22:59:59'
+  link: https://2027.ieeeicassp.org/call-for-papers/
+  deadline: '2026-09-16 22:59:59'
   timezone: UTC-8
-  place: TBA
-  date: May 3-8, 2027
-  start: '2027-05-03'
-  end: '2027-05-08'
+  place: Toronto, Canada
+  date: May 16-21, 2027
+  start: '2027-05-16'
+  end: '2027-05-21'
   sub: ['SP']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.ieeeicassp.org/'>here</a>.
+  note: Full paper submission deadline September 16, 2026. Acceptance notification Jan 13, 2027; final paper Jan 27, 2027. Published journal papers due Jan 6, 2027. More info <a href='https://2027.ieeeicassp.org/call-for-papers/'>here</a>.
 - title: ICASSP
   year: 2026
   id: icassp26
