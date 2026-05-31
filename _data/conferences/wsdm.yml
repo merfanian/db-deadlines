@@ -25,11 +25,13 @@
   start: 2026-02-22
   end: 2026-02-26
   sub: ['DM']
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3773966
   note: 'Short paper track: Sep 25, 2025. More info <a href=''https://wsdm-conference.org/2026/index.php/call-for-papers/''>here</a>.'
 - title: WSDM
   year: 2025
   id: wsdm25
   full_name: ACM International Conference on Web Search and Data Mining
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3701551
   note: Abstract deadline on August 7, 2024. More info <a href='https://www.wsdm-conference.org/2025/call-for-papers/'>here</a>.
   link: https://www.wsdm-conference.org/2025/call-for-papers/
   deadline: '2024-08-14 23:59:00'

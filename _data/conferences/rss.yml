@@ -42,6 +42,7 @@
   end: 2025-06-25
   hindex: 61
   sub: ['RO']
+  paperslink: https://roboticsconference.org/2025/program/papers/
   note: 'Title/abstract deadline: January 17, 2025. Final PDF and supplementary material deadline: January 31, 2025. More info <a href=''https://roboticsconference.org/2025/information/cfp/''>here</a>.'
 - title: RSS
   year: 2024
@@ -55,6 +56,7 @@
   end: 2024-07-19
   hindex: 61
   sub: ['RO']
+  paperslink: https://roboticsconference.org/2024/program/papers/
   note: Optional supplementary material deadline on February 08, 2024. More info <a href='https://roboticsconference.org/2024'>here</a>.
 - title: RSS
   year: 2023

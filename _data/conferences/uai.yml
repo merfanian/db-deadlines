@@ -32,6 +32,7 @@
   start: 2025-07-21
   end: 2025-07-25
   sub: ['ML']
+  paperslink: https://www.auai.org/uai2025/accepted_papers
 - title: UAI
   year: 2024
   id: uai24
@@ -43,6 +44,7 @@
   start: 2024-07-15
   end: 2024-07-19
   sub: ['ML']
+  paperslink: https://www.auai.org/uai2024/accepted_papers
 - title: UAI
   year: 2023
   id: uai23

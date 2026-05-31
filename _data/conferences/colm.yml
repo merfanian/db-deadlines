@@ -39,7 +39,8 @@
   end: 2025-10-09
   hindex: 389
   sub: ['NLP', 'ML']
-  note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+  paperslink: https://colmweb.org/2025/AcceptedPapers.html
+  note: Mandatory abstract deadline on March 20, 2025. More info <a href='https://colmweb.org/cfp.html'>here</a>.
 - title: COLM
   year: 2024
   id: colm24
@@ -53,4 +54,5 @@
   start: 2024-10-07
   end: 2024-10-09
   sub: ['NLP', 'ML']
+  paperslink: http://2024.colmweb.org/AcceptedPapers.html
   note: Mandatory abstract deadline on March 22, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.

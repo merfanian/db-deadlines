@@ -36,6 +36,7 @@
   start: 2024-10-28
   end: 2024-11-01
   sub: ['CV']
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3664647
   note: Mandatory abstract deadline on April 8, 2024. More info <a href='https://2024.acmmm.org/regular-papers'>here</a>.
 - title: MM
   year: 2023

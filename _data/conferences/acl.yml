@@ -23,6 +23,7 @@
   end: 2026-07-07
   hindex: 192
   sub: ['NLP']
+  paperslink: https://2026.aclweb.org/program/accepted_papers/
   note: 'All submissions via ACL Rolling Review (ARR). ARR reviews available: March 9, 2026. Commitment deadline: March 14, 2026. Notification: April 4, 2026. Camera-ready: April 19, 2026. More info <a href=''https://2026.aclweb.org/calls/main_conference_papers/''>here</a>.'
 - title: ACL
   year: 2025
@@ -36,6 +37,7 @@
   end: 2025-08-01
   hindex: 192
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/acl-2025/
   note: All submissions should be done through ARR. More info <a href="https://www.aclweb.org/portal/sites/default/files/Submission%20Dates%20and%20Process%20for%20EACL_NAACL%20and%20ACL%202024-2.pdf">here</a>.
 - title: ACL
   year: 2024
@@ -49,6 +51,7 @@
   end: 2024-08-16
   hindex: 192
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/acl-2024/
   note: All submissions should be done through ARR. More info <a href="https://www.aclweb.org/portal/sites/default/files/Submission%20Dates%20and%20Process%20for%20EACL_NAACL%20and%20ACL%202024-2.pdf">here</a>.
 - title: ACL
   year: 2023

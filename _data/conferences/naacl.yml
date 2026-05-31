@@ -18,11 +18,12 @@
   deadline: '2024-10-15 23:59:59'
   timezone: UTC-12
   place: Albuquerque, New Mexico, USA
-  date: April 29 - May 4, 2024
+  date: April 29 - May 4, 2025
   start: 2025-04-29
   end: 2025-05-04
   hindex: 132
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/naacl-2025/
   note: All submissions must be done through ARR. More info <a href='https://2025.naacl.org/calls/papers/'>here</a>.
 - title: NAACL
   year: 2024
@@ -36,6 +37,7 @@
   end: 2024-06-21
   hindex: 133
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/naacl-2024/
   note: All submissions must be done through ARR. More info <a href='https://2024.naacl.org/calls/papers/'>here</a>.
 - title: NAACL
   year: 2022

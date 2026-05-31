@@ -39,6 +39,7 @@
   start: 2025-04-06
   end: 2025-04-10
   sub: ['DM']
+  paperslink: https://link.springer.com/book/9783031887079
   note: Abstract deadline on Oct 2, 2024. More info <a href='https://ecir2025.eu/'>here</a>.
 - title: ECIR
   year: 2024
@@ -54,4 +55,5 @@
   end: 2024-03-28
   hindex: 31
   sub: ['DM']
+  paperslink: https://link.springer.com/book/10.1007/978-3-031-56069-9
   note: Abstract deadline on Sep 20, 2023. More info <a href='https://www.ecir2024.org/'>here</a>.

@@ -25,6 +25,7 @@
   end: 2025-01-24
   hindex: 73
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/coling-2025/
   note: More info can be found <a href="https://coling2025.org/calls/main_conference_papers/#important-dates">here</a>.
 - title: LREC-COLING
   year: 2024
@@ -39,6 +40,7 @@
   end: 2024-05-25
   hindex: -1
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/lrec-2024/
   note: Workshop / Tutorial proposals are also due on October 13th, more info <a href="https://lrec-coling-2024.lrec-conf.org/1stCfP-LRECCOLING2024.html">here</a>.
 - title: COLING
   year: 2022

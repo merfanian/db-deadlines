@@ -25,6 +25,7 @@
   end: 2026-05-05
   hindex: 100
   sub: ['ML']
+  paperslink: https://virtual.aistats.org/virtual/2026/papers.html
   note: 'Mandatory abstract deadline on September 25, 2025. Supplementary material deadline: October 9, 2025. Notification: January 22, 2026. More info <a href=''https://virtual.aistats.org/Conferences/2026/CallForPapers''>here</a>.'
 - title: AISTATS
   year: 2025
@@ -39,6 +40,7 @@
   end: 2025-05-05
   hindex: 100
   sub: ['ML']
+  paperslink: https://proceedings.mlr.press/v258/
 - title: AISTATS
   year: 2024
   id: aistats24
@@ -51,6 +53,7 @@
   end: 2024-05-04
   hindex: 91
   sub: ['ML']
+  paperslink: https://proceedings.mlr.press/v238/
   note: Mandatory abstract deadline on Oct 6, 2023. More info <a href='https://aistats.org/aistats2024/dates.html'>here</a>.
 - title: AISTATS
   year: 2023

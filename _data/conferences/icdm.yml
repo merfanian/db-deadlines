@@ -34,9 +34,9 @@
   abstract_deadline: '2025-06-06 23:59:00'
   timezone: AoE
   place: Washington DC, USA
-  date: Novemember 12-15, 2025
-  start: 2025-12-09
-  end: 2025-12-12
+  date: November 12-15, 2025
+  start: 2025-11-12
+  end: 2025-11-15
   sub: ['DM']
 - title: ICDM
   year: 2024
@@ -45,11 +45,12 @@
   deadline: '2024-06-14 23:59:00'
   abstract_deadline: '2023-06-14 23:59:00'
   timezone: AoE
-  place: Abu Dhaibi, UAE
+  place: Abu Dhabi, UAE
   date: December 1-4, 2024
-  start: 2024-12-09
-  end: 2024-12-12
+  start: 2024-12-01
+  end: 2024-12-04
   sub: ['DM']
+  paperslink: https://ieeexplore.ieee.org/xpl/conhome/10883942/proceeding
 - title: ICDM
   year: 2023
   id: icdm23

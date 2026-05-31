@@ -26,6 +26,7 @@
   end: 2026-05-01
   hindex: 122
   sub: ['HCI']
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3772318
   note: Mandatory abstract deadline on Sep 04, 2025. More info <a href='https://chi2026.acm.org/for-authors/papers/'>here</a>.
 - title: CHI
   year: 2025
@@ -41,19 +42,21 @@
   end: 2025-05-01
   hindex: 122
   sub: ['HCI']
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3706598
   note: Mandatory abstract deadline on Sep 05, 2024. More info <a href='https://chi2025.acm.org/for-authors/papers/'>here</a>.
 - title: CHI
   year: 2024
   id: chi24
-  full_name: AAAI Conference on Artificial Intelligence
+  full_name: The ACM Conference on Human Factors in Computing Systems
   link: https://chi2024.acm.org/
   deadline: '2023-09-14 23:59:59'
   abstract_deadline: '2023-09-07 23:59:59'
   timezone: UTC-12
-  place: Hawaii, EEUU
+  place: Honolulu, Hawaii, USA
   date: May 11 - May 16, 2024
   start: 2024-05-11
   end: 2024-05-16
   hindex: 180
   sub: ['HCI']
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3613904
   note: Mandatory abstract deadline on Sep 07, 2023, and paper deadline on Sep 14, 2023. More info <a href='https://chi2024.acm.org/'>here</a>.

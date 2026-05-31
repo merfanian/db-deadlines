@@ -48,6 +48,7 @@
   start: 2025-08-03
   end: 2025-08-07
   sub: ['DM']
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3690624
   note: 'Second cycle. Datasets & Benchmarks track: Feb 24, 2025. More info <a href=''https://kdd2025.kdd.org/research-track-call-for-papers/''>here</a>.'
 - title: KDD-1
   year: 2025
@@ -73,6 +74,7 @@
   start: 2024-08-25
   end: 2024-08-29
   sub: ['DM']
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3637528
 - title: KDD
   year: 2023
   id: kdd23

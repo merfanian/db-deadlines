@@ -30,9 +30,10 @@
   timezone: UTC-12
   place: Suzhou, China
   date: November 5-9, 2025
-  start: 2025-11-5
-  end: 2025-11-9
+  start: 2025-11-05
+  end: 2025-11-09
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/emnlp-2025/
 - title: EMNLP
   year: 2024
   id: emnlp24
@@ -44,6 +45,7 @@
   start: 2024-11-12
   end: 2024-11-16
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/emnlp-2024/
   note: More info <a href='https://2024.emnlp.org/calls/main_conference_papers/'>here</a>.
 - title: EMNLP
   year: 2023

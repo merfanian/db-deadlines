@@ -32,6 +32,7 @@
   start: 2025-08-17
   end: 2025-08-22
   sub: ['SP']
+  paperslink: https://www.isca-archive.org/interspeech_2025/index.html
 - title: InterSpeech
   year: 2024
   id: interspeech24
@@ -44,6 +45,7 @@
   start: '2024-09-01'
   end: '2024-09-05'
   sub: ['SP']
+  paperslink: https://www.isca-archive.org/interspeech_2024/index.html
 - title: InterSpeech
   year: 2023
   id: interspeech23

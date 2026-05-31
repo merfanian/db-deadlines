@@ -44,11 +44,12 @@
   deadline: '2024-04-24 23:59:59'
   abstract_deadline: '2024-04-17 23:59:59'
   timezone: UTC-12
-  place: Avignon University, Japan
+  place: Avignon University, France
   date: Sept 18-20, 2024
   start: 2024-09-18
   end: 2024-09-20
   sub: ['NLP']
+  paperslink: https://aclanthology.org/events/sigdial-2024/
   note: Mandatory paper registration deadline on May 17, 2024. More info <a href='https://2024.sigdial.org/'>here</a>.
 - title: SIGDIAL
   year: 2023

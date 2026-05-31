@@ -16,7 +16,7 @@
   link: https://2026.ieeeicassp.org/
   deadline: '2025-09-17 22:59:59'
   timezone: UTC-8
-  place: Barrcelona, Spain
+  place: Barcelona, Spain
   date: May 3-8, 2026
   start: 2026-05-03
   end: 2026-05-08
@@ -29,9 +29,10 @@
   timezone: UTC-12
   place: Hyderabad, India
   date: April 6-11, 2025
-  start: 2025-04-6
+  start: '2025-04-06'
   end: 2025-04-11
   sub: ['SP']
+  paperslink: https://ieeexplore.ieee.org/xpl/conhome/10887540/proceeding
 - title: ICASSP
   year: 2024
   id: icassp24
@@ -44,6 +45,7 @@
   end: 2024-04-19
   hindex: 123
   sub: ['SP']
+  paperslink: https://ieeexplore.ieee.org/xpl/conhome/10445798/proceeding
 - title: ICASSP
   year: 2023
   id: icassp23

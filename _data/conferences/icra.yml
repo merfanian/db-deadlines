@@ -38,6 +38,7 @@
   end: 2025-05-23
   hindex: 119
   sub: ['RO']
+  paperslink: https://ieeexplore.ieee.org/xpl/conhome/11127273/proceeding
 - title: ICRA
   year: 2024
   id: icra24
@@ -50,6 +51,7 @@
   end: 2024-05-17
   hindex: 116
   sub: ['RO']
+  paperslink: https://ieeexplore.ieee.org/xpl/conhome/10609961/proceeding
 - title: ICRA
   year: 2023
   id: icra23

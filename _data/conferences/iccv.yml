@@ -25,7 +25,8 @@
   end: 2025-10-23
   hindex: 389
   sub: ['CV']
-  note: Mandatory paper registration deadline on March 03, 2023. More info <a href='https://iccv.thecvf.com/'>here</a>.
+  paperslink: https://openaccess.thecvf.com/ICCV2025
+  note: Mandatory paper registration deadline on March 03, 2025. More info <a href='https://iccv.thecvf.com/'>here</a>.
 - title: ICCV
   year: 2023
   id: iccv2023
