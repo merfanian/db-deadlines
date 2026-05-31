@@ -3,21 +3,21 @@
   id: icmla26
   full_name: International Conference on Machine Learning and Applications
   link: https://www.icmla-conference.org/icmla26/callforpapers.html
-  deadline: '2026-05-31 23:59:59'
-  timezone: UTC-12
+  deadline: '2026-05-15 23:59:59'
+  timezone: America/Los_Angeles
   place: TBA
   date: October 5-7, 2026
   start: '2026-10-05'
   end: '2026-10-07'
   sub: ['ML']
-  note: Predicted deadline based on historical ICMLA pattern. Please verify on the official conference website. More info <a href='https://www.icmla-conference.org/icmla26/callforpapers.html'>here</a>.
+  note: Main conference paper deadline is 11:59 PM PT. Special sessions/tutorial proposals due March 8, 2026. More info <a href='https://www.icmla-conference.org/icmla26/callforpapers.html'>here</a>.
 - title: ICMLA
   year: 2025
   id: icmla25
   full_name: International Conference on Machine Learning and Applications
   link: https://www.icmla-conference.org/icmla25/callforpapers.html
   deadline: '2025-07-28 23:59:59'
-  timezone: UTC-12
+  timezone: America/Los_Angeles
   place: TBD
   date: December 3-5, 2025
   start: 2025-12-03
