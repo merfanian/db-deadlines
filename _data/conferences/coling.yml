@@ -1,18 +1,4 @@
 - title: COLING
-  year: 2027
-  id: coling27
-  full_name: The 31st International Conference on Computational Linguistics
-  link: https://coling2027.org/
-  deadline: '2026-09-16 23:59:59'
-  timezone: UTC-12
-  place: TBA
-  date: January 19-24, 2027
-  start: '2027-01-19'
-  end: '2027-01-24'
-  hindex: 73
-  sub: ['NLP']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://coling2027.org/'>here</a>.
-- title: COLING
   year: 2025
   id: coling25
   full_name: The 31st International Conference on Computational Linguistics

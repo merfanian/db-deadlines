@@ -1,16 +1,4 @@
 - title: AACL
-  year: 2027
-  id: aacl27
-  link: https://www.afnlp.org/conferences/ijcnlp2027/
-  deadline: '2026-07-28 23:59:00'
-  timezone: UTC-12
-  place: TBA
-  date: Dec 20-25, 2027
-  start: '2027-12-20'
-  end: '2027-12-25'
-  sub: ['NLP']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www.afnlp.org/conferences/ijcnlp2027/'>here</a>.
-- title: AACL
   year: 2026
   id: aacl26
   link: https://www.afnlp.org/conferences/ijcnlp2026/

@@ -66,7 +66,9 @@ This will list conferences that might need entries and suggest potential website
 
 ## Integration with Prediction Feature
 
-The "Potential Call for Papers" feature in the main website will automatically show predicted deadlines for conferences that don't have entries yet. You can use these utilities to:
+The "Potential Call for Papers" feature in the main website will automatically show predicted deadlines for conferences that don't have entries yet. Predictions skip year N+1 until year N has a confirmed (non-predicted, non-TBA) entry.
+
+You can use these utilities to:
 
 1. Run `find_missing_conferences.py` to see what's missing
 2. Run `auto_add_conferences.py --dry-run` to preview what would be added

@@ -86,7 +86,10 @@ For narrow topics, also search **`title`**, **`full_name`**, and **`note`** text
 5. **Flag uncertainty**  
    If `note` (or absence of official link) suggests **Predicted**, **Estimated**, **TBA**, or **when available**, label the row **unconfirmed** and recommend the official CFP URL or a search: `"[conference acronym] [year] call for papers"`.
 
-6. **Web verification**  
+6. **Year-by-year predictions**  
+   Do **not** predict or add year **N+1** until year **N** is ready: the entry must exist with a confirmed (non-predicted) deadline—not TBA/TBD. If 2026 is missing or unconfirmed, do not predict 2027.
+
+7. **Web verification**  
    For unconfirmed rows or user requests for “latest” dates, open official domains (conference or society site) and reconcile with YAML.
 
 ## Web-only mode

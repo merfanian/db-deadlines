@@ -1,18 +1,4 @@
 - title: LAK
-  year: 2027
-  id: lak27
-  link: https://www.solaresearch.org/events/lak/lak27/
-  deadline: '2026-09-23 23:59:59'
-  abstract_deadline: '2026-09-23 23:59:59'
-  timezone: UTC-12
-  place: TBA
-  date: March 3-7, 2027
-  start: '2027-03-03'
-  end: '2027-03-07'
-  hindex: 389
-  sub: ['EDU']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www.solaresearch.org/events/lak/lak27/'>here</a>.
-- title: LAK
   year: 2026
   id: lak2026
   link: https://www.solaresearch.org/events/lak/lak26/

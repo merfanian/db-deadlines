@@ -1,17 +1,4 @@
 - title: AAMAS
-  year: 2027
-  id: aamas27
-  link: https://aamas2027.org/
-  deadline: '2026-10-16 23:59:59'
-  abstract_deadline: '2026-10-09 23:59:59'
-  timezone: UTC-12
-  place: TBA
-  date: May 19 - May 23, 2027
-  start: '2027-05-19'
-  end: '2027-05-23'
-  sub: ['KR', 'ML', 'RO', 'AP']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://aamas2027.org/'>here</a>.
-- title: AAMAS
   year: 2026
   id: aamas26
   link: https://aamas2026.org/

@@ -52,6 +52,30 @@ function normalizeTimezone(tz) {
   return tz;
 }
 
+function isYearEntryReady(entry) {
+  if (!entry) {
+    return false;
+  }
+  var note = (entry.note || '').toLowerCase();
+  var deadline = (entry.deadline || '').toLowerCase();
+  if (note.indexOf('predicted') !== -1 || note.indexOf('estimated') !== -1) {
+    return false;
+  }
+  if (!deadline || deadline === 'tba' || deadline === 'tbd') {
+    return false;
+  }
+  return true;
+}
+
+function findYearEntry(entries, year) {
+  for (var i = 0; i < entries.length; i++) {
+    if (entries[i].year === year) {
+      return entries[i];
+    }
+  }
+  return null;
+}
+
 // Function to fetch and extract deadline from a conference website
 function fetchConferenceDeadline(url, targetYear) {
   // This will be called asynchronously, so we return a promise
@@ -258,7 +282,17 @@ function predictPotentialCalls(allConferences) {
     // Use the most recent deadline and add 1 year, adjusting for typical patterns
     var mostRecentPattern = deadlinePatterns[0];
     var predictedYear = latestYear + 1;
-    
+    var currentYearEntry = findYearEntry(entries, currentYear);
+
+    // Do not predict year N+1 until the current-year entry exists and is confirmed
+    if (predictedYear > currentYear && !isYearEntryReady(currentYearEntry)) {
+      if (!currentYearEntry && latestYear < currentYear) {
+        predictedYear = currentYear;
+      } else {
+        continue;
+      }
+    }
+
     // Calculate average day of month if we have multiple years
     var avgDay = 0;
     var avgMonth = 0;
@@ -284,13 +318,7 @@ function predictPotentialCalls(allConferences) {
     // Only show predictions that are in the future (at least 30 days ahead)
     var daysUntilPrediction = predictedDeadline.diff(moment(), 'days');
     if (daysUntilPrediction < 30) {
-      // If prediction is too soon, try next year
-      predictedYear = latestYear + 2;
-      var monthStr2 = ('0' + (predictedMonth + 1)).slice(-2);
-      var dayStr2 = ('0' + predictedDay).slice(-2);
-      var dateString2 = predictedYear + '-' + monthStr2 + '-' + dayStr2 + ' 23:59:59';
-      predictedDeadline = moment.tz(dateString2, timezone);
-      daysUntilPrediction = predictedDeadline.diff(moment(), 'days');
+      continue;
     }
     
     // Only show predictions that are within the next 2 years

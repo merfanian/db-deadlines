@@ -1,17 +1,4 @@
 - title: NAACL
-  year: 2027
-  id: naacl27
-  link: https://2027.naacl.org
-  deadline: '2026-10-15 23:59:59'
-  timezone: UTC-12
-  place: TBA
-  date: April 29 - May 4, 2027
-  start: '2027-04-29'
-  end: '2027-05-04'
-  hindex: 132
-  sub: ['NLP']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.naacl.org'>here</a>.
-- title: NAACL
   year: 2025
   id: naacl25
   link: https://2025.naacl.org
