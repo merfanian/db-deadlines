@@ -2,15 +2,16 @@
   year: 2027
   id: recsys27
   link: https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/
-  deadline: '2027-04-21 23:59:59'
-  abstract_deadline: '2027-04-14 23:59:59'
+  deadline: TBA
+  abstract_deadline: TBA
   timezone: UTC-12
   date: September 28 - October 2, 2027
   place: TBA
   start: '2027-09-28'
   end: '2027-10-02'
-  sub: ['DM']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/'>here</a>.
+  sub:
+  - DM
+  note: Submission deadlines not yet announced. More info <a href='https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/'>here</a>.
 - title: RecSys
   year: 2026
   id: recsys26
@@ -22,8 +23,11 @@
   place: Minneapolis, Minnesota, USA
   start: 2026-09-28
   end: 2026-10-02
-  sub: ['DM']
-  note: 'Mandatory abstract deadline on April 14, 2026. Author rebuttal period: June 4-9, 2026. Notification: July 9, 2026. Camera-ready due: July 27, 2026. More info <a href=''https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/''>here</a>.'
+  sub:
+  - DM
+  note: 'Mandatory abstract deadline on April 14, 2026. Author rebuttal period: June
+    4-9, 2026. Notification: July 9, 2026. Camera-ready due: July 27, 2026. More info
+    <a href=''https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/''>here</a>.'
 - title: RecSys
   year: 2023
   id: recsys23
@@ -33,7 +37,8 @@
   timezone: UTC-12
   date: September 18 - September 22, 2023
   place: Singapore
-  sub: ['DM']
+  sub:
+  - DM
   note: Mandatory abstract deadline on April 14, 2023.
 - title: RecSys
   hindex: 45
@@ -45,5 +50,7 @@
   timezone: UTC-12
   date: September 18 - September 23, 2022
   place: Seattle, Washington, USA
-  sub: ['DM']
-  note: '<b>NOTE</b>: Mandatory abstract deadline on April 26, 2022. More info <a href=''https://recsys.acm.org/recsys22/call/''>here</a>.'
+  sub:
+  - DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on April 26, 2022. More info <a
+    href=''https://recsys.acm.org/recsys22/call/''>here</a>.'

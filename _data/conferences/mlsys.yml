@@ -2,14 +2,15 @@
   year: 2027
   id: mlsys27
   link: https://mlsys.org/Conferences/2027/
-  deadline: '2026-10-30 13:00:00'
+  deadline: TBA
   timezone: America/Los_Angeles
   place: TBA
   date: May 17-22, 2027
   start: '2027-05-17'
   end: '2027-05-23'
-  sub: ['ML']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://mlsys.org/Conferences/2027/'>here</a>.
+  sub:
+  - ML
+  note: Submission deadlines not yet announced. More info <a href='https://mlsys.org/Conferences/2027/'>here</a>.
 - title: MLSYS
   year: 2026
   id: mlsys26
@@ -20,4 +21,5 @@
   date: May 17-22, 2026
   start: 2026-05-17
   end: 2026-05-23
-  sub: ['ML']
+  sub:
+  - ML

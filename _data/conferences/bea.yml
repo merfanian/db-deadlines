@@ -2,16 +2,20 @@
   year: 2027
   id: bea27
   link: https://sig-edu.org/bea/2027
-  deadline: '2027-04-17 23:59:59'
-  abstract_deadline: '2027-04-17 23:59:59'
+  deadline: TBA
+  abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
   date: July 31, 2027
   start: '2027-07-31'
   end: '2027-08-01'
   hindex: 389
-  sub: ['NLP', 'ML', 'CV', 'EDU']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://sig-edu.org/bea/2027'>here</a>.
+  sub:
+  - NLP
+  - ML
+  - CV
+  - EDU
+  note: Submission deadlines not yet announced. More info <a href='https://sig-edu.org/bea/2027'>here</a>.
 - title: BEA
   year: 2026
   id: bea2026
@@ -24,7 +28,11 @@
   start: '2026-07-31'
   end: '2026-08-01'
   hindex: 389
-  sub: ['NLP', 'ML', 'CV', 'EDU']
+  sub:
+  - NLP
+  - ML
+  - CV
+  - EDU
   note: More info <a href='https://sig-edu.org/bea/2026'>here</a>.
 - title: BEA
   year: 2025
@@ -38,5 +46,9 @@
   start: '2025-07-31'
   end: '2025-08-01'
   hindex: 389
-  sub: ['NLP', 'ML', 'CV', 'EDU']
+  sub:
+  - NLP
+  - ML
+  - CV
+  - EDU
   note: Mandatory paper registration deadline on Feb 13, 2025. More info <a href='https://sig-edu.org/bea/2025'>here</a>.

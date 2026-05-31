@@ -1,17 +1,30 @@
 - title: WACV
   year: 2027
-  id: wacv26_227
+  id: wacv27_2
   full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
-  link: https://wacv2027.thecvf.com/
-  deadline: '2026-09-19 23:59:59'
-  timezone: UTC-7
+  link: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+  deadline: '2026-08-28 23:59:59'
+  timezone: UTC-12
   place: TBA
   date: Mar 6 – Mar 10, 2027
-  start: '2027-03-10'
-  end: '2027-03-06'
+  start: '2027-03-06'
+  end: '2027-03-10'
   hindex: 109
   sub: ['ML', 'CV']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://wacv2027.thecvf.com/'>here</a>.
+- title: WACV
+  year: 2027
+  id: wacv27_1
+  full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+  link: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+  deadline: '2026-06-26 23:59:59'
+  timezone: UTC-12
+  place: TBA
+  date: Mar 6 – Mar 10, 2027
+  start: '2027-03-06'
+  end: '2027-03-10'
+  hindex: 109
+  sub: ['ML', 'CV']
+  note: Round 1 paper enrollment June 19, 2026; round 2 paper enrollment August 21, 2026. All deadlines AoE. More info <a href='https://wacv.thecvf.com/Conferences/2027/CallForPapers'>here</a>.
 - title: WACV
   year: 2026
   id: wacv26_2

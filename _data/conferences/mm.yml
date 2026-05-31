@@ -2,15 +2,16 @@
   year: 2027
   id: mm27
   link: https://2027.acmmm.org/
-  deadline: '2027-04-08 23:59:59'
-  abstract_deadline: '2027-04-01 23:59:59'
+  deadline: TBA
+  abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
   date: October 28 - November 1, 2027
   start: '2027-10-28'
   end: '2027-11-01'
-  sub: ['CV']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://2027.acmmm.org/'>here</a>.
+  sub:
+  - CV
+  note: Submission deadlines not yet announced. More info <a href='https://2027.acmmm.org/'>here</a>.
 - title: MM
   year: 2026
   id: mm26
@@ -22,7 +23,8 @@
   date: October 28 - November 1, 2026
   start: '2026-10-28'
   end: '2026-11-01'
-  sub: ['CV']
+  sub:
+  - CV
   note: More info <a href='https://2026.acmmm.org/'>here</a>.
 - title: MM
   year: 2024
@@ -35,7 +37,8 @@
   date: October 28 - November 1, 2024
   start: 2024-10-28
   end: 2024-11-01
-  sub: ['CV']
+  sub:
+  - CV
   paperslink: https://dl.acm.org/doi/proceedings/10.1145/3664647
   note: Mandatory abstract deadline on April 8, 2024. More info <a href='https://2024.acmmm.org/regular-papers'>here</a>.
 - title: MM
@@ -49,7 +52,8 @@
   date: October 29 - November 03, 2023
   start: 2023-10-29
   end: 2023-11-03
-  sub: ['CV']
+  sub:
+  - CV
   note: Mandatory abstract deadline on April 23, 2023. More info <a href='https://www.acmmm2023.org/cfp/'>here</a>.
 - title: MM
   year: 2022
@@ -63,5 +67,6 @@
   start: 2022-10-10
   end: 2022-10-14
   hindex: 58
-  sub: ['CV']
+  sub:
+  - CV
   note: Mandatory abstract deadline on March 31, 2022. More info <a href='https://2022.acmmm.org/call-for-papers/'>here</a>.

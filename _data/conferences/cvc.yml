@@ -3,14 +3,15 @@
   id: cvc27
   full_name: Computer Vision Conference
   link: https://saiconference.com/CVC/CallforPapers
-  deadline: '2027-01-15 23:59:59'
+  deadline: TBA
   timezone: UTC-12
   place: TBA
   date: May 21-22, 2027
   start: '2027-05-21'
   end: '2027-05-22'
-  sub: ['CV']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://saiconference.com/CVC/CallforPapers'>here</a>.
+  sub:
+  - CV
+  note: Submission deadlines not yet announced. More info <a href='https://saiconference.com/CVC/CallforPapers'>here</a>.
 - title: CVC
   year: 2026
   id: cvc26
@@ -22,5 +23,7 @@
   date: May 21-22, 2026
   start: 2026-05-21
   end: 2026-05-22
-  sub: ['CV']
-  note: 'Round 2 deadline. Round 1 deadline: October 1, 2025. Virtual participation available. More info <a href=''https://saiconference.com/CVC/CallforPapers''>here</a>.'
+  sub:
+  - CV
+  note: 'Round 2 deadline. Round 1 deadline: October 1, 2025. Virtual participation
+    available. More info <a href=''https://saiconference.com/CVC/CallforPapers''>here</a>.'

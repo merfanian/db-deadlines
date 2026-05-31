@@ -1,15 +1,15 @@
 - title: InterSpeech
   year: 2027
   id: interspeech27
-  link: http://www.interspeech2027.org/
-  deadline: '2027-03-02 23:59:59'
-  timezone: UTC-0
-  place: TBA
-  date: Sept 27 to Oct 01, 2027
-  start: '2027-09-27'
-  end: '2027-10-01'
+  link: https://interspeech2027.org/
+  deadline: TBA
+  timezone: UTC-12
+  place: São Paulo, Brazil
+  date: August 29 - September 2, 2027
+  start: '2027-08-29'
+  end: '2027-09-02'
   sub: ['SP']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='http://www.interspeech2027.org/'>here</a>.
+  note: Submission deadlines not yet announced. More info <a href='https://interspeech2027.org/'>here</a>.
 - title: InterSpeech
   year: 2026
   id: interspeech26

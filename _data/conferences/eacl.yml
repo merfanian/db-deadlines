@@ -1,16 +1,16 @@
 - title: EACL
   year: 2027
   id: eacl27
-  full_name: The 19th Conference of the European Chapter of the Association for Computational Linguistics
-  link: https://2027.eacl.org/
-  deadline: '2026-10-06 23:59:59'
+  full_name: The 20th Conference of the European Chapter of the Association for Computational Linguistics
+  link: https://2027.eacl.org/calls/papers/
+  deadline: '2026-08-03 23:59:59'
   timezone: UTC-12
-  place: TBA
-  date: March 17-22, 2027
-  start: '2027-03-17'
-  end: '2027-03-22'
+  place: Athens, Greece
+  date: March 9-14, 2027
+  start: '2027-03-09'
+  end: '2027-03-14'
   sub: ['NLP']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.eacl.org/'>here</a>.
+  note: ARR submission deadline for long and short papers. All deadlines AoE. More info <a href='https://2027.eacl.org/calls/papers/'>here</a>.
 - title: EACL
   year: 2026
   id: eacl26

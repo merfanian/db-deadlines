@@ -3,15 +3,16 @@
   id: siggraphasia27
   full_name: SIGGRAPH ASIA 2027
   link: https://asia.siggraph.org/2027/
-  deadline: '2027-05-12 23:59:59'
-  abstract_deadline: '2027-05-05 23:59:59'
+  deadline: TBA
+  abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
   date: December 2027
   start: 2027-12-01
   end: 2027-12-04
-  sub: ['CG']
-  note: Predicted based on SIGGRAPH Asia 2026 technical paper schedule pattern (AoE). Please verify on the official conference website. More info <a href='https://asia.siggraph.org/2027/'>here</a>.
+  sub:
+  - CG
+  note: Submission deadlines not yet announced. More info <a href='https://asia.siggraph.org/2027/'>here</a>.
 - title: SIGGRAPH Asia
   year: 2026
   id: siggraphasia26
@@ -24,8 +25,10 @@
   date: December 1-4, 2026
   start: 2026-12-01
   end: 2026-12-04
-  sub: ['CG']
-  note: 'Technical Papers deadlines (23:59 AoE): abstract deadline May 5, 2026; full paper deadline May 12, 2026; upload deadline May 13, 2026. More info <a href=''https://asia.siggraph.org/2026/submissions/technical-papers/''>here</a>.'
+  sub:
+  - CG
+  note: 'Technical Papers deadlines (23:59 AoE): abstract deadline May 5, 2026; full
+    paper deadline May 12, 2026; upload deadline May 13, 2026. More info <a href=''https://asia.siggraph.org/2026/submissions/technical-papers/''>here</a>.'
 - title: SIGGRAPH Asia
   year: 2025
   id: siggraphasia25
@@ -38,8 +41,11 @@
   date: December 15-18, 2025
   start: 2025-12-15
   end: 2025-12-18
-  sub: ['CG']
-  note: 'Technical Papers deadlines (23:59 AoE): submission form deadline May 16, 2025; full paper deadline May 23, 2025; upload deadline May 24, 2025. More info <a href=''https://asia.siggraph.org/2025/submissions/technical-papers/''>here</a>.'
+  sub:
+  - CG
+  note: 'Technical Papers deadlines (23:59 AoE): submission form deadline May 16,
+    2025; full paper deadline May 23, 2025; upload deadline May 24, 2025. More info
+    <a href=''https://asia.siggraph.org/2025/submissions/technical-papers/''>here</a>.'
 - title: SIGGRAPH Asia
   year: 2024
   id: siggraphasia24
@@ -49,7 +55,8 @@
   timezone: UTC-12
   place: Tokyo, Japan
   date: December, 3-6, 2024
-  sub: ['CG']
+  sub:
+  - CG
   note: null
 - title: SIGGRAPH Asia
   year: 2023
@@ -60,7 +67,8 @@
   timezone: UTC-12
   place: Sydney, Australia
   date: December, 12-15, 2023
-  sub: ['CG']
+  sub:
+  - CG
   note: null
 - title: SIGGRAPH Asia
   year: 2022
@@ -72,5 +80,6 @@
   timezone: UTC-12
   place: Daegu, South Korea
   date: December, 6-9, 2022
-  sub: ['CG']
+  sub:
+  - CG
   note: null

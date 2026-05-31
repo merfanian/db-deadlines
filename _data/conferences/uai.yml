@@ -2,14 +2,15 @@
   year: 2027
   id: uai27
   link: https://www.auai.org/uai2027/
-  deadline: '2027-02-10 23:59:59'
+  deadline: TBA
   timezone: UTC-12
   place: TBA
   date: July 2027
   start: 2027-07-01
   end: 2027-07-31
-  sub: ['ML']
-  note: Predicted based on historical pattern. More info <a href='https://www.auai.org/uai2027/'>here</a> (when available).
+  sub:
+  - ML
+  note: Submission deadlines not yet announced. More info <a href='https://www.auai.org/uai2027/'>here</a>.
 - title: UAI
   year: 2026
   id: uai26
@@ -20,7 +21,8 @@
   date: July 21-25, 2025
   start: 2026-08-17
   end: 2026-08-21
-  sub: ['ML']
+  sub:
+  - ML
 - title: UAI
   year: 2025
   id: uai25
@@ -31,7 +33,8 @@
   date: July 21-25, 2025
   start: 2025-07-21
   end: 2025-07-25
-  sub: ['ML']
+  sub:
+  - ML
   paperslink: https://www.auai.org/uai2025/accepted_papers
 - title: UAI
   year: 2024
@@ -43,7 +46,8 @@
   date: July 15-19, 2024
   start: 2024-07-15
   end: 2024-07-19
-  sub: ['ML']
+  sub:
+  - ML
   paperslink: https://www.auai.org/uai2024/accepted_papers
 - title: UAI
   year: 2023
@@ -55,7 +59,8 @@
   date: July 31 - August 04, 2023
   start: 2023-07-31
   end: 2023-08-04
-  sub: ['ML']
+  sub:
+  - ML
 - title: UAI
   year: 2022
   id: uai22
@@ -66,7 +71,8 @@
   date: August 1-5, 2022
   start: 2022-08-01
   end: 2022-08-05
-  sub: ['ML']
+  sub:
+  - ML
 - title: UAI
   year: 2021
   id: uai21
@@ -79,4 +85,5 @@
   end: 2021-07-30
   paperslink: https://www.auai.org/uai2021/accepted_papers
   hindex: 33
-  sub: ['ML']
+  sub:
+  - ML

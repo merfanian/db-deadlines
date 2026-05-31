@@ -2,16 +2,18 @@
   year: 2027
   id: colm27
   link: https://colmweb.org/
-  deadline: '2027-03-31 23:59:59'
-  abstract_deadline: '2027-03-26 23:59:59'
+  deadline: TBA
+  abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
   date: Oct 06-09, 2027
   start: '2027-10-06'
   end: '2027-10-09'
   hindex: 389
-  sub: ['NLP', 'ML']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://colmweb.org/'>here</a>.
+  sub:
+  - NLP
+  - ML
+  note: Submission deadlines not yet announced. More info <a href='https://colmweb.org/'>here</a>.
 - title: COLM
   year: 2026
   id: colm26
@@ -24,7 +26,9 @@
   start: 2026-10-06
   end: 2026-10-09
   hindex: 389
-  sub: ['NLP', 'ML']
+  sub:
+  - NLP
+  - ML
   note: Mandatory paper registration deadline on 03/26/2026. More info <a href=""https://colmweb.org/cfp.html'>here</a>.
 - title: COLM
   year: 2025
@@ -38,7 +42,9 @@
   start: 2025-10-07
   end: 2025-10-09
   hindex: 389
-  sub: ['NLP', 'ML']
+  sub:
+  - NLP
+  - ML
   paperslink: https://colmweb.org/2025/AcceptedPapers.html
   note: Mandatory abstract deadline on March 20, 2025. More info <a href='https://colmweb.org/cfp.html'>here</a>.
 - title: COLM
@@ -53,6 +59,8 @@
   date: October 7-9, 2024
   start: 2024-10-07
   end: 2024-10-09
-  sub: ['NLP', 'ML']
+  sub:
+  - NLP
+  - ML
   paperslink: http://2024.colmweb.org/AcceptedPapers.html
   note: Mandatory abstract deadline on March 22, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.

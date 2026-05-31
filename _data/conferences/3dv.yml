@@ -2,14 +2,14 @@
   year: 2027
   id: threedv27
   link: https://3dvconf.github.io/2027/
-  deadline: '2026-08-18 23:59:59'
+  deadline: '2026-08-28 23:59:59'
   timezone: America/Los_Angeles
-  place: TBA
-  date: March 20-23, 2027
-  start: '2027-03-20'
-  end: '2027-03-23'
+  place: Thessaloniki, Greece
+  date: April 6-9, 2027
+  start: '2027-04-06'
+  end: '2027-04-09'
   sub: ['CV']
-  note: Predicted based on 3DV 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://3dvconf.github.io/2027/'>here</a>.
+  note: Supplementary material due September 2, 2026. More info <a href='https://3dvconf.github.io/2027/'>here</a>.
 - title: 3DV
   year: 2026
   id: threedv26

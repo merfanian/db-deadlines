@@ -1,18 +1,4 @@
 - title: ECCV
-  year: 2027
-  id: eccv27
-  link: https://eccv.ecva.net/Conferences/2027
-  deadline: '2027-03-05 11:00:00'
-  abstract_deadline: '2027-02-26 11:00:00'
-  timezone: Europe/Paris
-  place: TBA
-  date: September 29 - October 04, 2027
-  start: '2027-09-29'
-  end: '2027-10-04'
-  hindex: 238
-  sub: ['CV']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://eccv.ecva.net/Conferences/2027'>here</a>.
-- title: ECCV
   year: 2026
   id: eccv26
   link: https://eccv.ecva.net/Conferences/2026

@@ -2,14 +2,15 @@
   year: 2027
   id: emnlp27
   link: https://2027.emnlp.org/
-  deadline: '2027-05-25 23:59:00'
+  deadline: TBA
   timezone: UTC-12
   place: TBA
   date: October 24-29, 2027
   start: '2027-10-24'
   end: '2027-10-29'
-  sub: ['NLP']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://2027.emnlp.org/'>here</a>.
+  sub:
+  - NLP
+  note: Submission deadlines not yet announced. More info <a href='https://2027.emnlp.org/'>here</a>.
 - title: EMNLP
   year: 2026
   id: emnlp26
@@ -20,8 +21,10 @@
   date: October 24-29, 2026
   start: 2026-10-24
   end: 2026-10-29
-  sub: ['NLP']
-  note: All submissions via ACL Rolling Review (ARR). More info <a href='https://2026.emnlp.org/calls/main_conference_papers/'>here</a> . More info <a href='https://2026.emnlp.org/'>here</a>.
+  sub:
+  - NLP
+  note: All submissions via ACL Rolling Review (ARR). More info <a href='https://2026.emnlp.org/calls/main_conference_papers/'>here</a>
+    . More info <a href='https://2026.emnlp.org/'>here</a>.
 - title: EMNLP
   year: 2025
   id: emnlp25
@@ -32,7 +35,8 @@
   date: November 5-9, 2025
   start: 2025-11-05
   end: 2025-11-09
-  sub: ['NLP']
+  sub:
+  - NLP
   paperslink: https://aclanthology.org/events/emnlp-2025/
 - title: EMNLP
   year: 2024
@@ -44,7 +48,8 @@
   date: November 12-16, 2024
   start: 2024-11-12
   end: 2024-11-16
-  sub: ['NLP']
+  sub:
+  - NLP
   paperslink: https://aclanthology.org/events/emnlp-2024/
   note: More info <a href='https://2024.emnlp.org/calls/main_conference_papers/'>here</a>.
 - title: EMNLP
@@ -58,8 +63,10 @@
   date: December 6-10, 2023
   start: 2023-12-06
   end: 2023-12-10
-  sub: ['NLP']
-  note: Mandatory abstract deadline on June 16, 2023. Hybrid format with ARR and OpenReview. More info <a href='https://2023.emnlp.org/calls/papers/Overview'>here</a>.
+  sub:
+  - NLP
+  note: Mandatory abstract deadline on June 16, 2023. Hybrid format with ARR and OpenReview.
+    More info <a href='https://2023.emnlp.org/calls/papers/Overview'>here</a>.
 - title: EMNLP
   year: 2022
   id: emnlp22
@@ -72,5 +79,6 @@
   start: 2022-12-07
   end: 2022-12-11
   hindex: 132
-  sub: ['NLP']
+  sub:
+  - NLP
   note: Hybrid format with ARR and START. More info <a href='https://2022.emnlp.org/calls/papers/Overview'>here</a>.

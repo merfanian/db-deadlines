@@ -3,16 +3,17 @@
   id: rss27
   full_name: 'Robotics: Science and Systems'
   link: https://roboticsconference.org/information/cfp/
-  deadline: '2027-01-30 23:59:59'
-  abstract_deadline: '2027-01-23 23:59:59'
+  deadline: TBA
+  abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
   date: July 13-17, 2027
   start: '2027-07-13'
   end: '2027-07-17'
   hindex: 61
-  sub: ['RO']
-  note: Predicted based on previous year schedule. Please verify on the official conference website. More info <a href='https://roboticsconference.org/information/cfp/'>here</a>.
+  sub:
+  - RO
+  note: Submission deadlines not yet announced. More info <a href='https://roboticsconference.org/information/cfp/'>here</a>.
 - title: RSS
   year: 2026
   id: rss26
@@ -26,8 +27,10 @@
   start: 2026-07-13
   end: 2026-07-17
   hindex: 61
-  sub: ['RO']
-  note: 'Abstract/title deadline: January 23, 2026. Supplementary material deadline: February 6, 2026. More info <a href=''https://roboticsconference.org/information/cfp/''>here</a>.'
+  sub:
+  - RO
+  note: 'Abstract/title deadline: January 23, 2026. Supplementary material deadline:
+    February 6, 2026. More info <a href=''https://roboticsconference.org/information/cfp/''>here</a>.'
 - title: RSS
   year: 2025
   id: rss25
@@ -41,9 +44,11 @@
   start: 2025-06-21
   end: 2025-06-25
   hindex: 61
-  sub: ['RO']
+  sub:
+  - RO
   paperslink: https://roboticsconference.org/2025/program/papers/
-  note: 'Title/abstract deadline: January 17, 2025. Final PDF and supplementary material deadline: January 31, 2025. More info <a href=''https://roboticsconference.org/2025/information/cfp/''>here</a>.'
+  note: 'Title/abstract deadline: January 17, 2025. Final PDF and supplementary material
+    deadline: January 31, 2025. More info <a href=''https://roboticsconference.org/2025/information/cfp/''>here</a>.'
 - title: RSS
   year: 2024
   id: rss24
@@ -55,9 +60,11 @@
   start: 2024-07-15
   end: 2024-07-19
   hindex: 61
-  sub: ['RO']
+  sub:
+  - RO
   paperslink: https://roboticsconference.org/2024/program/papers/
-  note: Optional supplementary material deadline on February 08, 2024. More info <a href='https://roboticsconference.org/2024'>here</a>.
+  note: Optional supplementary material deadline on February 08, 2024. More info <a
+    href='https://roboticsconference.org/2024'>here</a>.
 - title: RSS
   year: 2023
   id: rss23
@@ -69,7 +76,8 @@
   start: 2023-07-10
   end: 2023-07-14
   hindex: 58
-  sub: ['RO']
+  sub:
+  - RO
 - title: RSS
   year: 2022
   id: rss22
@@ -81,4 +89,5 @@
   start: 2022-06-27
   end: 2022-07-01
   hindex: 50
-  sub: ['RO']
+  sub:
+  - RO

@@ -1,16 +1,27 @@
 - title: ICDE-2
   year: 2027
-  id: icde25-227
-  link: https://icde2027.github.io/
-  deadline: '2026-10-27 23:59:00'
-  abstract_deadline: '2026-10-27 23:59:00'
-  timezone: AoE
-  place: TBA
-  date: May 4-8, 2027
-  start: '2027-05-04'
-  end: '2027-05-08'
+  id: icde27-2
+  link: https://icde2027.github.io/important-dates.html
+  deadline: '2026-11-11 17:00:00'
+  timezone: America/Los_Angeles
+  place: Copenhagen, Denmark
+  date: May 17-21, 2027
+  start: '2027-05-17'
+  end: '2027-05-21'
   sub: ['DM']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://icde2027.github.io/'>here</a>.
+  note: Research track round 2. All deadlines 5:00 p.m. Pacific Time. More info <a href='https://icde2027.github.io/important-dates.html'>here</a>.
+- title: ICDE-1
+  year: 2027
+  id: icde27-1
+  link: https://icde2027.github.io/important-dates.html
+  deadline: '2026-06-11 17:00:00'
+  timezone: America/Los_Angeles
+  place: Copenhagen, Denmark
+  date: May 17-21, 2027
+  start: '2027-05-17'
+  end: '2027-05-21'
+  sub: ['DM']
+  note: Research track round 1. More info <a href='https://icde2027.github.io/important-dates.html'>here</a>.
 - title: ICDE-2
   year: 2026
   id: icde25-2

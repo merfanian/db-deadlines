@@ -2,15 +2,15 @@
   year: 2027
   id: CIKM27
   link: http://www.cikmconference.org/
-  deadline: '2027-05-23 23:59:59'
-  abstract_deadline: '2027-05-16 23:59:59'
+  deadline: TBA
+  abstract_deadline: TBA
   timezone: UTC-12
   place: Sydney, Australia
   date: November 2027
   start: 2027-11-01
   end: 2027-11-30
   sub: [DM, KR]
-  note: Predicted based on CIKM 2025/2026 schedule pattern (AoE). CIKM 2027 host city announced by CIKM steering site. More info <a href='http://www.cikmconference.org/'>here</a>.
+  note: Submission deadlines not yet announced. CIKM 2027 host city is Sydney, Australia. More info <a href='http://www.cikmconference.org/'>here</a>.
 - title: CIKM
   year: 2026
   id: CIKM26

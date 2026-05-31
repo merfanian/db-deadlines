@@ -2,16 +2,16 @@
   year: 2027
   id: www27
   link: https://www2027.thewebconf.org/
-  deadline: '2026-10-13 23:59:59'
-  abstract_deadline: '2026-10-06 23:59:59'
+  deadline: TBA
+  abstract_deadline: TBA
   timezone: UTC-12
-  place: TBA
-  date: April 30 - May 4, 2027
-  start: '2027-04-30'
-  end: '2027-05-04'
+  place: Dublin, Ireland
+  date: TBA, 2027
+  start: '2027-04-01'
+  end: '2027-04-30'
   hindex: 70
   sub: ['DM']
-  note: Predicted based on 2026 schedule pattern. Please verify on the official conference website. More info <a href='https://www2027.thewebconf.org/'>here</a>.
+  note: Submission deadlines not yet announced. More info <a href='https://www2027.thewebconf.org/'>here</a>.
 - title: WWW
   year: 2026
   id: www26

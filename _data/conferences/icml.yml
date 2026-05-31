@@ -2,16 +2,17 @@
   year: 2027
   id: icml27
   link: https://icml.cc/Conferences/2027
-  abstract_deadline: '2027-01-25 11:59:00'
-  deadline: '2027-01-30 11:59:00'
+  abstract_deadline: TBA
+  deadline: TBA
   timezone: America/Los_Angeles
   place: TBA
   date: July 2027
   start: 2027-07-01
   end: 2027-07-31
   hindex: 204
-  sub: ['ML']
-  note: Predicted based on historical pattern. More info <a href='https://icml.cc/Conferences/2027'>here</a> (when available).
+  sub:
+  - ML
+  note: Submission deadlines not yet announced. More info <a href='https://icml.cc/Conferences/2027'>here</a>.
 - title: ICML
   year: 2026
   id: icml26
@@ -24,8 +25,10 @@
   start: 2026-07-06
   end: 2026-07-11
   hindex: 204
-  sub: ['ML']
-  note: 'Mandatory abstract deadline on January 23, 2026. Author notification: April 30, 2026. More info <a href=''https://icml.cc/Conferences/2026/CallForPapers''>here</a>.'
+  sub:
+  - ML
+  note: 'Mandatory abstract deadline on January 23, 2026. Author notification: April
+    30, 2026. More info <a href=''https://icml.cc/Conferences/2026/CallForPapers''>here</a>.'
 - title: ICML
   year: 2024
   id: icml24
@@ -37,7 +40,8 @@
   start: 2024-07-21
   end: 2024-07-27
   hindex: 254
-  sub: ['ML']
+  sub:
+  - ML
   paperslink: https://proceedings.mlr.press/v235/
 - title: ICML
   year: 2023
@@ -50,7 +54,8 @@
   start: 2023-07-23
   end: 2023-07-29
   hindex: 204
-  sub: ['ML']
+  sub:
+  - ML
 - title: ICML
   year: 2022
   id: icml22
@@ -63,5 +68,6 @@
   start: 2022-07-17
   end: 2022-07-23
   hindex: 204
-  sub: ['ML']
+  sub:
+  - ML
   note: Mandatory abstract deadline on Jan 20, 2022. More info <a href='https://icml.cc/Conferences/2022/'>here</a>.
