@@ -3,16 +3,16 @@
   id: aaai27
   full_name: AAAI Conference on Artificial Intelligence
   link: https://aaai.org/conference/aaai/aaai-27/
-  deadline: '2026-08-15 23:59:59'
-  abstract_deadline: '2026-08-07 23:59:59'
+  deadline: '2026-07-28 23:59:59'
+  abstract_deadline: '2026-07-21 23:59:59'
   timezone: UTC-12
-  place: TBA
-  date: February 2027
-  start: 2027-02-01
-  end: 2027-02-28
+  place: Montréal, Canada
+  date: February 16-23, 2027
+  start: '2027-02-16'
+  end: '2027-02-23'
   hindex: 212
   sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
-  note: Predicted based on historical pattern. Mandatory abstract deadline typically 1 week before paper deadline. More info <a href='https://aaai.org/conference/aaai/aaai-27/'>here</a> (when available).
+  note: Supplementary material and code due July 31, 2026. Final notification Nov 30, 2026. All deadlines AoE (UTC-12). More info <a href='https://aaai.org/conference/aaai/aaai-27/'>here</a>.
 - title: AAAI
   year: 2026
   id: aaai26
