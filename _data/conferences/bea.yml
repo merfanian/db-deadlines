@@ -2,7 +2,7 @@
   year: 2027
   id: bea27
   link: https://sig-edu.org/bea/2027
-  deadline: TBA
+  deadline: '2027-04-17 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -15,7 +15,7 @@
   - ML
   - CV
   - EDU
-  note: Submission deadlines not yet announced. More info <a href='https://sig-edu.org/bea/2027'>here</a>.
+  note: Predicted deadline based on historical BEA pattern (past deadlines — 2025 Apr 17, 2025 Apr 17). Please verify on the official conference website. More info <a href='https://sig-edu.org/bea/2027'>here</a>.
 - title: BEA
   year: 2026
   id: bea2026

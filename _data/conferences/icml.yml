@@ -3,7 +3,7 @@
   id: icml27
   link: https://icml.cc/Conferences/2027
   abstract_deadline: TBA
-  deadline: TBA
+  deadline: '2027-01-28 23:59:59'
   timezone: America/Los_Angeles
   place: TBA
   date: July 2027
@@ -12,7 +12,7 @@
   hindex: 204
   sub:
   - ML
-  note: Submission deadlines not yet announced. More info <a href='https://icml.cc/Conferences/2027'>here</a>.
+  note: Predicted deadline based on historical ICML pattern (past deadlines — 2026 Jan 28, 2024 Feb 1, 2023 Jan 26). Please verify on the official conference website. More info <a href='https://icml.cc/Conferences/2027'>here</a>.
 - title: ICML
   year: 2026
   id: icml26

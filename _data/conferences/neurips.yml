@@ -4,7 +4,7 @@
   full_name: Conference on Neural Information Processing Systems
   hindex: 309
   link: https://neurips.cc/Conferences/FutureMeetings
-  deadline: TBA
+  deadline: '2027-05-06 23:59:59'
   abstract_deadline: TBA
   timezone: UTC
   place: Europe
@@ -12,7 +12,7 @@
   start: 2027-12-01
   end: 2027-12-31
   sub: ['ML']
-  note: NeurIPS 2027 will be held in Europe; city TBA. Submission deadlines not yet announced. More info <a href='https://neurips.cc/Conferences/FutureMeetings'>here</a>.
+  note: Predicted deadline based on historical NeurIPS pattern (past deadlines — 2026 May 6, 2025 May 16, 2024 May 22). Please verify on the official conference website. More info <a href='https://neurips.cc/Conferences/FutureMeetings'>here</a>.
 - title: NeurIPS
   year: 2026
   id: neurips26

@@ -3,7 +3,7 @@
   id: log27
   full_name: Learning on Graphs Conference
   link: https://logconference.org
-  deadline: TBA
+  deadline: '2027-09-11 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -14,7 +14,7 @@
   - ML
   - DM
   - KR
-  note: Submission deadlines not yet announced. More info <a href='https://logconference.org'>here</a>.
+  note: Predicted deadline based on historical LoG pattern (past deadlines — 2025 Sep 11, 2024 Sep 11, 2022 Sep 16). Please verify on the official conference website. More info <a href='https://logconference.org'>here</a>.
 - title: LoG
   year: 2026
   id: log26

@@ -3,7 +3,7 @@
   id: siggraphasia27
   full_name: SIGGRAPH ASIA 2027
   link: https://asia.siggraph.org/2027/
-  deadline: TBA
+  deadline: '2027-05-12 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -12,7 +12,7 @@
   end: 2027-12-04
   sub:
   - CG
-  note: Submission deadlines not yet announced. More info <a href='https://asia.siggraph.org/2027/'>here</a>.
+  note: Predicted deadline based on historical SIGGRAPH Asia pattern (past deadlines — 2026 May 12, 2025 May 23, 2024 May 19). Please verify on the official conference website. More info <a href='https://asia.siggraph.org/2027/'>here</a>.
 - title: SIGGRAPH Asia
   year: 2026
   id: siggraphasia26

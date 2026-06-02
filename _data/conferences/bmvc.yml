@@ -3,7 +3,7 @@
   id: bmvc27
   full_name: The British Machine Vision Conference
   link: https://bmvc2027.bmva.org/calls/call-for-papers/
-  deadline: TBA
+  deadline: '2027-05-20 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -12,7 +12,7 @@
   end: '2027-11-26'
   sub:
   - CV
-  note: Submission deadlines not yet announced. More info <a href='https://bmvc2027.bmva.org/calls/call-for-papers/'>here</a>.
+  note: Predicted deadline based on historical BMVC pattern (past deadlines — 2026 May 29, 2024 May 10, 2023 May 12). Please verify on the official conference website. More info <a href='https://bmvc2027.bmva.org/calls/call-for-papers/'>here</a>.
 - title: BMVC
   year: 2026
   id: bmvc26

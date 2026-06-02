@@ -2,7 +2,7 @@
   year: 2027
   id: emnlp27
   link: https://2027.emnlp.org/
-  deadline: TBA
+  deadline: '2027-05-25 23:59:59'
   timezone: UTC-12
   place: TBA
   date: October 24-29, 2027
@@ -10,7 +10,7 @@
   end: '2027-10-29'
   sub:
   - NLP
-  note: Submission deadlines not yet announced. More info <a href='https://2027.emnlp.org/'>here</a>.
+  note: Predicted deadline based on historical EMNLP pattern (past deadlines — 2026 May 25, 2025 May 19, 2024 Jun 15). Please verify on the official conference website. More info <a href='https://2027.emnlp.org/'>here</a>.
 - title: EMNLP
   year: 2026
   id: emnlp26

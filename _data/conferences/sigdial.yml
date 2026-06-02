@@ -2,7 +2,7 @@
   year: 2027
   id: sigdial27
   link: https://2027.sigdial.org/
-  deadline: TBA
+  deadline: '2027-04-20 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -11,7 +11,7 @@
   end: '2027-08-05'
   sub:
   - NLP
-  note: Submission deadlines not yet announced. More info <a href='https://2027.sigdial.org/'>here</a>.
+  note: Predicted deadline based on historical SIGDIAL pattern (past deadlines — 2026 Apr 20, 2025 Apr 28, 2024 Apr 24). Please verify on the official conference website. More info <a href='https://2027.sigdial.org/'>here</a>.
 - title: SIGDIAL
   year: 2026
   id: sigdial26

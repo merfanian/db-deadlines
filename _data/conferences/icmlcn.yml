@@ -4,7 +4,7 @@
   full_name: IEEE International Conference on Machine Learning for Communication and
     Networking
   link: https://icmlcn2027.ieee-icmlcn.org/call-papers
-  deadline: TBA
+  deadline: '2026-11-13 23:59:59'
   timezone: UTC-12
   place: TBA
   date: March 30 - April 2, 2027
@@ -12,7 +12,7 @@
   end: '2027-04-02'
   sub:
   - ML
-  note: Submission deadlines not yet announced. More info <a href='https://icmlcn2027.ieee-icmlcn.org/call-papers'>here</a>.
+  note: Predicted deadline based on historical ICMLCN pattern (past deadlines — 2025 Nov 13). Please verify on the official conference website. More info <a href='https://icmlcn2027.ieee-icmlcn.org/call-papers'>here</a>.
 - title: ICMLCN
   year: 2026
   id: icmlcn26

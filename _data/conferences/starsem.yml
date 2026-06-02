@@ -2,7 +2,7 @@
   year: 2027
   id: starsem27
   link: https://starsem2027.github.io/
-  deadline: TBA
+  deadline: '2027-02-13 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -11,7 +11,7 @@
   end: '2027-07-06'
   sub:
   - NLP
-  note: Submission deadlines not yet announced. More info <a href='https://starsem2027.github.io/'>here</a>.
+  note: Predicted deadline based on historical STARSEM pattern (past deadlines — 2026 Feb 13, 2025 May 30, 2023 Mar 24). Please verify on the official conference website. More info <a href='https://starsem2027.github.io/'>here</a>.
 - title: STARSEM
   year: 2026
   id: starsem2026

@@ -2,7 +2,7 @@
   year: 2027
   id: mm27
   link: https://2027.acmmm.org/
-  deadline: TBA
+  deadline: '2027-04-08 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -11,7 +11,7 @@
   end: '2027-11-01'
   sub:
   - CV
-  note: Submission deadlines not yet announced. More info <a href='https://2027.acmmm.org/'>here</a>.
+  note: Predicted deadline based on historical MM pattern (past deadlines — 2025 Apr 8, 2024 Apr 8, 2023 Apr 30). Please verify on the official conference website. More info <a href='https://2027.acmmm.org/'>here</a>.
 - title: MM
   year: 2026
   id: mm26

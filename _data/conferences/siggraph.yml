@@ -2,7 +2,7 @@
   year: 2027
   id: siggraph27
   link: https://s2027.siggraph.org/
-  deadline: TBA
+  deadline: '2027-01-24 23:59:59'
   abstract_deadline: TBA
   timezone: GMT
   place: TBA
@@ -11,7 +11,7 @@
   end: '2027-08-01'
   sub:
   - CG
-  note: Submission deadlines not yet announced. More info <a href='https://s2027.siggraph.org/'>here</a>.
+  note: Predicted deadline based on historical SIGGRAPH pattern (past deadlines — 2025 Jan 24, 2024 Jan 24, 2023 Jan 24). Please verify on the official conference website. More info <a href='https://s2027.siggraph.org/'>here</a>.
 - title: SIGGRAPH
   year: 2026
   id: siggraph26

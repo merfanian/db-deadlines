@@ -2,7 +2,7 @@
   year: 2027
   id: inlg27
   link: https://www.siggen.org/INLG-conferences.html
-  deadline: TBA
+  deadline: '2027-07-15 23:59:59'
   timezone: UTC-12
   place: TBA
   date: TBA, 2027
@@ -10,8 +10,7 @@
   end: '2027-09-05'
   sub:
   - NLP
-  note: 20th INLG. Host and submission deadlines not yet announced. Dates are an estimate
-    based on previous editions (typically September-November). More info <a href='https://www.siggen.org/INLG-conferences.html'>here</a>.
+  note: Predicted deadline based on historical INLG pattern (past deadlines — 2026 Jul 15, 2025 Jul 18, 2024 May 31). Please verify on the official conference website. More info <a href='https://www.siggen.org/INLG-conferences.html'>here</a>.
 - title: INLG
   year: 2026
   id: inlg26

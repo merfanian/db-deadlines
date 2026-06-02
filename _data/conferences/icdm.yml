@@ -3,7 +3,7 @@
   id: icdm27
   full_name: IEEE International Conference on Data Mining
   link: http://icdm2027.neu.edu.cn/
-  deadline: TBA
+  deadline: '2027-06-06 23:59:59'
   abstract_deadline: TBA
   timezone: AoE
   place: TBA
@@ -12,7 +12,7 @@
   end: '2027-11-15'
   sub:
   - DM
-  note: Submission deadlines not yet announced. More info <a href='http://icdm2027.neu.edu.cn/'>here</a>.
+  note: Predicted deadline based on historical ICDM pattern (past deadlines — 2026 Jun 6, 2025 Jun 6, 2024 Jun 14). Please verify on the official conference website. More info <a href='http://icdm2027.neu.edu.cn/'>here</a>.
 - title: ICDM
   year: 2026
   id: icdm26

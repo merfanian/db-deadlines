@@ -3,7 +3,7 @@
   id: cvai27
   full_name: International Symposium on Computer Vision and Artificial Intelligence
   link: https://www.cvai2027.org/index.html
-  deadline: TBA
+  deadline: '2027-02-05 23:59:59'
   timezone: Asia/Shanghai
   place: TBA
   date: March 27-29, 2027
@@ -13,7 +13,7 @@
   - CV
   - ML
   - RO
-  note: Submission deadlines not yet announced. More info <a href='https://www.cvai2027.org/index.html'>here</a>.
+  note: Predicted deadline based on historical CVAI pattern (past deadlines — 2026 Feb 5). Please verify on the official conference website. More info <a href='https://www.cvai2027.org/index.html'>here</a>.
 - title: CVAI
   year: 2026
   id: cvai26

@@ -3,7 +3,7 @@
   id: umap27
   full_name: ACM International Conference on User Modeling, Adaptation and Personalization
   link: https://www.um.org/umap2027/call-for-full-short-papers/
-  deadline: TBA
+  deadline: '2027-01-29 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -12,7 +12,7 @@
   end: '2027-06-11'
   sub:
   - HCI
-  note: Submission deadlines not yet announced. More info <a href='https://www.um.org/umap2027/call-for-full-short-papers/'>here</a>.
+  note: Predicted deadline based on historical UMAP pattern (past deadlines — 2026 Jan 29). Please verify on the official conference website. More info <a href='https://www.um.org/umap2027/call-for-full-short-papers/'>here</a>.
 - title: UMAP
   year: 2026
   id: umap26

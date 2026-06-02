@@ -2,7 +2,7 @@
   year: 2027
   id: recsys27
   link: https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/
-  deadline: TBA
+  deadline: '2027-04-21 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   date: September 28 - October 2, 2027
@@ -11,7 +11,7 @@
   end: '2027-10-02'
   sub:
   - DM
-  note: Submission deadlines not yet announced. More info <a href='https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/'>here</a>.
+  note: Predicted deadline based on historical RecSys pattern (past deadlines — 2026 Apr 21, 2023 Apr 21, 2022 May 3). Please verify on the official conference website. More info <a href='https://recsys.acm.org/recsys26/recsys-26-call-for-contributions/'>here</a>.
 - title: RecSys
   year: 2026
   id: recsys26

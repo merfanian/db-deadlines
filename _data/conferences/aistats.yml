@@ -2,7 +2,7 @@
   year: 2027
   id: aistats27
   link: https://virtual.aistats.org/Conferences/2027/CallForPapers
-  deadline: TBA
+  deadline: '2026-10-02 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -12,7 +12,7 @@
   hindex: 100
   sub:
   - ML
-  note: Submission deadlines not yet announced. More info <a href='https://virtual.aistats.org/Conferences/2027/CallForPapers'>here</a>.
+  note: Predicted deadline based on historical AISTATS pattern (past deadlines — 2025 Oct 2, 2024 Oct 10, 2023 Oct 16). Please verify on the official conference website. More info <a href='https://virtual.aistats.org/Conferences/2027/CallForPapers'>here</a>.
 - title: AISTATS
   year: 2026
   id: aistats26

@@ -2,7 +2,7 @@
   year: 2027
   id: uai27
   link: https://www.auai.org/uai2027/
-  deadline: TBA
+  deadline: '2027-02-25 23:59:59'
   timezone: UTC-12
   place: TBA
   date: July 2027
@@ -10,7 +10,7 @@
   end: 2027-07-31
   sub:
   - ML
-  note: Submission deadlines not yet announced. More info <a href='https://www.auai.org/uai2027/'>here</a>.
+  note: Predicted deadline based on historical UAI pattern (past deadlines — 2026 Feb 25, 2025 Jan 5, 2024 Feb 9). Please verify on the official conference website. More info <a href='https://www.auai.org/uai2027/'>here</a>.
 - title: UAI
   year: 2026
   id: uai26

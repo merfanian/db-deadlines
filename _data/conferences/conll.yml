@@ -2,7 +2,7 @@
   year: 2027
   id: conll27
   link: https://conll.org/
-  deadline: TBA
+  deadline: '2027-02-19 23:59:59'
   timezone: UTC-12
   place: TBA
   date: July 3-4, 2027
@@ -11,7 +11,7 @@
   hindex: 44
   sub:
   - NLP
-  note: Submission deadlines not yet announced. More info <a href='https://conll.org/'>here</a>.
+  note: Predicted deadline based on historical CoNLL pattern (past deadlines — 2026 Feb 19, 2023 Jun 30, 2020 Jul 17). Please verify on the official conference website. More info <a href='https://conll.org/'>here</a>.
 - title: CoNLL
   year: 2026
   id: conll26

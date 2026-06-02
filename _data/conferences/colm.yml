@@ -2,7 +2,7 @@
   year: 2027
   id: colm27
   link: https://colmweb.org/
-  deadline: TBA
+  deadline: '2027-03-31 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -13,7 +13,7 @@
   sub:
   - NLP
   - ML
-  note: Submission deadlines not yet announced. More info <a href='https://colmweb.org/'>here</a>.
+  note: Predicted deadline based on historical COLM pattern (past deadlines — 2026 Mar 31, 2025 Mar 27, 2024 Mar 29). Please verify on the official conference website. More info <a href='https://colmweb.org/'>here</a>.
 - title: COLM
   year: 2026
   id: colm26

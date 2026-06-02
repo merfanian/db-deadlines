@@ -2,7 +2,7 @@
   year: 2027
   id: acl27
   link: https://2027.aclweb.org/
-  deadline: TBA
+  deadline: '2027-01-05 23:59:59'
   timezone: UTC-12
   place: TBA
   date: July 2027
@@ -11,7 +11,7 @@
   hindex: 192
   sub:
   - NLP
-  note: Submission deadlines not yet announced. More info <a href='https://2027.aclweb.org/'>here</a>.
+  note: Predicted deadline based on historical ACL pattern (past deadlines — 2026 Jan 5, 2025 Feb 15, 2024 Feb 15). Please verify on the official conference website. More info <a href='https://2027.aclweb.org/'>here</a>.
 - title: ACL
   year: 2026
   id: acl26

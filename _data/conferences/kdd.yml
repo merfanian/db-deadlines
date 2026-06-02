@@ -2,7 +2,7 @@
   year: 2027
   id: kdd26-227
   link: https://kdd2027.kdd.org/
-  deadline: TBA
+  deadline: '2027-02-10 23:59:59'
   abstract_deadline: TBA
   timezone: UTC-12
   place: TBA
@@ -11,7 +11,7 @@
   end: '2027-08-07'
   sub:
   - DM
-  note: Submission deadlines not yet announced. More info <a href='https://kdd2027.kdd.org/'>here</a>.
+  note: Predicted deadline based on historical KDD-2 pattern (past deadlines — 2026 Feb 10, 2025 Feb 10). Please verify on the official conference website. More info <a href='https://kdd2027.kdd.org/'>here</a>.
 - title: KDD-2
   year: 2026
   id: kdd26-2
