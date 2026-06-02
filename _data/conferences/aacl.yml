@@ -1,15 +1,15 @@
 - title: AACL
   year: 2026
   id: aacl26
-  link: https://www.afnlp.org/conferences/ijcnlp2026/
-  deadline: '2026-07-28 23:59:00'
+  link: https://2026.aaclnet.org/
+  deadline: '2026-05-25 23:59:00'
   timezone: UTC-12
-  place: TBA
-  date: Dec 2026
-  start: '2026-12-20'
-  end: '2026-12-25'
+  place: Hengqin, China
+  date: November 6-10, 2026
+  start: '2026-11-06'
+  end: '2026-11-10'
   sub: ['NLP']
-  note: Predicted deadline based on historical AACL/IJCNLP pattern. Please verify on the official conference website. More info <a href='https://www.afnlp.org/conferences/ijcnlp2026/'>here</a>.
+  note: 5th AACL & 15th IJCNLP. All submissions via ACL Rolling Review (ARR); ARR submission deadline May 25, 2026 (AoE), commitment deadline August 2, 2026, notification September 7, 2026. More info <a href='https://2026.aaclnet.org/calls/main_conference_papers/'>here</a>.
 - title: AACL
   year: 2025
   id: aacl25
