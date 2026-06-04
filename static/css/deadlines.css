@@ -378,6 +378,13 @@ footer a:hover {
   margin-right: 12px;
 }
 
+.footer-ounlp-logo {
+  height: 14px;
+  width: auto;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
 .twitter-github-icons {
   line-height: 16px;
 }
