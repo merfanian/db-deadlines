@@ -1,4 +1,17 @@
 - title: ICCV
+  year: 2027
+  id: iccv27
+  link: https://iccv.thecvf.com/
+  deadline: '2027-03-07 23:59:59'
+  timezone: UTC-12
+  place: Hong Kong
+  date: October 2027
+  start: '2027-10-02'
+  end: '2027-10-08'
+  hindex: 389
+  sub: ['CV']
+  note: Predicted deadline based on historical ICCV biennial pattern (past deadlines — 2025 Mar 7, 2023 Mar 8). Host city Hong Kong confirmed by CVF; dates and deadline not yet announced. Please verify on the official conference website. More info <a href='https://www.thecvf.com/?page_id=100'>here</a>.
+- title: ICCV
   year: 2025
   id: iccv25
   link: https://iccv.thecvf.com/

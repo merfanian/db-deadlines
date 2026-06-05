@@ -1,4 +1,18 @@
 - title: COLING
+  year: 2027
+  id: coling27
+  full_name: The 32nd International Conference on Computational Linguistics
+  link: https://2027.coling-iccl.org/
+  deadline: '2026-12-15 23:59:59'
+  timezone: UTC-12
+  place: Macau, China
+  date: May 9-14, 2027
+  start: '2027-05-09'
+  end: '2027-05-14'
+  hindex: 73
+  sub: ['NLP']
+  note: Predicted deadline based on historical COLING biennial pattern (past deadlines — 2025 Sep 16, 2022 May 17). Host Macau and dates May 9-14 confirmed; submission deadline not yet announced (TBD). Please verify on the official conference website. More info <a href='https://2027.coling-iccl.org/'>here</a>.
+- title: COLING
   year: 2025
   id: coling25
   full_name: The 31st International Conference on Computational Linguistics
