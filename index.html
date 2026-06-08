@@ -344,7 +344,9 @@
 
                 // Wait for all verifications to complete (or timeout), then render
                 // Use Promise.allSettled if available, otherwise use Promise.all with catch
-                var allSettled = Promise.allSettled || function(promises) {
+                var allSettled = Promise.allSettled
+                    ? Promise.allSettled.bind(Promise)
+                    : function(promises) {
                     return Promise.all(promises.map(function(p) {
                         return p.then(function(value) {
                             return { status: 'fulfilled', value: value };
