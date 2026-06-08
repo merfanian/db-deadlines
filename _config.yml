@@ -1,14 +1,14 @@
-title: AI Conference Deadlines
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Jie Cao
+title: DB Conference Deadlines
+description: Countdowns to top Database/Data Mining/Information Retrieval/ML/Theory conference deadlines
+author: merfanian
 
-domain: "mlciv.com"
-baseurl: "/ai-deadlines"
-url: "https://mlciv.com"
+domain: "merfanian.github.io"
+baseurl: "/db-deadlines"
+url: "https://merfanian.github.io"
 
-twitter_hashtag: mlciv_jiessie
-github_username: mlciv
-github_repo: ai-deadlines
+twitter_hashtag: db_deadlines
+github_username: merfanian
+github_repo: db-deadlines
 
 markdown: kramdown
 ga_id:

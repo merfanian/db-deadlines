@@ -5,7 +5,7 @@ name: query-deadlines-by-keyword
 description: >-
   Answers conference submission deadline questions from topic keywords or research ideas.
   Works with a YAML conference dataset (Jekyll-style) or with web search alone. Maps natural
-  language to subject tags (ML, CV, NLP, RO, etc.), ranks by upcoming deadlines, and flags
+  language to subject tags (DB, DM, IR, ML, NLP, TH, etc.), ranks by upcoming deadlines, and flags
   predicted or unconfirmed dates. Use when the user asks for deadlines by topic, field, keyword,
   or vague research area, or for potential or next-year submission dates.
 ---
@@ -14,14 +14,14 @@ description: >-
 
 ## Published copy (for agents)
 
-This file is deployed with the **AI Conference Deadlines** site. Agents may **fetch** the **source** markdown from GitHub (same text as in this repository):
+This file is deployed with the **DB Conference Deadlines** site. Agents may **fetch** the **source** markdown from GitHub (same text as in this repository):
 
-- **Raw `SKILL.md` (for agents):** `https://raw.githubusercontent.com/mlciv/ai-deadlines/gh-pages/static/skill/SKILL.md`  
-  (Replace `mlciv/ai-deadlines` with your fork’s `user/repo` if needed.)
+- **Raw `SKILL.md` (for agents):** `https://raw.githubusercontent.com/merfanian/db-deadlines/gh-pages/static/skill/SKILL.md`  
+  (Replace `merfanian/db-deadlines` with your fork’s `user/repo` if needed.)
 
-**Human-readable page (built by Jekyll):** `/ai-deadlines/static/skill/SKILL.html` on the site.
+**Human-readable page (built by Jekyll):** `/db-deadlines/static/skill/SKILL.html` on the site.
 
-Dataset backing this deployment (when applicable): conference YAML under `_data/conferences/` and `_data/types.yml` in the [source repository](https://github.com/mlciv/ai-deadlines).
+Dataset backing this deployment (when applicable): conference YAML under `_data/conferences/` and `_data/types.yml` in the [source repository](https://github.com/merfanian/db-deadlines).
 
 ## JSON API endpoints (machine-readable, no scraping required)
 
@@ -29,21 +29,16 @@ These endpoints are generated at build time and served as static JSON files.
 
 | Endpoint | Description |
 |---|---|
-| `/ai-deadlines/conferences.json` | **All** conferences as a flat JSON array |
-| `/ai-deadlines/api/` | API index with endpoint URLs and field documentation |
-| `/ai-deadlines/api/upcoming.json` | Conferences with a concrete (non-TBA) deadline |
-| `/ai-deadlines/api/ML.json` | Machine Learning conferences |
-| `/ai-deadlines/api/CV.json` | Computer Vision conferences |
-| `/ai-deadlines/api/NLP.json` | NLP conferences |
-| `/ai-deadlines/api/RO.json` | Robotics conferences |
-| `/ai-deadlines/api/SP.json` | Speech conferences |
-| `/ai-deadlines/api/DM.json` | Data Mining conferences |
-| `/ai-deadlines/api/AP.json` | Planning / Autonomous Agents |
-| `/ai-deadlines/api/KR.json` | Knowledge Representation |
-| `/ai-deadlines/api/HCI.json` | HCI conferences |
-| `/ai-deadlines/api/EDU.json` | AI in Education |
-| `/ai-deadlines/api/CG.json` | Computer Graphics |
-| `/ai-deadlines/ai-deadlines.ics` | iCalendar feed (subscribe in Google/Apple Calendar) |
+| `/db-deadlines/conferences.json` | **All** conferences as a flat JSON array |
+| `/db-deadlines/api/` | API index with endpoint URLs and field documentation |
+| `/db-deadlines/api/upcoming.json` | Conferences with a concrete (non-TBA) deadline |
+| `/db-deadlines/api/DB.json` | Databases conferences |
+| `/db-deadlines/api/DM.json` | Data Mining conferences |
+| `/db-deadlines/api/IR.json` | Information Retrieval conferences |
+| `/db-deadlines/api/ML.json` | Machine Learning conferences |
+| `/db-deadlines/api/NLP.json` | NLP conferences |
+| `/db-deadlines/api/TH.json` | Theory conferences |
+| `/db-deadlines/db-deadlines.ics` | iCalendar feed (subscribe in Google/Apple Calendar) |
 
 **Recommended agent workflow:**
 1. Fetch `conferences.json` or a subject endpoint (e.g. `NLP.json`) — no HTML scraping needed.
@@ -68,9 +63,9 @@ Never fabricate deadlines.
 
 ## Data layout (when a repo or dataset exists)
 
-Typical **ai-deadlines–style** trees:
+Typical **db-deadlines–style** trees:
 
-- `types.yml` (or equivalent): maps human-readable area names to short codes (`sub`), e.g. `ML`, `CV`, `NLP`.
+- `types.yml` (or equivalent): maps human-readable area names to short codes (`sub`), e.g. `DB`, `DM`, `IR`, `ML`, `NLP`, `TH`.
 - `conferences/*.yml` (or `_data/conferences/*.yml`): one or more YAML documents per file; each **conference** is a list item with fields such as:
 
   `title`, `year`, `id`, `link`, `deadline`, `abstract_deadline`, `timezone`, `place`, `date`, `start`, `end`, `sub`, `note`.

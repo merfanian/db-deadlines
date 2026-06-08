@@ -1,6 +1,0 @@
----
-layout: null
-permalink: /api/KR.json
----
-{% include load_conferences.html %}
-{% assign filtered = "" | split: "" %}{% for conf in all_conferences %}{% assign subs = conf.sub %}{% if subs contains 'KR' %}{% assign filtered = filtered | push: conf %}{% endif %}{% endfor %}{{ filtered | jsonify }}

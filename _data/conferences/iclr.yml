@@ -12,11 +12,6 @@
   hindex: 304
   sub:
   - ML
-  - AP
-  - RO
-  - CV
-  - NLP
-  - SP
   note: Predicted deadline based on historical ICLR pattern (past deadlines — 2025 Sep 24, 2024 Oct 1, 2023 Sep 28). Please verify on the official conference website. More info <a href='https://iclr.cc/Conferences/2027/CallForPapers'>here</a>.
 - title: ICLR
   year: 2026
@@ -32,11 +27,6 @@
   hindex: 304
   sub:
   - ML
-  - AP
-  - RO
-  - CV
-  - NLP
-  - SP
   paperslink: https://iclr.cc/virtual/2026/papers.html
   note: Mandatory abstract deadline on September 27, 2025. More info <a href='https://iclr.cc/Conferences/2026/CallForPapers'>here</a>.
 - title: ICLR
@@ -53,11 +43,6 @@
   hindex: 304
   sub:
   - ML
-  - AP
-  - RO
-  - CV
-  - NLP
-  - SP
   paperslink: https://iclr.cc/virtual/2025/papers.html
   note: Mandatory abstract deadline on September 27, 2024. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.
 - title: ICLR

@@ -1,0 +1,26 @@
+- title: EDBT-3
+  year: 2027
+  id: edbt27-3
+  full_name: International Conference on Extending Database Technology
+  link: https://edbticdt2027.github.io/
+  deadline: '2026-10-07 23:59:59'
+  timezone: UTC-12
+  place: Lille, France
+  date: April 6-9, 2027
+  start: '2027-04-06'
+  end: '2027-04-09'
+  sub: ['DB']
+  note: Submission round 3 (of 3) for EDBT 2027. All deadlines are AoE. More info <a href='https://edbticdt2027.github.io/'>here</a>.
+- title: EDBT-2
+  year: 2027
+  id: edbt27-2
+  full_name: International Conference on Extending Database Technology
+  link: https://edbticdt2027.github.io/
+  deadline: '2026-06-10 23:59:59'
+  timezone: UTC-12
+  place: Lille, France
+  date: April 6-9, 2027
+  start: '2027-04-06'
+  end: '2027-04-09'
+  sub: ['DB']
+  note: Submission round 2 (of 3) for EDBT 2027. All deadlines are AoE. More info <a href='https://edbticdt2027.github.io/'>here</a>.

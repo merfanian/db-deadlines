@@ -1,0 +1,25 @@
+- title: STOC
+  year: 2027
+  id: stoc27
+  full_name: ACM Symposium on Theory of Computing
+  link: https://acm-stoc.org/
+  deadline: '2026-11-03 16:59:00'
+  abstract_deadline: TBA
+  timezone: America/New_York
+  place: TBA
+  date: 2027
+  sub: ['TH']
+  note: Predicted deadline based on historical STOC pattern (past deadline — STOC 2026 November 4, 2025). Please verify on the official conference website. More info <a href='https://acm-stoc.org/'>here</a>.
+- title: STOC
+  year: 2026
+  id: stoc26
+  full_name: ACM Symposium on Theory of Computing
+  link: https://acm-stoc.org/stoc2026/
+  deadline: '2025-11-04 16:59:00'
+  timezone: America/New_York
+  place: Salt Lake City, Utah, USA
+  date: June 22-27, 2026
+  start: '2026-06-22'
+  end: '2026-06-27'
+  sub: ['TH']
+  note: Part of TheoryFest. Notification February 1, 2026. More info <a href='https://acm-stoc.org/stoc2026/stoc2026-cfp.html'>here</a>.

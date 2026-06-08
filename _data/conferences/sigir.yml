@@ -11,7 +11,7 @@
   end: '2027-07-24'
   hindex: 66
   sub:
-  - DM
+  - IR
   note: Predicted deadline based on historical SIGIR pattern (past deadlines — 2026 Jan 22, 2024 Jan 25, 2023 Jan 31). Please verify on the official conference website. More info <a href='https://sigir2027.org/en-AU/pages/attending/key-dates'>here</a>.
 - title: SIGIR
   year: 2026
@@ -26,7 +26,7 @@
   end: 2026-07-24
   hindex: 66
   sub:
-  - DM
+  - IR
   note: 'Mandatory abstract deadline on January 15, 2026. Notification of acceptance:
     April 2, 2026. Camera-ready papers due: April 29, 2026. More info <a href=''https://sigir2026.org/en-AU/pages/attending/key-dates''>here</a>.'
 - title: SIGIR
@@ -42,7 +42,7 @@
   end: 2024-07-18
   hindex: 66
   sub:
-  - DM
+  - IR
   paperslink: https://dl.acm.org/doi/proceedings/10.1145/3626772
   note: Mandatory abstract deadline on January 18, 2024. More info <a href='https://sigir-2024.github.io/call_for_papers.html'>here</a>.
 - title: SIGIR-AP
@@ -59,7 +59,7 @@
   start: 2023-11-26
   end: 2023-11-29
   sub:
-  - DM
+  - IR
   note: Mandatory abstract deadline on June 26, 2023. More info <a href='http://www.sigir-ap.org/sigir-ap-2023/call-for-papers/'>here</a>.
 - title: SIGIR
   year: 2023
@@ -74,7 +74,7 @@
   end: 2023-07-27
   hindex: 66
   sub:
-  - DM
+  - IR
   note: Mandatory abstract deadline on January 24, 2023. More info <a href='https://sigir.org/sigir2023/call-for-full-papers/'>here</a>.
 - title: SIGIR
   year: 2022
@@ -89,5 +89,5 @@
   end: 2022-07-15
   hindex: 66
   sub:
-  - DM
+  - IR
   note: Mandatory abstract deadline on January 21, 2022. More info <a href='https://sigir.org/sigir2022/call-for-papers/'>here</a>.

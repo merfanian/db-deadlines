@@ -1,40 +1,38 @@
-## AI Deadlines [![Build Status](https://travis-ci.com/abhshkdz/ai-deadlines.svg?branch=gh-pages)](https://travis-ci.com/abhshkdz/ai-deadlines)
+## DB Deadlines
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/RO conference deadlines.
+Countdown timers to keep track of submission deadlines for top **Database, Data Mining, Information Retrieval, Machine Learning and Theory** conferences.
+
+Live at **https://merfanian.github.io/db-deadlines**.
+
+Tracked venues include: VLDB, SIGMOD, PODS, ICDE, EDBT, KDD, ICDM, CIKM, WSDM, SIGIR, WWW, NeurIPS, ICML, ICLR, AAAI, EMNLP, STOC, SODA, and FOCS.
 
 ## Contributing
 
-[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/0)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/0)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/1)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/1)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/2)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/2)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/3)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/3)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/4)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/4)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/5)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/5)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/6)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/6)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/7)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/7)
-
 Contributions are very welcome!
-
-To keep things minimal, I'm only looking to list top-tier conferences in AI as per [conferenceranks.com][6] and my judgement calls. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
 
 To add or update a deadline:
 - Fork the repository
-- Update `_data/conferences.yml`
-- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
-    + See available timezone strings [here](https://momentjs.com/timezone/).
+- Add/update the relevant file in `_data/conferences/` (one `.yml` file per venue, newest edition first)
+- Make sure each entry has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
+    + See available timezone strings [here](https://momentjs.com/timezone/). For "Anywhere on Earth" deadlines use `timezone: UTC-12`.
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
-- Optionally add `hindex` (refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
+- Optionally add `hindex` (h5-index from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
+- The `sub` tag must be one of: `DB` (Databases), `DM` (Data Mining), `IR` (Information Retrieval), `ML` (Machine Learning), `NLP` (Natural Language Processing), `TH` (Theory)
 - Example:
     ```yaml
     - title: BestConf
-      year: 2022
-      id: bestconf22  # title as lower case + last two digits of year
+      year: 2027
+      id: bestconf27  # title as lower case + last two digits of year
       full_name: Best Conference for Anything  # full conference name
       link: link-to-website.com
-      deadline: YYYY-MM-DD HH:SS
-      abstract_deadline: YYYY-MM-DD HH:SS
-      timezone: Asia/Seoul
+      deadline: '2027-05-25 23:59:00'
+      abstract_deadline: '2027-05-18 23:59:00'
+      timezone: UTC-12
       place: Incheon, South Korea
-      date: September, 18-22, 2022
-      start: YYYY-MM-DD
-      end: YYYY-MM-DD
-      paperslink: link-to-full-paper-list.com
-      pwclink: link-to-papers-with-code.com
-      hindex: 100.0
-      sub: SP
+      date: September 18-22, 2027
+      start: '2027-09-18'
+      end: '2027-09-22'
+      sub: ['DB']
       note: Important
     ```
 - Send a pull request

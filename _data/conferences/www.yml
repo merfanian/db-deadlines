@@ -10,7 +10,7 @@
   start: '2027-04-01'
   end: '2027-04-30'
   hindex: 70
-  sub: ['DM']
+  sub: ['DM', 'IR']
   note: Predicted deadline based on historical WWW pattern (past deadlines — 2025 Oct 13, 2022 Oct 13). Please verify on the official conference website. More info <a href='https://www2027.thewebconf.org/'>here</a>.
 - title: WWW
   year: 2026
@@ -24,7 +24,7 @@
   start: '2026-04-30'
   end: '2026-05-04'
   hindex: 70
-  sub: ['DM']
+  sub: ['DM', 'IR']
   paperslink: https://www2026.thewebconf.org/accepted.html
   note: More info <a href='https://www2026.thewebconf.org/'>here</a>.
 - title: WWW
@@ -39,5 +39,5 @@
   start: '2023-04-30'
   end: '2023-05-04'
   hindex: 70
-  sub: ['DM']
+  sub: ['DM', 'IR']
   note: Mandatory abstract deadline on October 6, 2022

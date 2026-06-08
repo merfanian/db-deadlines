@@ -1,0 +1,14 @@
+- title: SODA
+  year: 2027
+  id: soda27
+  full_name: ACM-SIAM Symposium on Discrete Algorithms
+  link: https://www.siam.org/conferences-events/siam-conferences/soda27/
+  deadline: '2026-07-09 16:59:00'
+  abstract_deadline: '2026-07-07 16:59:00'
+  timezone: America/Los_Angeles
+  place: Philadelphia, Pennsylvania, USA
+  date: January 24-27, 2027
+  start: '2027-01-24'
+  end: '2027-01-27'
+  sub: ['TH']
+  note: "Abstract/short submission July 7, 2026 and full submission July 9, 2026. Please verify exact times on the official site. More info <a href='https://www.siam.org/conferences-events/siam-conferences/soda27/submissions/'>here</a>."

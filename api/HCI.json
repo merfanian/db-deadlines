@@ -1,6 +1,0 @@
----
-layout: null
-permalink: /api/HCI.json
----
-{% include load_conferences.html %}
-{% assign filtered = "" | split: "" %}{% for conf in all_conferences %}{% assign subs = conf.sub %}{% if subs contains 'HCI' %}{% assign filtered = filtered | push: conf %}{% endif %}{% endfor %}{{ filtered | jsonify }}

@@ -9,7 +9,7 @@
   date: June 13-19, 2027
   start: '2027-06-13'
   end: '2027-06-19'
-  sub: ['DM']
+  sub: ['DB']
 - title: SIGMOD-3
   year: 2027
   id: sigmod27-3
@@ -21,7 +21,7 @@
   date: June 13-19, 2027
   start: '2027-06-13'
   end: '2027-06-19'
-  sub: ['DM']
+  sub: ['DB']
 - title: SIGMOD-2
   year: 2027
   id: sigmod27-2
@@ -33,7 +33,7 @@
   date: June 13-19, 2027
   start: '2027-06-13'
   end: '2027-06-19'
-  sub: ['DM']
+  sub: ['DB']
 - title: SIGMOD-1
   year: 2027
   id: sigmod27-1
@@ -45,7 +45,7 @@
   date: June 13-19, 2027
   start: '2027-06-13'
   end: '2027-06-19'
-  sub: ['DM']
+  sub: ['DB']
 - title: SIGMOD-4
   year: 2026
   id: sigmod26-4
@@ -57,7 +57,7 @@
   date: May 31- June 5, 2026
   start: 2026-05-31
   end: 2026-06-05
-  sub: ['DM']
+  sub: ['DB']
 - title: SIGMOD-3
   year: 2026
   id: sigmod26-3
@@ -69,7 +69,7 @@
   date: May 31- June 5, 2026
   start: 2026-05-31
   end: 2026-06-05
-  sub: ['DM']
+  sub: ['DB']
 - title: SIGMOD-2
   year: 2026
   id: sigmod26-2
@@ -81,7 +81,7 @@
   date: May 31- June 5, 2026
   start: 2026-05-31
   end: 2026-06-05
-  sub: ['DM']
+  sub: ['DB']
 - title: SIGMOD-1
   year: 2026
   id: sigmod26-1
@@ -93,4 +93,4 @@
   date: May 31- June 5, 2026
   start: 2026-05-31
   end: 2026-06-05
-  sub: ['DM']
+  sub: ['DB']

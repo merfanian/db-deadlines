@@ -1,0 +1,25 @@
+- title: FOCS
+  year: 2027
+  id: focs27
+  full_name: IEEE Symposium on Foundations of Computer Science
+  link: https://ieee-focs.org/
+  deadline: '2027-04-01 17:00:00'
+  abstract_deadline: TBA
+  timezone: America/New_York
+  place: TBA
+  date: 2027
+  sub: ['TH']
+  note: Predicted deadline based on historical FOCS pattern (past deadline — FOCS 2026 April 1, 2026). Please verify on the official conference website. More info <a href='https://ieee-focs.org/'>here</a>.
+- title: FOCS
+  year: 2026
+  id: focs26
+  full_name: IEEE Symposium on Foundations of Computer Science
+  link: https://focs.computer.org/2026/
+  deadline: '2026-04-01 17:00:00'
+  timezone: America/New_York
+  place: New York, NY, USA
+  date: November 8-11, 2026
+  start: '2026-11-08'
+  end: '2026-11-11'
+  sub: ['TH']
+  note: Submission deadline 5:00 PM EDT. Notification July 3, 2026. More info <a href='https://focs.computer.org/2026/call-for-papers/'>here</a>.

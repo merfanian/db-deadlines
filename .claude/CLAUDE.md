@@ -1,16 +1,16 @@
 # ai-deadlines — repo guide for Claude
 
-A Jekyll static site of countdown timers to top AI/ML/CV/NLP/RO/SP conference
-submission deadlines. Published via **GitHub Pages from the `gh-pages` branch**
-(which is also the default branch). Live at https://mlciv.com/ai-deadlines.
+A Jekyll static site of countdown timers to top Database/Data Mining/Information
+Retrieval/ML/Theory conference submission deadlines. Published via **GitHub Pages
+from the `gh-pages` branch**. Live at https://merfanian.github.io/db-deadlines.
 
 ## Where the data lives
 
 - `_data/conferences/*.yml` — one file per venue (e.g. `emnlp.yml`, `cvpr.yml`).
   Each file is a YAML **list**, newest edition first. One list item = one
   conference edition.
-- `_data/types.yml` — maps subject names to the short `sub` tags (`ML`, `CV`,
-  `NLP`, `RO`, `SP`, `DM`, `AP`, `KR`, `HCI`, `EDU`, `CG`).
+- `_data/types.yml` — maps subject names to the short `sub` tags (`DB`, `DM`,
+  `IR`, `ML`, `NLP`, `TH`).
 - The site, a per-subject API, and `conferences.json` are generated at build
   time by `_plugins/api_json_generator.rb`. You only ever edit the YAML.
 

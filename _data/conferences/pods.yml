@@ -1,0 +1,28 @@
+- title: PODS-2
+  year: 2027
+  id: pods27-2
+  full_name: ACM Symposium on Principles of Database Systems
+  link: https://2027.sigmod.org/calls_papers_pods_research.shtml
+  deadline: '2026-12-10 23:59:00'
+  abstract_deadline: '2026-12-03 23:59:00'
+  timezone: UTC-12
+  place: Huntington Beach, California, USA
+  date: June 13-19, 2027
+  start: '2027-06-13'
+  end: '2027-06-19'
+  sub: ['DB', 'TH']
+  note: PODS 2027 submission cycle 2. All deadlines are 11:59 PM AoE. More info <a href='https://2027.sigmod.org/calls_papers_pods_research.shtml'>here</a>.
+- title: PODS-1
+  year: 2027
+  id: pods27-1
+  full_name: ACM Symposium on Principles of Database Systems
+  link: https://2027.sigmod.org/calls_papers_pods_research.shtml
+  deadline: '2026-05-30 23:59:00'
+  abstract_deadline: '2026-05-23 23:59:00'
+  timezone: UTC-12
+  place: Huntington Beach, California, USA
+  date: June 13-19, 2027
+  start: '2027-06-13'
+  end: '2027-06-19'
+  sub: ['DB', 'TH']
+  note: PODS 2027 submission cycle 1. All deadlines are 11:59 PM AoE. More info <a href='https://2027.sigmod.org/calls_papers_pods_research.shtml'>here</a>.

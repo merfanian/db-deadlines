@@ -9,7 +9,7 @@
   date: November 2027
   start: 2027-11-01
   end: 2027-11-30
-  sub: [DM, KR]
+  sub: [DM, IR]
   note: Predicted deadline based on historical CIKM pattern (past deadlines — 2026 May 23, 2025 May 23, 2024 May 20). Please verify on the official conference website. More info <a href='http://www.cikmconference.org/'>here</a>.
 - title: CIKM
   year: 2026
@@ -22,7 +22,7 @@
   date: November 7-11, 2026
   start: 2026-11-07
   end: 2026-11-11
-  sub: [DM, KR]
+  sub: [DM, IR]
   note: "Official key deadlines (AoE): full/applied abstract deadline May 16, 2026; full/applied submission deadline May 23, 2026. More info <a href='https://cikm2026.diag.uniroma1.it/important-dates/'>here</a>."
 - title: CIKM
   year: 2025
@@ -35,7 +35,7 @@
   date: November 10-14, 2025
   start: 2025-11-10
   end: 2025-11-14
-  sub: [DM, KR]
+  sub: [DM, IR]
   paperslink: https://dl.acm.org/doi/proceedings/10.1145/3746252
   note: "Official key deadlines (AoE): full/applied abstract deadline May 16, 2025; full/applied submission deadline May 23, 2025. More info <a href='https://www.cikm2025.org/calls/full-research-papers'>here</a>."
 - title: CIKM
@@ -49,7 +49,7 @@
   date: October 21 - October 25, 2024
   start: 2024-10-21
   end: 2024-10-25
-  sub: [DM, KR]
+  sub: [DM, IR]
   paperslink: https://dl.acm.org/doi/proceedings/10.1145/3627673
   note: Mandatory abstract deadline on May 13, 2024. More info <a href='https://cikm2024.org/call-for-papers/'>here</a>.
 - title: CIKM
@@ -64,7 +64,7 @@
   start: 2022-10-17
   end: 2022-10-22
   hindex: 48
-  sub: [DM]
+  sub: [DM, IR]
   note: Mandatory abstract deadline on May 12, 2022
 - title: CIKM
   year: 2023
@@ -78,5 +78,5 @@
   date: October, 23-25, 2023
   start: 2023-10-23
   end: 2023-10-25
-  sub: [KR]
+  sub: [DM, IR]
   note: Check the conference website for workshop and demo deadlines
